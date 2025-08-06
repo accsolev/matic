@@ -1,0 +1,24 @@
+{
+  "name": "check-msawk",
+  "title": "Metal Slug : Awakening",
+  "description": "Memeriksa nama/nickname pemain Metal Slug : Awakening berdasarkan User ID.",
+  "method": "POST",
+  "path": "/api/check-msawk",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID",
+      "placeholder": "Masukkan User ID Metal Slug Anda"
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_MSAWK"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-msawk \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"12345678\"}'",
+  "category": "Gaming"
+}

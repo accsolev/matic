@@ -1,0 +1,34 @@
+{
+  "name": "orderkuota-info",
+  "title": "Get Account Info",
+  "description": "Retrieves the details of your currently logged-in account.",
+  "method": "POST",
+  "path": "/api/orderkuota-info",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "username",
+      "label": "Username (from login session)",
+      "placeholder": "Your username after a successful login"
+    },
+    {
+      "type": "text",
+      "name": "authToken",
+      "label": "Auth Token (from login session)",
+      "placeholder": "The token you received after login"
+    }
+  ],
+  "response": {
+    "success": true,
+    "account": {
+      "success": true,
+      "results": {
+        "id": 12345,
+        "username": "your_user",
+        "balance_str": "Rp 100.000"
+      }
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-info \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"username\":\"your_username\",\"authToken\":\"YOUR_SESSION_TOKEN_FROM_LOGIN\"}'",
+  "category": "Order Kuota"
+}

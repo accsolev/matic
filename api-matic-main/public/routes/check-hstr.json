@@ -1,0 +1,47 @@
+{
+  "name": "check-hstr",
+  "title": "Honkai Star Rail",
+  "description": "Memeriksa nama/nickname pemain Honkai Star Rail berdasarkan User ID dan Server.",
+  "method": "POST",
+  "path": "/api/check-hstr",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID",
+      "placeholder": "Masukkan User ID Honkai Star Rail"
+    },
+    {
+      "type": "select",
+      "name": "additional_id",
+      "label": "Pilih Server",
+      "options": [
+        {
+          "value": "Asia",
+          "text": "Asia"
+        },
+        {
+          "value": "America",
+          "text": "America"
+        },
+        {
+          "value": "Europe",
+          "text": "Europe"
+        },
+        {
+          "value": "TW_HK_MO",
+          "text": "TW, HK, MO"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_HSTR"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-hstr \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"12345678\", \"additional_id\":\"Asia\"}'",
+  "category": "Gaming"
+}

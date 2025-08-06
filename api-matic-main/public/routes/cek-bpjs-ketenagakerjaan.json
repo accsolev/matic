@@ -1,0 +1,57 @@
+{
+  "name": "cek-bpjs-ketenagakerjaan",
+  "title": "Tagihan BPJS Ketenagakerjaan",
+  "description": "Memeriksa detail tagihan BPJS Ketenagakerjaan berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-bpjs-ketenagakerjaan",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan BPJS Ketenagakerjaan",
+      "placeholder": "Contoh: 201234567890"
+    }
+  ],
+  "response": {
+    "success": true,
+    "content_details": {
+      "top": [
+        [
+          "Status",
+          "Transaksi Berhasil"
+        ],
+        [
+          "ID Transaksi",
+          123456789
+        ],
+        [
+          "Tanggal",
+          "26/06/2025 01:45"
+        ],
+        [
+          "Kategori",
+          "BPJS Ketenagakerjaan"
+        ]
+      ],
+      "body": {
+        "Rincian Transaksi": [
+          [
+            "ID Pelanggan",
+            "201234567890"
+          ],
+          [
+            "Nama Peserta",
+            "NAMA PESERTA"
+          ],
+          [
+            "Total Tagihan",
+            "Rp 50.000"
+          ]
+        ]
+      }
+    },
+    "selling_status": "lunas"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-bpjs-ketenagakerjaan \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"201234567890\"}'",
+  "category": "Pembayaran BPJS"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "check-shopeepay",
+  "title": "Check Name ShopeePay",
+  "description": "Memeriksa dan mengambil nama pemilik akun ShopeePay berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-shopeepay",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon ShopeePay",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK SHOPEEPAY",
+    "id": "shopeepay",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-shopeepay \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

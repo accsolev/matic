@@ -1,0 +1,45 @@
+{
+  "name": "order-vidio",
+  "title": "Order Voucher Vidio",
+  "description": "Melakukan pemesanan voucher streaming Vidio.",
+  "method": "POST",
+  "path": "/api/order-vidio",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-vidio-products",
+    "group_by_static": "Voucher Vidio",
+    "sort_by": "price"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "Nomor Tujuan / Akun",
+      "placeholder": "Nomor HP atau ID akun layanan"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Voucher Vidio"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Order sedang diproses."
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-vidio \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"...\", \"voucher_id\":\"8748\"}'",
+  "category": "OrderKuota [ Digital Order ]"
+}

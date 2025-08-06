@@ -1,0 +1,45 @@
+{
+  "name": "order-spotify",
+  "title": "Order Voucher Spotify",
+  "description": "Melakukan pemesanan voucher langganan Spotify Premium.",
+  "method": "POST",
+  "path": "/api/order-spotify",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-spotify-products",
+    "group_by_static": "Voucher Spotify Premium",
+    "sort_by": "price"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "Nomor Tujuan / Akun",
+      "placeholder": "Nomor HP atau ID akun layanan"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Voucher Spotify"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Order sedang diproses."
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-spotify \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"...\", \"voucher_id\":\"3870\"}'",
+  "category": "OrderKuota [ Digital Order ]"
+}

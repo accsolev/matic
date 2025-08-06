@@ -1,0 +1,21 @@
+{
+  "name": "get-oke-auth",
+  "title": "Get Okeconnect Auth Token",
+  "description": "Mengambil token otentikasi yang valid untuk API Okeconnect (golang) secara otomatis.",
+  "method": "POST",
+  "path": "/api/get-oke-auth",
+  "parameters": [],
+  "response": {
+    "success": true,
+    "auth_token": "2476730 7904ca2bfad35ea44b5e8753d87f7aa5959c64f7",
+    "details": {
+      "userId": "2476730",
+      "token": "7904ca2bfad35ea44b5e8753d87f7aa5959c64f7",
+      "name": "defac",
+      "session": "1c95cde269a17e2cf11295458803fd96"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/get-oke-auth \\\n  -H \"Authorization: Bearer YOUR_API_KEY\"",
+  "category": "Gaming",
+  "hidden": true
+}

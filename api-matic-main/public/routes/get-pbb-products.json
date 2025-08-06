@@ -1,0 +1,14 @@
+{
+  "name": "get-pbb-products",
+  "title": "Get PBB Products",
+  "description": "Mengambil daftar produk (wilayah) pembayaran PBB.",
+  "method": "POST",
+  "path": "/api/get-pbb-products",
+  "hidden": true,
+  "parameters": [],
+  "response": {
+    "success": true,
+    "vouchers": { "results": [] }
+  },
+  "category": "Pembayaran Tagihan"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "subdomainfinder",
+  "title": "Subdomain Finder",
+  "category": "Utilities",
+  "method": "GET",
+  "path": "/api/subdomainfinder",
+  "description": "Searches for subdomains of a given domain using an external tool (subfinder). The domain is provided as a query parameter.",
+  "parameters": [
+    {
+      "name": "domain",
+      "label": "Domain",
+      "type": "text",
+      "placeholder": "Enter the main domain (e.g., example.com)",
+      "required": true
+    }
+  ],
+  "curl": "curl -X GET 'https://bovalone.me/api/subdomainfinder?domain=example.com' \\\n  -H 'Authorization: Bearer YOUR_API_KEY'",
+  "response": {
+    "domain": "example.com",
+    "total": 3,
+    "subdomains": [
+      "www.example.com",
+      "blog.example.com",
+      "mail.example.com"
+    ]
+  },
+  "error_response_400": {
+    "error": "Parameter \"domain\" dibutuhkan, contoh: ?domain=example.com"
+  },
+  "error_response_500": {
+    "error": "Gagal menjalankan subfinder",
+    "detail": "Pesan error dari alat subfinder atau informasi lebih lanjut."
+  },
+  "notes": "This API relies on the 'subfinder' tool being installed and accessible in the server's PATH. Results may vary based on the tool's data sources and the domain's configuration."
+}

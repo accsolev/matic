@@ -1,0 +1,38 @@
+{
+  "name": "order-cicilan",
+  "title": "Check Finance & Samsat",
+  "description": "Melakukan pembayaran tagihan cicilan bulanan (finance) ke nomor kontrak pelanggan.",
+  "method": "POST",
+  "path": "/api/order-cicilan",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-cicilan-products",
+    "group_by_static": "Penyedia Cicilan",
+    "sort_by": "name"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "target_customer_id",
+      "label": "Nomor Kontrak Pelanggan",
+      "placeholder": "Nomor Kontrak atau ID Pelanggan finance"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Penyedia Layanan (Voucher ID)",
+      "placeholder": "Pilih penyedia layanan cicilan"
+    }
+  ],
+  "response": {
+    "success": true,
+    "message": "TRANSAKSI SUKSES",
+    "transaction_details": {
+      "id": 556677889,
+      "id_pelanggan": "9876543210",
+      "status_info": "TRANSAKSI SUKSES"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-cicilan \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"target_customer_id\":\"9876543210\", \"voucher_id\":\"6001\"}'",
+  "category": "Pembayaran Tagihan"
+}

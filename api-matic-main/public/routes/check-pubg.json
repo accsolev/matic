@@ -1,0 +1,22 @@
+{
+  "name": "check-pubg",
+  "title": "PUBG Mobile",
+  "description": "Memeriksa dan mengambil nama/nickname pemain PUBG Mobile berdasarkan User ID.",
+  "method": "POST",
+  "path": "/api/check-pubg",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID PUBG Mobile",
+      "placeholder": "Contoh: 5123456789"
+    }
+  ],
+  "response": {
+    "status": "success",
+    "customerName": "NAMA_PEMAIN",
+    "success": true
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-pubg \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"5123456789\"}'",
+  "category": "Gaming"
+}

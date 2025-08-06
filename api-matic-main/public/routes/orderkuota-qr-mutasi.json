@@ -1,0 +1,40 @@
+{
+  "name": "orderkuota-qr-mutasi",
+  "title": "Get Mutasi QRIS",
+  "description": "Mengambil riwayat transaksi (mutasi) dari QRIS Kasir berdasarkan kredensial dinamis.",
+  "method": "POST",
+  "path": "/api/orderkuota-qr-mutasi",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "merchant",
+      "label": "Merchant ID",
+      "placeholder": "Contoh: OK2476620",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Username Anda",
+      "placeholder": "Username login",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Token API Anda",
+      "placeholder": "Token dari Get Auth Token",
+      "required": true
+    }
+  ],
+  "response": [
+    {
+      "tanggal": "11/07/2025 16:30:00",
+      "nama": "JOHN DOE",
+      "pesan": "Pembayaran",
+      "nominal": "Rp 10.000"
+    }
+  ],
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-qr-mutasi \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"merchant\":\"OK2476620\",\"auth_username\":\"your_username\",\"auth_token\":\"2476730:xxxxxxxx\"}'",
+  "category": "Order Kuota"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Embed Video",
+  "description": "Find video sources from a web page.",
+  "method": "GET",
+  "path": "/api/embed",
+  "params": [
+    "url"
+  ],
+  "response": {
+    "items": [
+      {
+        "tag": "video",
+        "src": "https://example.com/video.mp4"
+      },
+      {
+        "tag": "source",
+        "src": "https://example.com/video.webm"
+      }
+    ]
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/embed?url=https://example.com'",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "url",
+      "label": "URL",
+      "placeholder": "https://www.youtube.com/watch?v=..."
+    }
+  ],
+  "category": "Artificial Intelligence",
+  "hidden": true
+}

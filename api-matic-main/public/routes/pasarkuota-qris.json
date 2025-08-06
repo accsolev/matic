@@ -1,0 +1,36 @@
+{
+  "name": "pasarkuota-qris",
+  "title": "PasarKuota Top Up via QRIS",
+  "description": "Membuat permintaan top up/deposit saldo via QRIS di PasarKuota.",
+  "method": "POST",
+  "path": "/api/pasarkuota-qris",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API PasarKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API PasarKuota"
+    },
+    {
+      "type": "number",
+      "name": "amount",
+      "label": "Jumlah Deposit",
+      "placeholder": "Contoh: 10000"
+    }
+  ],
+  "response": {
+    "success": true,
+    "qrcode_url": "https://qris.winpay.id/gw/qr/...",
+    "amount_str": "Rp 10.000",
+    "total_payment_str": "Rp 10.070",
+    "expired_at": "2025-07-08 22:45:00"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/pasarkuota-qris \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"amount\":10000}'",
+  "category": "Pasar Kuota"
+}

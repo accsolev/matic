@@ -1,0 +1,34 @@
+{
+  "name": "get-token-products",
+  "title": "Get Token PLN Products",
+  "description": "Mengambil daftar produk token listrik PLN yang tersedia dari API OrderKuota.",
+  "method": "POST",
+  "path": "/api/get-token-products",
+  "hidden": true,
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username"
+    }
+  ],
+  "response": {
+    "success": true,
+    "vouchers": {
+      "results": [
+        {
+          "id": "4010",
+          "name": "Token Listrik 20.000",
+          "price": 20500,
+          "price_str": "Rp 20.500"
+        }
+      ]
+    }
+  },
+  "category": "Order Kuota"
+}

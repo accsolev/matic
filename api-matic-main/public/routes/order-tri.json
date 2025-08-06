@@ -1,0 +1,52 @@
+{
+  "name": "order-tri",
+  "title": "Paket Data Tri",
+  "description": "Melakukan pemesanan paket data Tri ke nomor tujuan.",
+  "method": "POST",
+  "path": "/api/order-tri",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-tri-products",
+    "group_by": "provider.name",
+    "sort_by": "price"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "Nomor Tri Tujuan",
+      "placeholder": "089612345678"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Paket Data Tri"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Order sedang diproses.",
+    "transaction_details": {
+      "transaction_id": 55667788,
+      "target_number": "089612345678",
+      "product_name": "TRI DATA 5GB",
+      "price": "Rp 20.000",
+      "date": "03/07/2025 04:00"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-tri \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"089612345678\", \"voucher_id\":\"...\"}'",
+  "category": "Order Kuota"
+}

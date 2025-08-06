@@ -1,0 +1,27 @@
+{
+  "title": "Virtual Credit Card",
+  "description": "Generates realistic-looking fake virtual credit card data for testing and development purposes. Includes card number, expiration, CVV, name, and billing address.",
+  "method": "GET",
+  "path": "/api/fakevcc",
+  "request_params": {},
+  "example_request_url": "/api/fakevcc",
+  "response": {
+    "id": "vcc-7382",
+    "name": "Emily Rodriguez",
+    "card_type": "Visa",
+    "card_number": "4111 1111 1111 1111",
+    "cvv": "847",
+    "expiry_date": "12/2027",
+    "issuer": "Chase Bank",
+    "address": {
+      "street": "1023 Meadow Lane",
+      "city": "Elkridge",
+      "state": "Maryland",
+      "country": "United States",
+      "zip": "21075"
+    }
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/fakevcc'",
+  "parameters": [],
+  "category": "Miscellaneous"
+}

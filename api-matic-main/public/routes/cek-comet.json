@@ -1,0 +1,57 @@
+{
+  "name": "cek-comet",
+  "title": "Internet Comet",
+  "description": "Memeriksa detail tagihan internet Comet berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-comet",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan Comet",
+      "placeholder": "Contoh: 12345678"
+    }
+  ],
+  "response": {
+    "success": true,
+    "content_details": {
+      "top": [
+        [
+          "Status",
+          "Transaksi Berhasil"
+        ],
+        [
+          "ID Transaksi",
+          123456789
+        ],
+        [
+          "Tanggal",
+          "26/06/2025 01:00"
+        ],
+        [
+          "Kategori",
+          "Comet"
+        ]
+      ],
+      "body": {
+        "Rincian Transaksi": [
+          [
+            "ID Pelanggan",
+            "12345678"
+          ],
+          [
+            "Nama Pelanggan",
+            "NAMA PELANGGAN"
+          ],
+          [
+            "Total Tagihan",
+            "Rp 200.000"
+          ]
+        ]
+      }
+    },
+    "selling_status": "lunas"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-comet \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"12345678\"}'",
+  "category": "Tagihan Internet"
+}

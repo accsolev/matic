@@ -1,0 +1,57 @@
+{
+  "name": "cek-xlhome",
+  "title": "XL Home",
+  "description": "Memeriksa detail tagihan internet XL Home berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-xlhome",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan XL Home",
+      "placeholder": "Contoh: 1234567890"
+    }
+  ],
+  "response": {
+    "success": true,
+    "content_details": {
+      "top": [
+        [
+          "Status",
+          "Transaksi Berhasil"
+        ],
+        [
+          "ID Transaksi",
+          123456789
+        ],
+        [
+          "Tanggal",
+          "26/06/2025 01:15"
+        ],
+        [
+          "Kategori",
+          "XL Home"
+        ]
+      ],
+      "body": {
+        "Rincian Transaksi": [
+          [
+            "ID Pelanggan",
+            "1234567890"
+          ],
+          [
+            "Nama Pelanggan",
+            "NAMA PELANGGAN"
+          ],
+          [
+            "Total Tagihan",
+            "Rp 350.000"
+          ]
+        ]
+      }
+    },
+    "selling_status": "lunas"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-xlhome \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"1234567890\"}'",
+  "category": "Tagihan Internet"
+}

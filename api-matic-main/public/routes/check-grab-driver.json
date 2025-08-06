@@ -1,0 +1,23 @@
+{
+  "name": "check-grab-driver",
+  "title": "Check Name Grab Driver",
+  "description": "Memeriksa dan mengambil nama pemilik akun Grab Driver berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-grab-driver",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon Grab Driver",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK GRAB DRIVER",
+    "id": "grab_driver",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-grab-driver \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

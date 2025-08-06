@@ -1,0 +1,37 @@
+{
+  "name": "orderkuota-history",
+  "title": "Mutasi Deposit",
+  "description": "Retrieves a list of recent transactions.",
+  "method": "POST",
+  "path": "/api/orderkuota-history",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "username",
+      "label": "Username (from login)",
+      "placeholder": "Your username"
+    },
+    {
+      "type": "text",
+      "name": "authToken",
+      "label": "Auth Token (from login)",
+      "placeholder": "Your token"
+    }
+  ],
+  "response": {
+    "success": true,
+    "qris_history": {
+      "success": true,
+      "results": [
+        {
+          "id": "TRX12345",
+          "amount": 10000,
+          "status": "SUCCESS",
+          "keterangan": "PAYMENT TO MERCHANT XYZ"
+        }
+      ]
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-history \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"username\":\"your_username\",\"authToken\":\"YOUR_SESSION_TOKEN_FROM_LOGIN\"}'",
+  "category": "Order Kuota"
+}

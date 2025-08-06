@@ -1,0 +1,39 @@
+{
+  "name": "cek-pdam",
+  "title": "Check Tagihan Air PDAM",
+  "description": "Melakukan pengecekan tagihan air PDAM berdasarkan nomor pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-pdam",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-pdam-products",
+    "filter_by_provider_exists": true,
+    "group_by": "provider.name",
+    "sort_by": "name"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "target_customer_id",
+      "label": "Nomor Pelanggan PDAM",
+      "placeholder": "Contoh: 12345678"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Wilayah PDAM"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Tagihan Ditemukan",
+    "transaction_details": {
+      "customer_name": "Bambang Susilo",
+      "period": "JULI 2025",
+      "total_payment": "Rp 125.000"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-pdam \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -d '{\"target_customer_id\":\"12345678\", \"voucher_id\":\"8001\"}'",
+  "category": "Pembayaran Tagihan"
+}

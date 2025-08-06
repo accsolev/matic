@@ -1,0 +1,24 @@
+{
+  "name": "check-val",
+  "title": "Valorant",
+  "description": "Memeriksa nama/nickname pemain Valorant berdasarkan Riot ID.",
+  "method": "POST",
+  "path": "/api/check-val",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "Riot ID",
+      "placeholder": "Masukkan Riot ID (contoh: Nama#TAG)"
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_VAL"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-val \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"Nama#TAG\"}'",
+  "category": "Gaming"
+}

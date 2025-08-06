@@ -1,0 +1,26 @@
+{
+  "name": "cek-biznet",
+  "title": "Biznet Home",
+  "description": "Memeriksa detail tagihan internet Biznet Home berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-biznet",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan Biznet",
+      "placeholder": "Contoh: 123987456321"
+    }
+  ],
+  "response": {
+    "success": true,
+    "nama_pelanggan": "NAMA PELANGGAN",
+    "id_pelanggan": "123987456321",
+    "periode": "JUN25",
+    "jumlah_tagihan": "Rp 350.000",
+    "admin": "Rp 5.000",
+    "total_bayar": "Rp 355.000"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-biznet \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"123987456321\"}'",
+  "category": "Tagihan Internet"
+}

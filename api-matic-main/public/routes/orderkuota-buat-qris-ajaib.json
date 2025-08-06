@@ -1,0 +1,44 @@
+{
+  "name": "orderkuota-buat-qris-ajaib",
+  "title": "Buat QRIS Ajaib",
+  "description": "Membuat tagihan QRIS Ajaib dengan jumlah nominal yang ditentukan. (non verif qris)",
+  "method": "POST",
+  "path": "/api/orderkuota-buat-qris-ajaib",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "username",
+      "label": "Username (dari login)",
+      "placeholder": "Username Anda"
+    },
+    {
+      "type": "text",
+      "name": "authToken",
+      "label": "Auth Token (dari login)",
+      "placeholder": "Token Anda"
+    },
+    {
+      "type": "number",
+      "name": "amount",
+      "label": "Jumlah Nominal (min. 1000)",
+      "placeholder": "Contoh: 1000"
+    }
+  ],
+  "response": {
+    "success": true,
+    "qris_ajaib": {
+      "success": true,
+      "results": {
+        "trxid": "QRIS-67890",
+        "code": "00020101021226540011ID12345678...",
+        "amount": 1000,
+        "fee": 7,
+        "total": 1007
+      }
+    },
+    "qr_image_data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..."
+  },
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-buat-qris-ajaib \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"username\":\"your_username\",\"authToken\":\"YOUR_SESSION_TOKEN_FROM_LOGIN\",\"amount\":1000}'",
+  "category": "Order Kuota",
+  "hidden": true
+}

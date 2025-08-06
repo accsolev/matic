@@ -1,0 +1,27 @@
+{
+  "name": "get-axis-products",
+  "title": "Get Axis Products",
+  "description": "Mengambil daftar produk paket data Axis yang tersedia.",
+  "method": "POST",
+  "path": "/api/get-axis-products",
+  "hidden": true,
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username"
+    }
+  ],
+  "response": {
+    "success": true,
+    "vouchers": {
+      "results": []
+    }
+  },
+  "category": "Order Kuota"
+}

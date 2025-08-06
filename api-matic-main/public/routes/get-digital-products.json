@@ -1,0 +1,27 @@
+{
+  "name": "get-digital-products",
+  "title": "Get Digital Products",
+  "description": "Mengambil daftar produk digital yang tersedia.",
+  "method": "POST",
+  "path": "/api/get-digital-products",
+  "hidden": true,
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username"
+    }
+  ],
+  "response": {
+    "success": true,
+    "vouchers": {
+      "results": []
+    }
+  },
+  "category": "Voucher & Produk Digital"
+}

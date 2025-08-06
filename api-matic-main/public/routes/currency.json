@@ -1,0 +1,42 @@
+{
+  "title": "Currency Converter",
+  "description": "Mengkonversi jumlah uang dari satu mata uang ke mata uang lain menggunakan data harian dari ECB (European Central Bank) & Kode mata uang bisa lihat di api/currency/supported",
+  "method": "GET",
+  "path": "/api/currency",
+  "request_params": {
+    "amount": "number (Jumlah uang yang akan dikonversi)",
+    "from": "string (Kode mata uang sumber, misal: 'USD', 'IDR', 'EUR')",
+    "to": "string (Kode mata uang tujuan, misal: 'IDR', 'USD', 'JPY')"
+  },
+  "example_request_url": "/api/currency?amount=100&from=USD&to=IDR",
+  "response": {
+    "success": true,
+    "originalAmount": 100,
+    "fromCurrency": "USD",
+    "toCurrency": "IDR",
+    "exchangeRate": 16234.5,
+    "convertedAmount": 1623450
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/currency?amount=100&from=USD&to=IDR'",
+  "parameters": [
+    {
+      "type": "number",
+      "name": "amount",
+      "label": "Amount",
+      "placeholder": "100"
+    },
+    {
+      "type": "text",
+      "name": "from",
+      "label": "From Currency",
+      "placeholder": "USD"
+    },
+    {
+      "type": "text",
+      "name": "to",
+      "label": "To Currency",
+      "placeholder": "IDR"
+    }
+  ],
+  "category": "Utilities"
+}

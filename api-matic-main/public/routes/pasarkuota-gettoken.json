@@ -1,0 +1,45 @@
+{
+  "name": "pasarkuota-gettoken",
+  "title": "PasarKuota Get Token",
+  "description": "Proses otentikasi dua langkah untuk mendapatkan token dari PasarKuota.",
+  "method": "POST",
+  "path": "/api/pasarkuota-gettoken",
+  "parameters": [
+    {
+      "type": "select",
+      "name": "action_type",
+      "label": "Pilih Langkah",
+      "options": [
+        {
+          "value": "request_otp",
+          "text": "Request OTP (Langkah 1)"
+        },
+        {
+          "value": "verify_otp",
+          "text": "Verify OTP (Langkah 2)"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "username",
+      "label": "Username",
+      "placeholder": "Contoh: defac"
+    },
+    {
+      "type": "text",
+      "name": "password_or_otp",
+      "label": "Password / Kode OTP",
+      "placeholder": "Masukkan password (untuk langkah 1) atau kode OTP (untuk langkah 2)"
+    }
+  ],
+  "response": {
+    "success": true,
+    "results": {
+      "auth_token": "TOKEN_RAHASIA_ANDA",
+      "auth_username": "defac"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/pasarkuota-gettoken \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"action_type\":\"request_otp\", \"username\":\"defac\", \"password_or_otp\":\"0812xxxxk\"}'",
+  "category": "Pasar Kuota"
+}

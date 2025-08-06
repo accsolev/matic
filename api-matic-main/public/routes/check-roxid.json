@@ -1,0 +1,351 @@
+{
+  "name": "check-roxid",
+  "title": "Ragnarok X",
+  "description": "Memeriksa nama/nickname pemain Ragnarok X berdasarkan ID dan Server.",
+  "method": "POST",
+  "path": "/api/check-roxid",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID",
+      "placeholder": "Masukkan User ID Ragnarok X"
+    },
+    {
+      "type": "select",
+      "name": "additional_id",
+      "label": "Pilih Server",
+      "options": [
+        {
+          "value": "",
+          "text": "Pilih Server"
+        },
+        {
+          "value": "Opera Phantom",
+          "text": "Opera Phantom"
+        },
+        {
+          "value": "Wing of Blessing",
+          "text": "Wing of Blessing"
+        },
+        {
+          "value": "Royal Instrument",
+          "text": "Royal Instrument"
+        },
+        {
+          "value": "Valhalla",
+          "text": "Valhalla"
+        },
+        {
+          "value": "Gungnir",
+          "text": "Gungnir"
+        },
+        {
+          "value": "Central Plains",
+          "text": "Central Plains"
+        },
+        {
+          "value": "Dark Lord",
+          "text": "Dark Lord"
+        },
+        {
+          "value": "Temple of Dawn",
+          "text": "Temple of Dawn"
+        },
+        {
+          "value": "Golden Lava",
+          "text": "Golden Lava"
+        },
+        {
+          "value": "Highland",
+          "text": "Highland"
+        },
+        {
+          "value": "Demons Castle",
+          "text": "Demons Castle"
+        },
+        {
+          "value": "Sealed Island",
+          "text": "Sealed Island"
+        },
+        {
+          "value": "Sipera",
+          "text": "Sipera"
+        },
+        {
+          "value": "Silent Ship",
+          "text": "Silent Ship"
+        },
+        {
+          "value": "Golden Route",
+          "text": "Golden Route"
+        },
+        {
+          "value": "Sapir",
+          "text": "Sapir"
+        },
+        {
+          "value": "Rose Red",
+          "text": "Rose Red"
+        },
+        {
+          "value": "Kingdom of Freedom",
+          "text": "Kingdom of Freedom"
+        },
+        {
+          "value": "Nicola",
+          "text": "Nicola"
+        },
+        {
+          "value": "Crystal Waterfall",
+          "text": "Crystal Waterfall"
+        },
+        {
+          "value": "Bifrost",
+          "text": "Bifrost"
+        },
+        {
+          "value": "Nastia",
+          "text": "Nastia"
+        },
+        {
+          "value": "Strouf Treasury",
+          "text": "Strouf Treasury"
+        },
+        {
+          "value": "Green Tranquil Pond",
+          "text": "Green Tranquil Pond"
+        },
+        {
+          "value": "Ingael",
+          "text": "Ingael"
+        },
+        {
+          "value": "Tome of Glory",
+          "text": "Tome of Glory"
+        },
+        {
+          "value": "Incense Pavilion",
+          "text": "Incense Pavilion"
+        },
+        {
+          "value": "Carew",
+          "text": "Carew"
+        },
+        {
+          "value": "Boulders and Horns",
+          "text": "Boulders and Horns"
+        },
+        {
+          "value": "Exquisite Pond",
+          "text": "Exquisite Pond"
+        },
+        {
+          "value": "Nemesis",
+          "text": "Nemesis"
+        },
+        {
+          "value": "Bright Lotus Pond",
+          "text": "Bright Lotus Pond"
+        },
+        {
+          "value": "Seocho Market",
+          "text": "Seocho Market"
+        },
+        {
+          "value": "Eudora",
+          "text": "Eudora"
+        },
+        {
+          "value": "Moonlit Temple",
+          "text": "Moonlit Temple"
+        },
+        {
+          "value": "Hidden Wood Ruins",
+          "text": "Hidden Wood Ruins"
+        },
+        {
+          "value": "Dungeon Throne",
+          "text": "Dungeon Throne"
+        },
+        {
+          "value": "Ayothaya",
+          "text": "Ayothaya"
+        },
+        {
+          "value": "Luzhon",
+          "text": "Luzhon"
+        },
+        {
+          "value": "Majapahit",
+          "text": "Majapahit"
+        },
+        {
+          "value": "Garden City",
+          "text": "Garden City"
+        },
+        {
+          "value": "Manila",
+          "text": "Manila"
+        },
+        {
+          "value": "Sukhothai",
+          "text": "Sukhothai"
+        },
+        {
+          "value": "Tossakan",
+          "text": "Tossakan"
+        },
+        {
+          "value": "Badang",
+          "text": "Badang"
+        },
+        {
+          "value": "Lapulapu",
+          "text": "Lapulapu"
+        },
+        {
+          "value": "Gatotkaca",
+          "text": "Gatotkaca"
+        },
+        {
+          "value": "Srikandi",
+          "text": "Srikandi"
+        },
+        {
+          "value": "Kumpakan",
+          "text": "Kumpakan"
+        },
+        {
+          "value": "Angeling",
+          "text": "Angeling"
+        },
+        {
+          "value": "Deviling",
+          "text": "Deviling"
+        },
+        {
+          "value": "Ghostring",
+          "text": "Ghostring"
+        },
+        {
+          "value": "Mastering",
+          "text": "Mastering"
+        },
+        {
+          "value": "Xu Nu",
+          "text": "Xu Nu"
+        },
+        {
+          "value": "Song Tu",
+          "text": "Song Tu"
+        },
+        {
+          "value": "Half Anniversary",
+          "text": "Half Anniversary"
+        },
+        {
+          "value": "Aldebaran",
+          "text": "Aldebaran"
+        },
+        {
+          "value": "Clock Tower",
+          "text": "Clock Tower"
+        },
+        {
+          "value": "Attack On Poring",
+          "text": "Attack On Poring"
+        },
+        {
+          "value": "Comodo",
+          "text": "Comodo"
+        },
+        {
+          "value": "Honor of Emperium",
+          "text": "Honor of Emperium"
+        },
+        {
+          "value": "Dimension Door",
+          "text": "Dimension Door"
+        },
+        {
+          "value": "Luzon",
+          "text": "Luzon"
+        },
+        {
+          "value": "Light of Umbala",
+          "text": "Light of Umbala"
+        },
+        {
+          "value": "Original Love",
+          "text": "Original Love"
+        },
+        {
+          "value": "Gunslingers Revenge",
+          "text": "Gunslingers Revenge"
+        },
+        {
+          "value": "Frenetic Land",
+          "text": "Frenetic Land"
+        },
+        {
+          "value": "Rainbow Paradise",
+          "text": "Rainbow Paradise"
+        },
+        {
+          "value": "Monster Association",
+          "text": "Monster Association"
+        },
+        {
+          "value": "Hero Association",
+          "text": "Hero Association"
+        },
+        {
+          "value": "Taekwon",
+          "text": "Taekwon"
+        },
+        {
+          "value": "The Demon Carnival",
+          "text": "The Demon Carnival"
+        },
+        {
+          "value": "3rd Anniversary",
+          "text": "3rd Anniversary"
+        },
+        {
+          "value": "Einbroch",
+          "text": "Einbroch"
+        },
+        {
+          "value": "Lost City",
+          "text": "Lost City"
+        },
+        {
+          "value": "4th Job",
+          "text": "4th Job"
+        },
+        {
+          "value": "Valkryie Rosered",
+          "text": "Valkryie Rosered"
+        },
+        {
+          "value": "Winter Dawn",
+          "text": "Winter Dawn"
+        },
+        {
+          "value": "Verdant Horizon",
+          "text": "Verdant Horizon"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_ROX"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-roxid \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"12345678\", \"additional_id\":\"Valhalla\"}'",
+  "category": "Gaming"
+}

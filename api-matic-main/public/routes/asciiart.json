@@ -1,0 +1,73 @@
+{
+  "title": "Text to ASCII Art Converter",
+  "description": "Mengkonversi teks menjadi seni ASCII menggunakan berbagai font. Hasilnya adalah teks biasa, cocok untuk pesan bergaya terminal atau seni digital.",
+  "method": "GET",
+  "path": "/api/asciiart",
+  "request_params": {
+    "text": "string (Teks yang akan dikonversi menjadi ASCII Art)",
+    "font": "string (Opsional, nama font, misal: 'Big', 'Block', 'Slant'. Lihat /api/asciiart/fonts untuk daftar lengkap)"
+  },
+  "example_request_url": "/api/asciiart?text=Hello%20World!",
+  "response": [
+    "              _   _      ",
+    "  _ __ ___    __ _| |_(_) ___ ",
+    " | '_ ` _ \\ / _` | __| |/ __|",
+    " | | | | | | (_| | |_| | (__ ",
+    " |_| |_| |_|\\__,_|\\__|_|\\___|",
+    "                              "
+  ],
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/asciiart?text=Hello%20Matic&font=Block'",
+  "parameters": [
+    {
+      "type": "textarea",
+      "name": "text",
+      "label": "Text",
+      "placeholder": "Text to convert"
+    },
+    {
+      "type": "select",
+      "name": "font",
+      "label": "Font",
+      "options": [
+        {
+          "text": "Default (Standard)",
+          "value": "Standard"
+        },
+        {
+          "text": "Big",
+          "value": "Big"
+        },
+        {
+          "text": "Block",
+          "value": "Block"
+        },
+        {
+          "text": "Slant",
+          "value": "Slant"
+        },
+        {
+          "text": "Small",
+          "value": "Small"
+        },
+        {
+          "text": "3-D",
+          "value": "3-D"
+        },
+        {
+          "text": "Banner",
+          "value": "Banner"
+        },
+        {
+          "text": "Doom",
+          "value": "Doom"
+        },
+        {
+          "text": "Ghost",
+          "value": "Ghost"
+        }
+      ]
+    }
+  ],
+  "category": "Text & Fun",
+  "hidden": true
+}

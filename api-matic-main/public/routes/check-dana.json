@@ -1,0 +1,23 @@
+{
+  "name": "check-dana",
+  "title": "Check Name DANA",
+  "description": "Memeriksa dan mengambil nama pemilik akun DANA berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-dana",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon DANA",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK DANA",
+    "id": "dana",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-dana \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

@@ -1,0 +1,47 @@
+{
+  "name": "check-zzz",
+  "title": "Zenless Zone Zero",
+  "description": "Memeriksa nama/nickname pemain Zenless Zone Zero berdasarkan User ID dan Server.",
+  "method": "POST",
+  "path": "/api/check-zzz",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID",
+      "placeholder": "Masukkan User ID Zenless Zone Zero"
+    },
+    {
+      "type": "select",
+      "name": "additional_id",
+      "label": "Pilih Server",
+      "options": [
+        {
+          "value": "America",
+          "text": "America"
+        },
+        {
+          "value": "Asia",
+          "text": "Asia"
+        },
+        {
+          "value": "Europe",
+          "text": "Europe"
+        },
+        {
+          "value": "TW_HK_MO",
+          "text": "TW, HK, MO"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_ZZZ"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-zzz \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"12345678\", \"additional_id\":\"Asia\"}'",
+  "category": "Gaming"
+}

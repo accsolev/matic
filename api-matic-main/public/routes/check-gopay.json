@@ -1,0 +1,23 @@
+{
+  "name": "check-gopay",
+  "title": "Check Name GoPay",
+  "description": "Memeriksa dan mengambil nama pemilik akun GoPay (Penumpang) berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-gopay",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon GoPay",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK GOPAY",
+    "id": "gopay",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-gopay \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

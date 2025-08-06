@@ -1,0 +1,29 @@
+{
+  "name": "check-pln",
+  "title": "Check PLN Pascabayar",
+  "description": "Memeriksa detail tagihan listrik PLN Pascabayar berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/check-pln",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan PLN",
+      "placeholder": "Contoh: 538730226774"
+    }
+  ],
+  "response": {
+    "success": true,
+    "results": {
+      "nama_pelanggan": "MATIC-API",
+      "id_pelanggan": "538730226774",
+      "periode": "JUN25",
+      "jumlah_tagihan": "Rp 150.000",
+      "admin": "Rp 2.500",
+      "total_bayar": "Rp 152.500",
+      "info_tambahan": "..."
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-pln \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"538730226774\"}'",
+  "category": "PLN"
+}

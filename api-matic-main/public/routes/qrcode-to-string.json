@@ -1,0 +1,27 @@
+{
+  "title": "QR Code to String",
+  "description": "Upload a QR Code image (JPG/PNG) to extract the encoded text or URL from it.",
+  "method": "POST",
+  "path": "/api/qrcode-to-string",
+  "parameters": [
+    {
+      "type": "file",
+      "name": "qrImage",
+      "label": "QR Code Image",
+      "placeholder": "",
+      "required": true
+    }
+  ],
+  "response": {
+    "success": true,
+    "message": "QR Code decoded successfully.",
+    "data": {
+      "filename": "my_qrcode.png",
+      "mimetype": "image/png",
+      "decodedString": "https://example.com/decoded_text_here"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/qrcode-to-string \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -F \"qrImage=@/path/to/your/qrcode.png\"",
+  "category": "QRIS & QRCODE",
+  "hidden": false
+}

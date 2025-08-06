@@ -1,0 +1,57 @@
+{
+  "name": "cek-iconnect",
+  "title": "Iconnect",
+  "description": "Memeriksa detail tagihan internet Iconnect berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-iconnect",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan Iconnect",
+      "placeholder": "Contoh: 887766554433"
+    }
+  ],
+  "response": {
+    "success": true,
+    "content_details": {
+      "top": [
+        [
+          "Status",
+          "Transaksi Berhasil"
+        ],
+        [
+          "ID Transaksi",
+          123456789
+        ],
+        [
+          "Tanggal",
+          "26/06/2025 00:00"
+        ],
+        [
+          "Kategori",
+          "PLN ICONNET"
+        ]
+      ],
+      "body": {
+        "Rincian Transaksi": [
+          [
+            "ID Pelanggan",
+            "887766554433"
+          ],
+          [
+            "Nama Pelanggan",
+            "NAMA PELANGGAN"
+          ],
+          [
+            "Total Tagihan",
+            "Rp 250.000"
+          ]
+        ]
+      }
+    },
+    "selling_status": "lunas"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-iconnect \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"887766554433\"}'",
+  "category": "Tagihan Internet"
+}

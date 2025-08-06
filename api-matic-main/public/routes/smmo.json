@@ -1,0 +1,31 @@
+{
+  "name": "smmo-travel-only-dynamic",
+  "title": "Auto Step",
+  "description": " Melakukan auto step dengan menggunakan API Endpoint Matic.",
+  "method": "POST",
+  "path": "/api/smmo",
+  "parameters": [
+    {
+      "type": "number",
+      "name": "destination_id",
+      "label": "ID Lokasi Tujuan",
+      "placeholder": "Contoh: 4"
+    },
+    {
+      "type": "text",
+      "name": "api_token",
+      "label": "Token API Akun",
+      "placeholder": "Masukkan token API dari akun Anda"
+    }
+  ],
+  "response": {
+    "success": true,
+    "action": "travel",
+    "details": {
+      "text": "Anda berhasil melakukan perjalanan...",
+      "resultText": "none"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/smmo \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Authorization: Bearer TOKEN_ANDA\" \\\n  -d '{\"destination_id\": 4, \"api_token\": \"TOKEN_API_ANDA\"}'",
+  "category": "Simple MMO"
+}

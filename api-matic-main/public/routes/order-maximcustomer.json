@@ -1,0 +1,22 @@
+{
+  "name": "order-maximcustomer",
+  "title": "Top Up Maxim Customer",
+  "description": "Melakukan pengisian saldo untuk akun Maxim Customer.",
+  "method": "POST",
+  "path": "/api/order-maximcustomer",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-maximcustomer-products",
+    "group_by_static": "Saldo Maxim Customer",
+    "sort_by": "price"
+  },
+  "parameters": [
+    { "type": "text", "name": "auth_token", "label": "Auth Token", "placeholder": "Token dari API OrderKuota" },
+    { "type": "text", "name": "auth_username", "label": "Auth Username", "placeholder": "Username dari API OrderKuota" },
+    { "type": "text", "name": "target_number", "label": "ID Maxim Customer", "placeholder": "Masukkan ID Maxim Customer" },
+    { "type": "select", "name": "voucher_id", "label": "Pilih Nominal Saldo" }
+  ],
+  "response": { "success": true, "status": "Sukses", "message": "Order sedang diproses." },
+  "curl": "curl -X POST https://bovalone.me/api/order-maximcustomer \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"...\", \"voucher_id\":\"6838\"}'",
+  "category": "OrderKuota [ Digital Order ]"
+}

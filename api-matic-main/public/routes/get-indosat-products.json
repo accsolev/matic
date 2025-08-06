@@ -1,0 +1,27 @@
+{
+  "name": "get-indosat-products",
+  "title": "Get Indosat Products",
+  "description": "Mengambil daftar produk paket data Indosat yang tersedia.",
+  "method": "POST",
+  "path": "/api/get-indosat-products",
+  "hidden": true,
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username"
+    }
+  ],
+  "response": {
+    "success": true,
+    "vouchers": {
+      "results": []
+    }
+  },
+  "category": "Order Kuota"
+}

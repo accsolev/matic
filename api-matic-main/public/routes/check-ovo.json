@@ -1,0 +1,23 @@
+{
+  "name": "check-ovo",
+  "title": "Check Name OVO",
+  "description": "Memeriksa dan mengambil nama pemilik akun OVO berdasarkan nomor telepon. Jika nama disensor XXXX, coba tanpa (0) nya. Langsung isi seperti 8954014XXX",
+  "method": "POST",
+  "path": "/api/check-ovo",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon OVO",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK OVO",
+    "id": "ovo",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-ovo \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

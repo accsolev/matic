@@ -1,0 +1,24 @@
+{
+  "name": "get-oke-games",
+  "title": "Get Game List (Okeconnect)",
+  "description": "Mengambil daftar semua game yang aktif dari API Okeconnect.",
+  "method": "GET",
+  "path": "/api/get-oke-games",
+  "parameters": [],
+  "response": {
+    "success": true,
+    "games": [
+      {
+        "code": "ML",
+        "name": "Mobile Legends"
+      },
+      {
+        "code": "FF",
+        "name": "Free Fire"
+      }
+    ]
+  },
+  "curl": "curl -X GET https://bovalone.me/api/get-oke-games \\\n  -H \"Authorization: Bearer YOUR_API_KEY\"",
+  "category": "Gaming",
+  "hidden": true
+}

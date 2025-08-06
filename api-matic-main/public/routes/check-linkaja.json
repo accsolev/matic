@@ -1,0 +1,23 @@
+{
+  "name": "check-linkaja",
+  "title": "Check Name LinkAja",
+  "description": "Memeriksa dan mengambil nama pemilik akun LinkAja berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-linkaja",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon LinkAja",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK LINKAJA",
+    "id": "linkaja",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-linkaja \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

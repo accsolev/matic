@@ -1,0 +1,24 @@
+{
+  "name": "check-pln-prabayar",
+  "title": "Check Nama PLN Prabayar",
+  "description": "Memeriksa nama pemilik Nomor Meter PLN Prabayar (untuk pembelian token listrik).",
+  "method": "POST",
+  "path": "/api/check-pln-prabayar",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "meter_number",
+      "label": "Nomor Meter PLN Prabayar",
+      "placeholder": "Contoh: 86069025467"
+    }
+  ],
+  "response": {
+    "status": "success",
+    "message": "MD TINGGAL/R1M/900",
+    "no_pel": "86069025467",
+    "nama_pel": "MD TINGGAL",
+    "tarif_daya": "R1M/900"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-pln-prabayar \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"meter_number\":\"86069025467\"}'",
+  "category": "PLN"
+}

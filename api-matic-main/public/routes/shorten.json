@@ -1,0 +1,21 @@
+{
+  "title": "URL Shortener",
+  "description": "Shortens long URLs using Bitly.",
+  "method": "GET",
+  "path": "/api/shorten",
+  "response": {
+    "success": true,
+    "original_url": "https://contoh.com",
+    "short_url": "https://bit.ly/abc123"
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/shorten?url=https://contoh.com'",
+  "parameters": [
+    {
+      "type": "url",
+      "name": "url",
+      "label": "URL to Shorten",
+      "placeholder": "https://example.com/a-very-long-url"
+    }
+  ],
+  "category": "Utilities"
+}

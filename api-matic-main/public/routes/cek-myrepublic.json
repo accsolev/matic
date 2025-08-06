@@ -1,0 +1,57 @@
+{
+  "name": "cek-myrepublic",
+  "title": "MyRepublic",
+  "description": "Memeriksa detail tagihan internet MyRepublic berdasarkan ID Pelanggan.",
+  "method": "POST",
+  "path": "/api/cek-myrepublic",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan MyRepublic",
+      "placeholder": "Contoh: 12345678"
+    }
+  ],
+  "response": {
+    "success": true,
+    "content_details": {
+      "top": [
+        [
+          "Status",
+          "Transaksi Berhasil"
+        ],
+        [
+          "ID Transaksi",
+          123456789
+        ],
+        [
+          "Tanggal",
+          "26/06/2025 00:15"
+        ],
+        [
+          "Kategori",
+          "MyRepublic"
+        ]
+      ],
+      "body": {
+        "Rincian Transaksi": [
+          [
+            "ID Pelanggan",
+            "12345678"
+          ],
+          [
+            "Nama Pelanggan",
+            "NAMA PELANGGAN"
+          ],
+          [
+            "Total Tagihan",
+            "Rp 300.000"
+          ]
+        ]
+      }
+    },
+    "selling_status": "lunas"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-myrepublic \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"12345678\"}'",
+  "category": "Tagihan Internet"
+}

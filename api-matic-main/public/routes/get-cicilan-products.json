@@ -1,0 +1,34 @@
+{
+  "name": "get-cicilan-products",
+  "title": "Get Cicilan Products",
+  "description": "Mengambil daftar produk pembayaran cicilan (finance) yang tersedia dari API OrderKuota.",
+  "method": "POST",
+  "path": "/api/get-cicilan-products",
+  "hidden": true,
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username"
+    }
+  ],
+  "response": {
+    "success": true,
+    "vouchers": {
+      "results": [
+        {
+          "id": "6001",
+          "name": "Cicilan FIF",
+          "price": 0,
+          "price_str": "Rp 0"
+        }
+      ]
+    }
+  },
+  "category": "Pembayaran Tagihan"
+}

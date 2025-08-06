@@ -1,0 +1,32 @@
+{
+  "name": "qrmutasi-new",
+  "title": "Get Mutasi QRIS (v2)",
+  "description": "Mengambil riwayat transaksi QRIS dari API v2.",
+  "method": "POST",
+  "path": "/api/qrmutasi-new",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota",
+      "required": true
+    },
+    {
+      "type": "text",
+      "name": "page",
+      "label": "Halaman (Opsional)",
+      "placeholder": "Contoh: 1"
+    }
+  ],
+  "response": {},
+  "curl": "curl -X POST https://matic.eu.org/api/qrmutasi-new \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"USER_TOKEN\", \"auth_username\":\"USER_USERNAME\", \"page\":\"1\"}'",
+  "category": "Order Kuota"
+}

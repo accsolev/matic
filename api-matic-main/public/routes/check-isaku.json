@@ -1,0 +1,23 @@
+{
+  "name": "check-isaku",
+  "title": "Check Name I-Saku",
+  "description": "Memeriksa dan mengambil nama pemilik akun I-Saku berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-isaku",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon I-Saku",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK I-SAKU",
+    "id": "isaku",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-isaku \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

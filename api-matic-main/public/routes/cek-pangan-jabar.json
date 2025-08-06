@@ -1,0 +1,83 @@
+{
+  "name": "cek-pangan-jabar",
+  "title": "Cek Harga Pangan Jabar",
+  "description": "Mengambil daftar harga komoditas pangan terbaru dari server data Jabarprov. Anda bisa memfilter berdasarkan pencarian dan kategori.",
+  "method": "POST",
+  "path": "/api/cek-pangan-jabar",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "search",
+      "label": "Cari Komoditas (Opsional)",
+      "placeholder": "Contoh: Bawang Merah"
+    },
+    {
+      "type": "select",
+      "name": "kategori",
+      "label": "Pilih Kategori (Opsional)",
+      "options": [
+        {
+          "value": "",
+          "text": "Semua Kategori"
+        },
+        {
+          "value": "Beras, Tepung, Minyak",
+          "text": "Beras, Tepung, Minyak"
+        },
+        {
+          "value": "Buah",
+          "text": "Buah"
+        },
+        {
+          "value": "Bumbu Dasar",
+          "text": "Bumbu Dasar"
+        },
+        {
+          "value": "Bumbu Masak",
+          "text": "Bumbu Masak"
+        },
+        {
+          "value": "Daging",
+          "text": "Daging"
+        },
+        {
+          "value": "Ikan",
+          "text": "Ikan"
+        },
+        {
+          "value": "Makanan Instan",
+          "text": "Makanan Instan"
+        },
+        {
+          "value": "Protein",
+          "text": "Protein"
+        },
+        {
+          "value": "Sayur",
+          "text": "Sayur"
+        },
+        {
+          "value": "Tidak dikategorikan",
+          "text": "Tidak dikategorikan"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "success": true,
+    "message": "Data harga pangan Jabar berhasil diambil.",
+    "jumlah_data": 1,
+    "data_pangan": [
+      {
+        "nama_komoditas": "Bawang Merah",
+        "harga": "Rp 40.000",
+        "satuan": "kg",
+        "sumber_data": "PIHPS",
+        "diperbarui_pada_tanggal": "2025-07-03"
+      }
+    ]
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-pangan-jabar \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"search\":\"Bawang\", \"kategori\":\"Bumbu Dasar\"}'",
+  "category": "Informasi Publik",
+  "hidden": true
+}

@@ -1,0 +1,66 @@
+{
+  "name": "check-ewallet",
+  "title": "Check Name E-Wallet",
+  "description": "Memeriksa dan mengambil nama pemilik akun e-wallet (OVO, DANA, GoPay, dll.) berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-ewallet",
+  "parameters": [
+    {
+      "type": "select",
+      "name": "provider",
+      "label": "Provider E-Wallet",
+      "options": [
+        {
+          "value": "dana",
+          "text": "DANA"
+        },
+        {
+          "value": "ovo",
+          "text": "OVO"
+        },
+        {
+          "value": "gopay",
+          "text": "GoPay (Penumpang)"
+        },
+        {
+          "value": "gopay_driver",
+          "text": "GoPay Driver"
+        },
+        {
+          "value": "shopeepay",
+          "text": "ShopeePay"
+        },
+        {
+          "value": "linkaja",
+          "text": "LinkAja"
+        },
+        {
+          "value": "grab_penumpang",
+          "text": "Grab (Penumpang)"
+        },
+        {
+          "value": "grab_driver",
+          "text": "Grab Driver"
+        },
+        {
+          "value": "isaku",
+          "text": "I-Saku"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon E-Wallet",
+      "placeholder": "Contoh: 085179612320"
+    }
+  ],
+  "response": {
+    "name": "JUSTIN D M",
+    "id": "ovo",
+    "customerId": "085179612320"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-ewallet \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"provider\":\"gopay_driver\",\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet & Resi",
+  "hidden": false
+}

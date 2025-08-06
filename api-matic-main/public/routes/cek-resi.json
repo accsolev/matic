@@ -1,0 +1,223 @@
+{
+  "name": "cek-resi",
+  "title": "Check Resi",
+  "description": "Melacak status pengiriman paket dari berbagai kurir berdasarkan nomor resi.",
+  "method": "POST",
+  "path": "/api/cek-resi",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "resi",
+      "label": "Nomor Resi",
+      "placeholder": "Masukkan nomor resi"
+    },
+    {
+      "type": "select",
+      "name": "kurir",
+      "label": "Pilih Kurir",
+      "options": [
+        {
+          "value": "Shopee Express",
+          "text": "Shopee Express"
+        },
+        {
+          "value": "Kurir Rekomendasi Tokopedia",
+          "text": "Kurir Rekomendasi Tokopedia"
+        },
+        {
+          "value": "GTL-GoTo Logistics",
+          "text": "GTL-GoTo Logistics"
+        },
+        {
+          "value": "LEX-Lazada Logistics",
+          "text": "LEX-Lazada Logistics"
+        },
+        {
+          "value": "JNE",
+          "text": "JNE"
+        },
+        {
+          "value": "J&T Express",
+          "text": "J&T Express"
+        },
+        {
+          "value": "J&T Cargo",
+          "text": "J&T Cargo"
+        },
+        {
+          "value": "SICEPAT",
+          "text": "SICEPAT"
+        },
+        {
+          "value": "TIKI",
+          "text": "TIKI"
+        },
+        {
+          "value": "Pos Indonesia",
+          "text": "Pos Indonesia"
+        },
+        {
+          "value": "Anteraja",
+          "text": "Anteraja"
+        },
+        {
+          "value": "Lion Parcel",
+          "text": "Lion Parcel"
+        },
+        {
+          "value": "Ninja Xpress",
+          "text": "Ninja Xpress"
+        },
+        {
+          "value": "ID Express",
+          "text": "ID Express"
+        },
+        {
+          "value": "Wahana",
+          "text": "Wahana"
+        },
+        {
+          "value": "Indah Logistik Cargo",
+          "text": "Indah Logistik Cargo"
+        },
+        {
+          "value": "Sentral Cargo",
+          "text": "Sentral Cargo"
+        },
+        {
+          "value": "Dakota Cargo",
+          "text": "Dakota Cargo"
+        },
+        {
+          "value": "Paxel",
+          "text": "Paxel"
+        },
+        {
+          "value": "REX Express",
+          "text": "REX Express"
+        },
+        {
+          "value": "JDL Express",
+          "text": "JDL Express"
+        },
+        {
+          "value": "NCS Express",
+          "text": "NCS Express"
+        },
+        {
+          "value": "SAP Express",
+          "text": "SAP Express"
+        },
+        {
+          "value": "International/Luar Negeri",
+          "text": "International/Luar Negeri"
+        },
+        {
+          "value": "RPX Holding",
+          "text": "RPX Holding"
+        },
+        {
+          "value": "ARK Xpress",
+          "text": "ARK Xpress"
+        },
+        {
+          "value": "ASP Express",
+          "text": "ASP Express"
+        },
+        {
+          "value": "Rosalia Express",
+          "text": "Rosalia Express"
+        },
+        {
+          "value": "Citylink Express",
+          "text": "Citylink Express"
+        },
+        {
+          "value": "JTL Express",
+          "text": "JTL Express"
+        },
+        {
+          "value": "21 Express",
+          "text": "21 Express"
+        },
+        {
+          "value": "First Logistics",
+          "text": "First Logistics"
+        },
+        {
+          "value": "Star Cargo",
+          "text": "Star Cargo"
+        },
+        {
+          "value": "KGX press",
+          "text": "KGX press"
+        },
+        {
+          "value": "Standard Express/LWE",
+          "text": "Standard Express/LWE"
+        },
+        {
+          "value": "Acommerce",
+          "text": "Acommerce"
+        },
+        {
+          "value": "Janio Asia",
+          "text": "Janio Asia"
+        },
+        {
+          "value": "Kerry Express",
+          "text": "Kerry Express"
+        },
+        {
+          "value": "EMS",
+          "text": "EMS"
+        },
+        {
+          "value": "Quantium Solutions",
+          "text": "Quantium Solutions"
+        },
+        {
+          "value": "ESL Express",
+          "text": "ESL Express"
+        },
+        {
+          "value": "KGP - Kerta Gaya Pusaka",
+          "text": "KGP - Kerta Gaya Pusaka"
+        },
+        {
+          "value": "POSLAJU",
+          "text": "POSLAJU"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "status": "berhasil",
+    "msg": "tracking[Shopee Express]: 10004929768291 => ok",
+    "details": {
+      "kurir": "Shopee Express",
+      "service": "Reguler",
+      "status": "DELIVERED",
+      "tanggal_kirim": "2025-07-02 18:23:25",
+      "asal": "KOTA ADM. JAKARTA UTARA",
+      "tujuan": "PARUNG, BOGOR",
+      "berat": "1100 gram",
+      "penerima": "Budi (Diterima oleh)",
+      "pengirim": "Matic Store",
+      "infopengiriman": "Paket telah diterima",
+      "ucapan": "Terima kasih telah menggunakan jasa pengiriman SPX Express"
+    },
+    "history": [
+      {
+        "tanggal": "2025-07-03 11:15:47",
+        "details": "Paket telah diterima"
+      },
+      {
+        "tanggal": "2025-07-03 08:00:12",
+        "details": "Paket sedang dibawa oleh kurir"
+      }
+    ]
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-resi \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"resi\":\"123456789\", \"kurir\":\"J&T Express\"}'",
+  "category": "E-Wallet & Resi"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "orderkuota-qr",
+  "title": "Create Kasir QR",
+  "description": "Membuat gambar QRIS dari endpoint Order Kuota.",
+  "method": "POST",
+  "path": "/api/orderkuota-qr",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "merchant",
+      "label": "Merchant ID",
+      "placeholder": "Contoh: OK223456"
+    },
+    {
+      "type": "text",
+      "name": "nominal",
+      "label": "Nominal",
+      "placeholder": "Contoh: 1000"
+    }
+  ],
+  "response": {
+    "success": true,
+    "image_data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA..."
+  },
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-qr \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"merchant\":\"OK2476730\",\"nominal\":\"1000\"}'",
+  "category": "Order Kuota"
+}

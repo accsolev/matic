@@ -1,0 +1,24 @@
+{
+  "name": "check-rvlnm",
+  "title": "Revelation Mobile",
+  "description": "Memeriksa nama/nickname pemain Revelation Mobile berdasarkan User ID.",
+  "method": "POST",
+  "path": "/api/check-rvlnm",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID",
+      "placeholder": "Masukkan User ID Revelation Mobile"
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_RVLNM"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-rvlnm \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"12345678\"}'",
+  "category": "Gaming"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "get-ewallet-products",
+  "title": "Get E-Wallet Product List",
+  "description": "Mengambil daftar semua produk E-Wallet (Gojek) yang tersedia.",
+  "method": "POST",
+  "path": "/api/get-ewallet-products",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    }
+  ],
+  "response": {},
+  "curl": "curl -X POST https://bovalone.me/api/get-ewallet-products \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"USER_TOKEN\", \"auth_username\":\"USER_USERNAME\"}'",
+  "category": "Order Kuota",
+  "hidden": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "get-pascabayar-products",
+  "title": "Get Pascabayar Products",
+  "description": "Mengambil daftar produk tagihan telepon pascabayar.",
+  "method": "POST",
+  "path": "/api/get-pascabayar-products",
+  "hidden": true,
+  "parameters": [],
+  "response": {
+    "success": true,
+    "vouchers": { "results": [] }
+  },
+  "category": "Pembayaran Tagihan"
+}

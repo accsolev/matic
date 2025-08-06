@@ -1,0 +1,22 @@
+{
+  "name": "order-shopeedriver",
+  "title": "Top Up Shopee Driver",
+  "description": "Melakukan pengisian saldo untuk akun Shopee Driver.",
+  "method": "POST",
+  "path": "/api/order-shopeedriver",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-shopeedriver-products",
+    "group_by_static": "Saldo Shopee Driver",
+    "sort_by": "price"
+  },
+  "parameters": [
+    { "type": "text", "name": "auth_token", "label": "Auth Token", "placeholder": "Token dari API OrderKuota" },
+    { "type": "text", "name": "auth_username", "label": "Auth Username", "placeholder": "Username dari API OrderKuota" },
+    { "type": "text", "name": "target_number", "label": "Kode BCA VA", "placeholder": "Masukkan Kode BCA VA" },
+    { "type": "select", "name": "voucher_id", "label": "Pilih Nominal" }
+  ],
+  "response": { "success": true, "status": "Sukses", "message": "Order sedang diproses." },
+  "curl": "curl -X POST https://bovalone.me/api/order-shopeedriver \\n  -H \"Authorization: Bearer {API_KEY}\" \\n  -H \"Content-Type: application/json\" \\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"...\", \"voucher_id\":\"6681\"}'",
+  "category": "OrderKuota [ Digital Order ]"
+}

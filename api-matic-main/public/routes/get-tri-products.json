@@ -1,0 +1,27 @@
+{
+  "name": "get-tri-products",
+  "title": "Get Tri Products",
+  "description": "Mengambil daftar produk paket data Tri yang tersedia.",
+  "method": "POST",
+  "path": "/api/get-tri-products",
+  "hidden": true,
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username"
+    }
+  ],
+  "response": {
+    "success": true,
+    "vouchers": {
+      "results": []
+    }
+  },
+  "category": "Order Kuota"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "order-digital",
+  "title": "Produk Digital",
+  "description": "Melakukan pemesanan produk digital (voucher game, streaming, dll).",
+  "method": "POST",
+  "path": "/api/order-digital",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-digital-products",
+    "group_by": "provider.name",
+    "sort_by": "name"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "Nomor Tujuan / ID Akun",
+      "placeholder": "Nomor HP atau ID akun game/layanan"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Produk Digital"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Order sedang diproses.",
+    "transaction_details": {
+      "transaction_id": 12345678,
+      "target_number": "123456789",
+      "product_name": "Voucher Game XYZ 100 Diamond",
+      "price": "Rp 15.000",
+      "date": "03/07/2025 01:45"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-digital \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"123456789\", \"voucher_id\":\"8001\"}'",
+  "category": "Order Kuota"
+}

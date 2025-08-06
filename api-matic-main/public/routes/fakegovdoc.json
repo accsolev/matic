@@ -1,0 +1,31 @@
+{
+  "title": "Gov Document",
+  "description": "Generates realistic-looking fake government documents such as passports, IDs, and licenses, complete with names, numbers, issue/expiry dates, and full address. Intended for creative or testing purposes only.",
+  "method": "GET",
+  "path": "/api/fakegovdoc",
+  "request_params": {},
+  "example_request_url": "/api/fakegovdoc",
+  "response": {
+    "id": "doc-1982",
+    "type": "Passport",
+    "full_name": "Jeremy Newton",
+    "gender": "Male",
+    "birthdate": "1982-04-21",
+    "nationality": "Canada",
+    "document_number": "P936582104",
+    "issue_date": "2017-06-11",
+    "expiry_date": "2027-06-10",
+    "issuing_authority": "Canadian Government",
+    "address": {
+      "street": "1374 Queen Elizabeth Blvd",
+      "city": "Toronto",
+      "state": "Ontario",
+      "zip": "M5V 2B6",
+      "country": "Canada"
+    },
+    "photo": "https://cdn.example.com/passport_photos/male/jeremy_newton.jpg"
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/fakegovdoc'",
+  "parameters": [],
+  "category": "Miscellaneous"
+}

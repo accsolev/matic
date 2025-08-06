@@ -1,0 +1,36 @@
+{
+  "title": "Data Person v2",
+  "description": "Generates realistic and detailed fake user profiles, including address, job, and avatar.",
+  "method": "GET",
+  "path": "/api/randomuserv2",
+  "request_params": {},
+  "example_request_url": "/api/randomuserv2",
+  "response": {
+    "success": true,
+    "user": {
+      "id": "9edc136e-c00f-4f12-8db6-a604becc03b3",
+      "name": "Kimberly Carter",
+      "gender": "male",
+      "email": "Glennie_Morissette88@gmail.com",
+      "username": "Stewart_Daugherty",
+      "phone": "426-891-1908 x3254",
+      "birthdate": "1968-02-10T03:25:53.290Z",
+      "address": {
+        "street": "6584 Cross Street",
+        "city": "Lowechester",
+        "state": "Maryland",
+        "country": "Philippines",
+        "zip": "47002-6370"
+      },
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/51.jpg",
+      "job": {
+        "title": "Customer Creative Liaison",
+        "type": "Planner"
+      },
+      "website": "https://likable-swath.biz"
+    }
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/randomuserv2'",
+  "parameters": [],
+  "category": "Miscellaneous"
+}

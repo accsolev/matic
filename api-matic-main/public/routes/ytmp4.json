@@ -1,0 +1,25 @@
+{
+  "name": "ytmp4",
+  "title": "YouTube Video (MP4)",
+  "category": "Downloader",
+  "method": "POST",
+  "path": "/api/ytmp4",
+  "description": "Mengunduh video dari YouTube dan mengkonversinya ke format MP4. Cocok untuk mengunduh video musik, tutorial, atau konten lainnya dari YouTube.",
+  "parameters": [
+    {
+      "name": "url",
+      "label": "YouTube URL",
+      "type": "text",
+      "placeholder": "Masukkan URL video YouTube...",
+      "required": true
+    }
+  ],
+  "curl": "curl -X POST \\\n  https://bovalone.me/api/ytmp4 \\\n  -H 'Content-Type: application/json' \\\n  -H 'Authorization: Bearer YOUR_API_KEY' \\\n  -d '{ \"url\": \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" }' \\\n  -o video.mp4",
+  "response": {
+    "success": true,
+    "message": "File https://www.youtube.com/watch?v=dQw4w9WgXcQ.mp4 siap diunduh.",
+    "detail": "Response is a direct file download."
+  },
+  "notes": "Ukuran file video bisa sangat besar. Pastikan koneksi internet Anda stabil. Proses ini akan memerlukan waktu tergantung durasi dan kualitas video.",
+  "hidden": true
+}

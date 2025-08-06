@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API Status Dashboard</title>
+  <link rel="icon" href="https://bovalone.me/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="status.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>API Status Dashboard</h1>
+      <div class="header-controls">
+        <a href="https://bovalone.me" class="contact-link"><i class="bi bi-house-door-fill"></i> Home</a>
+        <a href="https://github.com/SMMURDA" class="contact-link"><i class="bi bi-github"></i> Github</a>
+        <a href="mailto:ask@matic.eu.org" class="contact-link"><i class="bi bi-envelope"></i> Email</a>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <i class="bi bi-sun-fill sun-icon outside-toggle-icon"></i>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="darkSwitch">
+                <label class="form-check-label" for="darkSwitch"></label>
+            </div>
+            <i class="bi bi-moon-fill moon-icon outside-toggle-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="card endpoint-selector">
+      <h3>Select API Endpoint</h3>
+      <div id="apiList" class="api-list">
+        </div>
+    </div>
+
+    <div class="card status-card" id="statusCard">
+      <div class="status-header">
+        <h2 class="status-title" id="endpointDisplay">—</h2>
+        <div class="status-indicator" id="apiStatus">● Idle</div>
+      </div>
+      <div class="status-body">
+        <div class="info-item">
+          <div class="info-label">Response Time</div>
+          <div class="info-value" id="responseTime"><span class="skeleton-text"></span></div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Last Checked</div>
+          <div class="info-value" id="lastChecked"><span class="skeleton-text"></span></div>
+        </div>
+        <div class="info-item" style="grid-column: 1 / -1;">
+          <div class="info-label">Uptime</div>
+          <div class="info-value" id="uptimePercentage"><span class="skeleton-text"></span></div>
+          <div class="uptime-bar"><div class="uptime-progress" id="uptimeProgressBar"></div></div>
+        </div>
+      </div>
+    </div>
+
+     <div class="card server-metrics">
+      <h3>Server Metrics</h3>
+      <div class="metric-cards">
+        <div class="metric-card">
+          <div class="metric-value" id="totalRequests"><span class="skeleton-text"></span></div>
+          <div class="metric-label"><i class="bi bi-bar-chart-fill"></i> Total Requests</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="averageResponseTime"><span class="skeleton-text"></span></div>
+          <div class="metric-label"><i class="bi bi-clock-fill"></i> Avg Response Time</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="uptimeDays"><span class="skeleton-text"></span></div>
+          <div class="metric-label"><i class="bi bi-calendar-check-fill"></i> Days Up</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="successRate"><span class="skeleton-text"></span></div>
+          <div class="metric-label"><i class="bi bi-award-fill"></i> Success Rate</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="requestsPerSecond"><span class="skeleton-text"></span></div>
+          <div class="metric-label"><i class="bi bi-speedometer2"></i> RPS</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="requestsPerMinute"><span class="skeleton-text"></span></div>
+          <div class="metric-label"><i class="bi bi-hourglass-split"></i> RPM</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="refresh-section">
+      <button class="refresh-button" id="refreshButton">Refresh Now</button>
+      <div class="last-updated" id="lastUpdated">Last updated: <span class="skeleton-text"></span></div>
+    </div>
+
+    <div class="card incident-history">
+      <h3>Incident History</h3>
+      <div class="incident-list" id="incidentList">
+         <div class="no-incidents">Select an API to view its history.</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2025 Matic API</p>
+    </footer>
+  </div>
+
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+  <script>
+    const CHECK_INTERVAL = 60000;
+    const SERVER_METRICS_INTERVAL = 5000;
+    const baseUrl = '';
+    let userApiKey = "bvl-MEMEKKUDA";
+
+    let selectedEndpoint = '';
+    let apiChecks = {};
+    let incidents = {};
+
+    const apiListEl = document.getElementById('apiList');
+    const apiStatusEl = document.getElementById('apiStatus');
+    const endpointDisplayEl = document.getElementById('endpointDisplay');
+    const responseTimeEl = document.getElementById('responseTime');
+    const uptimePercentageEl = document.getElementById('uptimePercentage');
+    const uptimeProgressBarEl = document.getElementById('uptimeProgressBar');
+    const lastCheckedEl = document.getElementById('lastChecked');
+    const lastUpdatedEl = document.getElementById('lastUpdated');
+    const totalRequestsEl = document.getElementById('totalRequests');
+    const averageResponseTimeEl = document.getElementById('averageResponseTime');
+    const uptimeDaysEl = document.getElementById('uptimeDays');
+    const successRateEl = document.getElementById('successRate');
+    const requestsPerSecondEl = document.getElementById('requestsPerSecond');
+    const requestsPerMinuteEl = document.getElementById('requestsPerMinute');
+    const incidentListEl = document.getElementById('incidentList');
+    const refreshButtonEl = document.getElementById('refreshButton');
+
+    let monitoredEndpointsData = [];
+
+    const DUMMY_PNG_BASE64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
+    const DUMMY_JPG_BASE64 = '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQoLCwsmDg0NDgwNDhEODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg//wAARCAABAAEDAREAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAC//EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AfwA/AAH/2Q==';
+
+    function showLoadingState() {
+        document.querySelectorAll('.skeleton-text').forEach(el => {
+            el.classList.add('visible');
+        });
+
+        responseTimeEl.style.opacity = '0';
+        lastCheckedEl.style.opacity = '0';
+        uptimePercentageEl.style.opacity = '0';
+
+        totalRequestsEl.style.opacity = '0';
+        averageResponseTimeEl.style.opacity = '0';
+        uptimeDaysEl.style.opacity = '0';
+        successRateEl.style.opacity = '0';
+        requestsPerSecondEl.style.opacity = '0';
+        requestsPerMinuteEl.style.opacity = '0';
+
+        lastUpdatedEl.childNodes[0].nodeValue = 'Last updated: ';
+    }
+
+    function hideLoadingState() {
+        document.querySelectorAll('.skeleton-text').forEach(el => {
+            el.classList.remove('visible');
+        });
+
+        responseTimeEl.style.opacity = '1';
+        lastCheckedEl.style.opacity = '1';
+        uptimePercentageEl.style.opacity = '1';
+
+        totalRequestsEl.style.opacity = '1';
+        averageResponseTimeEl.style.opacity = '1';
+        uptimeDaysEl.style.opacity = '1';
+        successRateEl.style.opacity = '1';
+        requestsPerSecondEl.style.opacity = '1';
+        requestsPerMinuteEl.style.opacity = '1';
+    }
+
+    async function loadMonitoredEndpoints() {
+        showLoadingState();
+        try {
+            const response = await fetch(`${baseUrl}/api/status-monitoring/list`);
+            const data = await response.json();
+            if (data.success && data.endpoints) {
+                monitoredEndpointsData = data.endpoints;
+                apiListEl.innerHTML = '';
+                if (monitoredEndpointsData.length === 0) {
+                    apiListEl.innerHTML = '<p class="text-secondary">Tidak ada endpoint yang dimonitor.</p>';
+                    endpointDisplayEl.textContent = 'Tidak Ada Endpoint';
+                    apiStatusEl.textContent = '● Idle';
+                    hideLoadingState();
+                    return;
+                }
+                monitoredEndpointsData.forEach(ep => {
+                    const button = document.createElement('button');
+                    button.setAttribute('data-endpoint-name', ep.name);
+                    button.textContent = ep.name;
+                    apiListEl.appendChild(button);
+                    apiChecks[ep.name] = [];
+                    incidents[ep.name] = [];
+                });
+                const firstButton = apiListEl.querySelector('button');
+                if (firstButton) {
+                    firstButton.click();
+                } else {
+                    hideLoadingState();
+                }
+            } else {
+                apiListEl.innerHTML = '<p class="text-danger">Gagal memuat daftar endpoint.</p>';
+                hideLoadingState();
+            }
+        } catch (error) {
+            console.error('Error loading monitored endpoints:', error);
+            apiListEl.innerHTML = '<p class="text-danger">Kesalahan jaringan saat memuat endpoint.</p>';
+            hideLoadingState();
+        }
+        fetchServerMetrics();
+    }
+
+
+    apiListEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-endpoint-name]');
+      if (!btn) return;
+      apiListEl.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedEndpoint = btn.getAttribute('data-endpoint-name');
+      renderIncidentList(selectedEndpoint);
+      updateUI();
+      checkApiStatus(true);
+      document.getElementById('statusCard').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    refreshButtonEl.addEventListener('click', () => {
+        if (selectedEndpoint) {
+            checkApiStatus(true);
+        } else {
+            fetchServerMetrics();
+        }
+    });
+
+
+    function renderIncidentList(endpoint) {
+      incidentListEl.innerHTML = '';
+      const currentIncidents = incidents[endpoint] || [];
+      if (currentIncidents.length === 0) {
+        incidentListEl.innerHTML = '<div class="no-incidents">No incidents reported for this endpoint.</div>';
+        return;
+      }
+      currentIncidents.forEach(inc => {
+        const d = document.createElement('div');
+        d.className = 'incident-item';
+        d.innerHTML = `
+          <div class="incident-description">${inc.description}</div>
+          <div class="incident-timestamp">
+            ${inc.startTime.toLocaleString()} -
+            ${inc.resolved ? inc.endTime.toLocaleString() : 'Ongoing'}
+          </div>
+          ${inc.resolved ? `<div>Duration: ${inc.duration} seconds</div>` : ''}
+        `;
+        incidentListEl.appendChild(d);
+      });
+    }
+
+    async function fetchServerMetrics() {
+        showLoadingState();
+        try {
+            const res = await fetch(`${baseUrl}/api/server-metrics`, { headers: { 'Authorization': `Bearer ${userApiKey}` } });
+            if (res.ok) {
+                const data = await res.json();
+                if (data.success && data.metrics) {
+                    totalRequestsEl.textContent = data.metrics.totalRequests;
+                    averageResponseTimeEl.textContent = data.metrics.avgResponseTime;
+                    const uptime = data.metrics.uptime;
+                    uptimeDaysEl.textContent = `${uptime.days}d, ${uptime.hours}h`;
+                    successRateEl.textContent = data.metrics.successRate;
+                    requestsPerSecondEl.textContent = data.metrics.requestsPerSecond;
+                    requestsPerMinuteEl.textContent = data.metrics.requestsPerMinute;
+                } else {
+                    totalRequestsEl.textContent = 'N/A';
+                    averageResponseTimeEl.textContent = 'N/A';
+                    uptimeDaysEl.textContent = 'N/A';
+                    successRateEl.textContent = 'N/A';
+                    requestsPerSecondEl.textContent = 'N/A';
+                    requestsPerMinuteEl.textContent = 'N/A';
+                }
+            } else {
+                totalRequestsEl.textContent = 'N/A';
+                averageResponseTimeEl.textContent = 'N/A';
+                uptimeDaysEl.textContent = 'N/A';
+                successRateEl.textContent = 'N/A';
+                requestsPerSecondEl.textContent = 'N/A';
+                requestsPerMinuteEl.textContent = 'N/A';
+            }
+        } catch (error) {
+            console.error("Error fetching server metrics:", error);
+            totalRequestsEl.textContent = 'Error';
+            averageResponseTimeEl.textContent = 'Error';
+            uptimeDaysEl.textContent = 'Error';
+            successRateEl.textContent = 'Error';
+            requestsPerSecondEl.textContent = 'Error';
+            requestsPerMinuteEl.textContent = 'Error';
+        }
+        finally {
+            hideLoadingState();
+        }
+    }
+
+    async function checkApiStatus(forceUpdate = false) {
+      if (!selectedEndpoint) {
+          apiStatusEl.textContent = '● Select an Endpoint';
+          apiStatusEl.className = 'status-indicator';
+          responseTimeEl.textContent = '—';
+          uptimePercentageEl.textContent = '—';
+          uptimeProgressBarEl.style.width = '0%';
+          lastCheckedEl.textContent = '—';
+          hideLoadingState();
+          return;
+      }
+
+      showLoadingState();
+
+      const endpointConfig = monitoredEndpointsData.find(ep => ep.name === selectedEndpoint);
+      if (!endpointConfig) {
+          console.error(`Configuration for endpoint ${selectedEndpoint} not found.`);
+          apiStatusEl.textContent = '● Config Error';
+          apiStatusEl.className = 'status-indicator offline';
+          responseTimeEl.textContent = 'N/A';
+          uptimePercentageEl.textContent = '0%';
+          uptimeProgressBarEl.style.width = '0%';
+          lastCheckedEl.textContent = 'N/A';
+          hideLoadingState();
+          return;
+      }
+
+      apiStatusEl.textContent = '● Checking...';
+      apiStatusEl.className = 'status-indicator';
+      const start = performance.now();
+      let isOnline = false, responseTime = 0;
+
+      try {
+          let res;
+          let method = 'GET';
+          let body = null;
+          let headers = { 'Authorization': `Bearer ${userApiKey}` };
+          let url = endpointConfig.testUrl;
+
+          if (endpointConfig.type === 'POST_JSON') {
+              method = 'POST';
+              headers['Content-Type'] = 'application/json';
+              try {
+                  const parsedBody = endpointConfig.requestBody ? JSON.parse(endpointConfig.requestBody) : {};
+                  body = JSON.stringify(parsedBody);
+              } catch (e) {
+                  console.error(`Invalid JSON in requestBody for ${endpointConfig.name}:`, e);
+                  apiStatusEl.textContent = '● JSON Error';
+                  apiStatusEl.className = 'status-indicator offline';
+                  responseTimeEl.textContent = 'N/A';
+                  hideLoadingState();
+                  return;
+              }
+          } else if (endpointConfig.type === 'POST_FORM_DATA') {
+              method = 'POST';
+              const formData = new FormData();
+
+              if (endpointConfig.name === 'Metadata') {
+                  const byteCharacters = atob(DUMMY_JPG_BASE64);
+                  const byteNumbers = new Array(byteCharacters.length);
+                  for (let i = 0; i < byteCharacters.length; i++) {
+                      byteNumbers[i] = byteCharacters.charCodeAt(i);
+                  }
+                  const byteArray = new Uint8Array(byteNumbers);
+                  const blob = new Blob([byteArray], { type: 'image/jpeg' });
+                  formData.append('file', blob, 'test.jpg');
+              } else if (endpointConfig.name === 'DocParser') {
+                  const blob = new Blob(['test document content'], { type: 'text/plain' });
+                  formData.append('file', blob, 'test.txt');
+              } else {
+                  const blob = new Blob(['test content'], { type: 'text/plain' });
+                  formData.append('file', blob, 'generic_test.txt');
+              }
+
+              body = formData;
+              headers = { 'Authorization': headers.Authorization };
+          }
+
+          const fetchOptions = {
+              method,
+              headers: (body instanceof FormData) ? { 'Authorization': headers.Authorization } : headers,
+              body
+          };
+
+          res = await fetch(url, fetchOptions);
+          responseTime = Math.round(performance.now() - start);
+          isOnline = res.ok;
+      } catch (error) {
+          responseTime = Math.round(performance.now() - start);
+          isOnline = false;
+          console.error(`Error checking ${selectedEndpoint}:`, error);
+      } finally {
+          apiChecks[selectedEndpoint].push({ timestamp: new Date(), isOnline, responseTime });
+          if (apiChecks[selectedEndpoint].length > 100) apiChecks[selectedEndpoint].shift();
+
+          handleIncidents(selectedEndpoint, isOnline);
+          updateUI();
+          hideLoadingState();
+      }
+    }
+
+    function handleIncidents(endpoint, isOnline) {
+      const currentIncidents = incidents[endpoint];
+      const currentApiChecks = apiChecks[endpoint];
+      if (currentApiChecks.length < 3) return;
+
+      const last = currentIncidents[currentIncidents.length - 1];
+      const last3Checks = currentApiChecks.slice(-3);
+
+      if (!isOnline && (!last || last.resolved)) {
+        if (last3Checks.every(c => !c.isOnline)) {
+          currentIncidents.push({ startTime: new Date(), description: 'Endpoint is down', resolved: false });
+        }
+      }
+      else if (isOnline && last && !last.resolved) {
+        if (last3Checks.every(c => c.isOnline)) {
+          last.resolved = true;
+          last.endTime = new Date();
+          last.duration = Math.round((last.endTime - last.startTime) / 1000);
+        }
+      }
+      renderIncidentList(endpoint);
+    }
+
+    function updateUI() {
+      if (!selectedEndpoint) {
+          endpointDisplayEl.textContent = 'Select an Endpoint';
+          apiStatusEl.textContent = '● Idle';
+          apiStatusEl.className = 'status-indicator';
+          responseTimeEl.textContent = '—';
+          uptimePercentageEl.textContent = '—';
+          uptimeProgressBarEl.style.width = '0%';
+          lastCheckedEl.textContent = '—';
+      } else {
+          endpointDisplayEl.textContent = selectedEndpoint;
+          const currentChecks = apiChecks[selectedEndpoint];
+          const latestCheck = currentChecks[currentChecks.length - 1];
+          if (latestCheck) {
+              apiStatusEl.textContent = `● ${latestCheck.isOnline ? 'Online' : 'Offline'}`;
+              apiStatusEl.className = `status-indicator ${latestCheck.isOnline ? 'online' : 'offline'}`;
+              responseTimeEl.textContent = `${latestCheck.responseTime}ms`;
+              const onlineCount = currentChecks.filter(c => c.isOnline).length;
+              const upPct = currentChecks.length ? ((onlineCount / currentChecks.length) * 100).toFixed(2) : '100.00';
+              uptimePercentageEl.textContent = `${upPct}%`;
+              uptimeProgressBarEl.style.width = `${upPct}%`;
+              lastCheckedEl.textContent = latestCheck.timestamp.toLocaleTimeString();
+          } else {
+              apiStatusEl.textContent = '● Checking...';
+              apiStatusEl.className = 'status-indicator';
+              responseTimeEl.textContent = '—';
+              uptimePercentageEl.textContent = '—';
+              uptimeProgressBarEl.style.width = '0%';
+              lastCheckedEl.textContent = '—';
+          }
+      }
+      lastUpdatedEl.textContent = `Last updated: ${new Date().toLocaleString()}`;
+    }
+
+    const scrollBtn = document.getElementById('scrollToTopBtn');
+    window.onscroll = () => { scrollBtn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? 'block' : 'none'; };
+    scrollBtn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const darkSwitch = document.getElementById('darkSwitch');
+        function applyTheme(theme) {
+            document.documentElement.setAttribute('data-bs-theme', theme);
+            if (darkSwitch) {
+                darkSwitch.checked = (theme === 'dark');
+                const sunIcon = document.querySelector('.sun-icon.outside-toggle-icon');
+                const moonIcon = document.querySelector('.moon-icon.outside-toggle-icon');
+
+                if (theme === 'dark') {
+                    moonIcon.style.opacity = '1';
+                    moonIcon.style.transform = 'translateY(0) translateX(0)';
+                    sunIcon.style.opacity = '0';
+                    sunIcon.style.transform = 'translateY(0) translateX(-10px)';
+                } else {
+                    sunIcon.style.opacity = '1';
+                    sunIcon.style.transform = 'translateY(0) translateX(0)';
+                    moonIcon.style.opacity = '0';
+                    moonIcon.style.transform = 'translateY(0) translateX(10px)';
+                }
+
+                // Update colors for outside icons
+                if (theme === 'dark') {
+                    sunIcon.style.color = 'var(--toggle-icon-color-light)'; // Desaturated for dark mode
+                    moonIcon.style.color = 'var(--toggle-icon-color-dark)'; // Dark for dark mode
+                } else {
+                    sunIcon.style.color = 'var(--toggle-icon-color-light)'; // Gold for light mode
+                    moonIcon.style.color = 'var(--toggle-icon-color-dark)'; // Dark for light mode
+                }
+            }
+            localStorage.setItem('theme', theme);
+        }
+        const savedTheme = localStorage.getItem('theme');
+        applyTheme(savedTheme || 'dark');
+
+        darkSwitch.addEventListener('change', e => {
+            applyTheme(e.target.checked ? 'dark' : 'light');
+        });
+
+        loadMonitoredEndpoints();
+        setInterval(() => checkApiStatus(false), CHECK_INTERVAL);
+        setInterval(fetchServerMetrics, SERVER_METRICS_INTERVAL);
+    });
+  </script>
+</body>
+</html>

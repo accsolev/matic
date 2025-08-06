@@ -1,0 +1,61 @@
+{
+  "name": "cek-bpjs",
+  "title": "Tagihan BPJS Kesehatan",
+  "description": "Memeriksa detail tagihan BPJS Kesehatan berdasarkan Nomor VA Keluarga.",
+  "method": "POST",
+  "path": "/api/cek-bpjs",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "Nomor VA Keluarga",
+      "placeholder": "Contoh: 8888801234567890"
+    }
+  ],
+  "response": {
+    "success": true,
+    "content_details": {
+      "top": [
+        [
+          "Status",
+          "Transaksi Berhasil"
+        ],
+        [
+          "ID Transaksi",
+          123456789
+        ],
+        [
+          "Tanggal",
+          "26/06/2025 01:30"
+        ],
+        [
+          "Kategori",
+          "BPJS Kesehatan"
+        ]
+      ],
+      "body": {
+        "Rincian Transaksi": [
+          [
+            "ID Pelanggan",
+            "8888801234567890"
+          ],
+          [
+            "Nama Pelanggan",
+            "NAMA KEPALA KELUARGA"
+          ],
+          [
+            "Jumlah Peserta",
+            "3 Orang"
+          ],
+          [
+            "Total Tagihan",
+            "Rp 150.000"
+          ]
+        ]
+      }
+    },
+    "selling_status": "lunas"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-bpjs \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"8888801234567890\"}'",
+  "category": "Pembayaran BPJS"
+}

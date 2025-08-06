@@ -1,0 +1,66 @@
+{
+  "name": "pasarkuota-history",
+  "title": "PasarKuota History Transaksi",
+  "description": "Mengambil riwayat transaksi dari akun PasarKuota.",
+  "method": "POST",
+  "path": "/api/pasarkuota-history",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API PasarKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API PasarKuota"
+    },
+    {
+      "type": "select",
+      "name": "status",
+      "label": "Status Transaksi (Opsional)",
+      "options": [
+        {
+          "value": "ok",
+          "text": "Sukses"
+        },
+        {
+          "value": "pending",
+          "text": "Pending"
+        },
+        {
+          "value": "failed",
+          "text": "Gagal"
+        }
+      ]
+    },
+    {
+      "type": "number",
+      "name": "page",
+      "label": "Halaman (Opsional)",
+      "placeholder": "Default: 1"
+    }
+  ],
+  "response": {
+    "success": true,
+    "transactions": {
+      "success": true,
+      "results": [
+        {
+          "id": 123456,
+          "voucher": {
+            "name": "Telkomsel 5000"
+          },
+          "customer_id": "08123456789",
+          "price_str": "Rp 5.250",
+          "status": "OK",
+          "date": "07/07/2025 22:00"
+        }
+      ]
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/pasarkuota-history \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"status\":\"ok\", \"page\":1}'",
+  "category": "Pasar Kuota"
+}

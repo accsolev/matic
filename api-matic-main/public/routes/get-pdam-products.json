@@ -1,0 +1,14 @@
+{
+  "name": "get-pdam-products",
+  "title": "Get PDAM Products",
+  "description": "Mengambil daftar produk tagihan air PDAM.",
+  "method": "POST",
+  "path": "/api/get-pdam-products",
+  "hidden": true,
+  "parameters": [],
+  "response": {
+    "success": true,
+    "vouchers": { "results": [] }
+  },
+  "category": "Pembayaran Tagihan"
+}

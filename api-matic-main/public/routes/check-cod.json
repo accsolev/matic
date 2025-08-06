@@ -1,0 +1,22 @@
+{
+  "name": "check-cod",
+  "title": "Call of Duty (COD)",
+  "description": "Memeriksa dan mengambil nama/nickname pemain Call of Duty (COD) berdasarkan Open ID.",
+  "method": "POST",
+  "path": "/api/check-cod",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "Open ID COD",
+      "placeholder": "Masukkan Open ID Call of Duty Anda"
+    }
+  ],
+  "response": {
+    "status": "success",
+    "customerName": "NAMA_PEMAIN_COD",
+    "success": true
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-cod \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"MASUKKAN_OPEN_ID\"}'",
+  "category": "Gaming"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Laws",
+  "description": "Generates realistic-sounding fake laws from actual countries. Ideal for creative legal simulations, mock governance scenarios, or educational experiments.",
+  "method": "GET",
+  "path": "/api/fakelaw",
+  "request_params": {},
+  "example_request_url": "/api/fakelaw",
+  "response": {
+    "id": "law-2711",
+    "title": "All government-issued documents must be printed using carbon-neutral ink",
+    "description": "In Sweden, government agencies are mandated to only use eco-friendly ink when printing official documents, as part of the nation's long-term climate neutrality goal.",
+    "country": "Sweden",
+    "category": "Environmental Law",
+    "penalty": "Subject to administrative sanction and a fine up to SEK 15,000",
+    "enacted_year": 2018,
+    "status": "In Effect",
+    "absurdity_score": 2.3
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/fakelaw'",
+  "parameters": [],
+  "category": "Miscellaneous"
+}

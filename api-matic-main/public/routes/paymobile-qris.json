@@ -1,0 +1,54 @@
+{
+  "title": "PayMobileku QRIS Dinamis",
+  "description": "Generates a PayMobileku QRIS payment QR code instantly, valid for 5 minutes.",
+  "method": "POST",
+  "path": "/api/paymobile-qris",
+  "parameters": [
+    {
+      "name": "storeName",
+      "label": "Name Store PayMobileku",
+      "type": "text",
+      "placeholder": "e.g., My Paymobile Shop",
+      "required": true
+    },
+    {
+      "name": "merchantId",
+      "label": "Your Paymobile Merchant ID",
+      "type": "text",
+      "placeholder": "e.g., ID1025..",
+      "required": true
+    },
+    {
+      "name": "baseQrString",
+      "label": "Your Paymobile Base QR String",
+      "type": "text",
+      "placeholder": "e.g., 000201010212...",
+      "required": true
+    },
+    {
+      "name": "amount",
+      "label": "Payment Amount (IDR)",
+      "type": "number",
+      "placeholder": "e.g., 25000",
+      "required": true
+    }
+  ],
+  "response": {
+    "success": true,
+    "message": "Paymobile payment QR generated successfully.",
+    "data": {
+      "reference": "PAYMOBILE-1701234567890",
+      "amount": 25000,
+      "transactionId": "PAYMOBILE-TRX-1701234567890",
+      "qr_image_data_url": "data:image/png;base64,iVBORw0KGgoAAA...",
+      "status": "PENDING",
+      "storeNameUsed": "My Paymobile Shop",
+      "merchantIdUsed": "PAYMOBILE-MERCHANT-ID",
+      "baseQrStringUsed": "PAYMOBILE_QR_STATIC_STRING_HERE"
+    },
+    "error": null
+  },
+  "curl": "curl -X POST \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  'https://bovalone.me/api/paymobile-qris' \\\n  -d '{\"storeName\": \"Paymobile User Store\", \"merchantId\": \"PAYMOBILE_MERCHANT_ID\", \"baseQrString\": \"PAYMOBILE_BASE_QR_STRING\", \"amount\": 25000}'",
+  "category": "QRIS & QRCODE",
+  "hidden": false
+}

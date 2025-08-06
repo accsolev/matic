@@ -1,0 +1,22 @@
+{
+  "title": "OCR Image",
+  "description": "Extracts text from various document file types such as PDF, Word (DOCX), images (JPG/PNG) using OCR, and other formats like TXT, JSON, CSV, HTML, and Markdown. Ideal for automatic document content parsing.",
+  "method": "POST",
+  "path": "/api/docparser",
+  "response": {
+    "success": true,
+    "filename": "example.pdf",
+    "mimetype": "application/pdf",
+    "text": "The extracted text from the file will appear here..."
+  },
+  "curl": "curl -X POST \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/docparser' \\\n  -F \"file=@/path/to/your/document.pdf\"",
+  "parameters": [
+    {
+      "type": "file",
+      "name": "file",
+      "label": "File",
+      "placeholder": ""
+    }
+  ],
+  "category": "Tools"
+}

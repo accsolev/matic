@@ -1,0 +1,22 @@
+{
+  "name": "check-aov",
+  "title": "Arena of Valor (AOV)",
+  "description": "Memeriksa dan mengambil nama/nickname pemain Arena of Valor (AOV) berdasarkan Open ID.",
+  "method": "POST",
+  "path": "/api/check-aov",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "Open ID AOV",
+      "placeholder": "Masukkan Open ID AOV Anda"
+    }
+  ],
+  "response": {
+    "status": "success",
+    "customerName": "NAMA_PEMAIN_AOV",
+    "success": true
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-aov \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"MASUKKAN_OPEN_ID\"}'",
+  "category": "Gaming"
+}

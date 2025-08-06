@@ -1,0 +1,41 @@
+{
+  "name": "cek-pbb",
+  "title": "Check Tagihan PBB",
+  "description": "Melakukan pengecekan tagihan Pajak Bumi dan Bangunan (PBB) berdasarkan NOP.",
+  "method": "POST",
+  "path": "/api/cek-pbb",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-pbb-products",
+    "filter_by_provider_exists": true,
+    "group_by": "provider.name",
+    "sort_by": "name"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "target_customer_id",
+      "label": "NOP (Nomor Objek Pajak)",
+      "placeholder": "Contoh: 327801000100100010"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Wilayah/Kota"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Tagihan Ditemukan",
+    "transaction_details": {
+      "nop": "327801000100100010",
+      "taxpayer_name": "AHMAD SUBAGJA",
+      "address": "JL. PERJUANGAN NO. 45",
+      "tax_year": "2025",
+      "total_payment": "Rp 75.000"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/cek-pbb \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"target_customer_id\":\"327801000100100010\", \"voucher_id\":\"9001\"}'",
+  "category": "Pembayaran Tagihan"
+}

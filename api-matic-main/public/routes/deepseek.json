@@ -1,0 +1,26 @@
+{
+  "title": "DeepSeek AI",
+  "description": "Generates responses from the DeepSeek Chat LLM using a prompt and an optional session parameter.",
+  "method": "POST",
+  "path": "/api/deepseek",
+  "response": {
+    "response": "This is the answer from the model.",
+    "session": "cltxy5m1d0001mr0f45fovk0z"
+  },
+  "curl": "curl -X POST \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/deepseek' \\\n  -d '{\"prompt\": \"What is DeepSeek AI?\", \"session\": \"cltxy5m1d0001mr0f45fovk0z\"}'",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "prompt",
+      "label": "Prompt",
+      "placeholder": "Enter prompt..."
+    },
+    {
+      "type": "text",
+      "name": "session",
+      "label": "Session (Optional)",
+      "placeholder": "Session ID"
+    }
+  ],
+  "category": "Artificial Intelligence"
+}

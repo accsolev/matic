@@ -1,0 +1,15 @@
+{
+  "name": "get-maximcustomer-products",
+  "title": "Get Maxim Customer Products",
+  "description": "Mengambil daftar produk Top Up saldo Maxim Customer.",
+  "method": "POST",
+  "path": "/api/get-maximcustomer-products",
+  "hidden": true,
+  "parameters": [
+    { "type": "text", "name": "auth_token", "label": "Auth Token" },
+    { "type": "text", "name": "auth_username", "label": "Auth Username" }
+  ],
+  "response": { "success": true, "vouchers": { "results": [] } },
+  "curl": "curl -X POST https://bovalone.me/api/get-maximcustomer-products \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\"}'",
+  "category": "OrderKuota [ Digital Order ]"
+}

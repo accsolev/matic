@@ -1,0 +1,8 @@
+[
+  "www", "mail", "blog", "dev", "api", "test", "admin", "beta", "shop", "app",
+  "cdn", "static", "ftp", "webmail", "ns1", "ns2", "m", "portal", "community",
+  "forum", "status", "support", "dashboard", "members", "secure", "proxy", "vpn",
+  "cloud", "data", "images", "videos", "files", "docs", "help", "info", "news",
+  "partners", "clients", "internal", "external", "uat", "staging", "prod", "preprod",
+  "qa", "demo", "old", "new", "assets", "downloads", "api-dev", "api-test", "api-prod"
+]

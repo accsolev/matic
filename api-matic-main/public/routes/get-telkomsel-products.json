@@ -1,0 +1,14 @@
+{
+  "name": "get-telkomsel-products",
+  "title": "Get Telkomsel Products",
+  "description": "Mengambil semua jenis produk paket data Telkomsel.",
+  "method": "POST",
+  "path": "/api/get-telkomsel-products",
+  "hidden": true,
+  "parameters": [
+    { "type": "text", "name": "auth_token" },
+    { "type": "text", "name": "auth_username" }
+  ],
+  "response": { "success": true, "vouchers": { "results": [] } },
+  "category": "Order Kuota"
+}

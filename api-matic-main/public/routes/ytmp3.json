@@ -1,0 +1,25 @@
+{
+  "name": "ytmp3",
+  "title": "YouTube Audio (MP3)",
+  "category": "Downloader",
+  "method": "POST",
+  "path": "/api/ytmp3",
+  "description": "Mengunduh audio dari video YouTube dan mengkonversikannya ke format MP3. Ideal untuk mengunduh lagu atau podcast.",
+  "parameters": [
+    {
+      "name": "url",
+      "label": "YouTube URL",
+      "type": "text",
+      "placeholder": "Masukkan URL video YouTube...",
+      "required": true
+    }
+  ],
+  "curl": "curl -X POST \\\n  https://bovalone.me/api/ytmp3 \\\n  -H 'Content-Type: application/json' \\\n  -H 'Authorization: Bearer YOUR_API_KEY' \\\n  -d '{ \"url\": \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\" }' \\\n  -o music.mp3",
+  "response": {
+    "success": true,
+    "message": "File MP3 siap diunduh.",
+    "detail": "Respons adalah unduhan file langsung."
+  },
+  "notes": "Ukuran file MP3 bisa bervariasi tergantung durasi video. Pastikan koneksi internet Anda stabil.",
+  "hidden": true
+}

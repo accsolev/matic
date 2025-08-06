@@ -1,0 +1,51 @@
+{
+  "name": "order-byu",
+  "title": "Paket Data by.U",
+  "description": "Melakukan pemesanan paket data by.U ke nomor tujuan.",
+  "method": "POST",
+  "path": "/api/order-byu",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-byu-products",
+    "group_by_static": "Paket by.U",
+    "sort_by": "price"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "Nomor by.U Tujuan",
+      "placeholder": "Nomor HP yang akan diisi paket data byu"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Voucher ID",
+      "placeholder": "Pilih produk paket data by.U"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": true,
+    "results": {
+      "id": 112233445,
+      "no_hp": "081234567890",
+      "harga_str": "Rp 15.000",
+      "status": "Dalam Proses"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-byu \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"...\", \"voucher_id\":\"...\"}'",
+  "category": "Order Kuota"
+}

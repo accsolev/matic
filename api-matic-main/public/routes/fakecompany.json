@@ -1,0 +1,28 @@
+{
+  "title": "Company Profiles",
+  "description": "Generates realistic fake company profiles including name, address, industry, size, revenue, and contact info. Useful for demos, mockups, and testing.",
+  "method": "GET",
+  "path": "/api/fakecompany",
+  "request_params": {},
+  "example_request_url": "/api/fakecompany",
+  "response": {
+    "id": "comp-3292",
+    "name": "Velitronic Solutions Inc.",
+    "industry": "Information Technology",
+    "employees": 327,
+    "revenue": "$74.3M",
+    "email": "info@velitronic.com",
+    "phone": "+1-541-733-9119",
+    "website": "https://www.velitronic.com",
+    "address": {
+      "street": "4217 Innovation Drive",
+      "city": "San Mateo",
+      "state": "California",
+      "country": "United States",
+      "zip": "94401"
+    }
+  },
+  "curl": "curl -X GET \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/fakecompany'",
+  "parameters": [],
+  "category": "Miscellaneous"
+}

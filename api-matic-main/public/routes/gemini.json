@@ -1,0 +1,33 @@
+{
+  "title": "Google Gemini AI",
+  "description": "Endpoint Google Gemini AI untuk percakapan dan analisis multimodal (teks dan/atau gambar).",
+  "method": "POST",
+  "path": "/api/gemini",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "prompt",
+      "label": "Prompt",
+      "placeholder": "Enter prompt..."
+    },
+    {
+      "type": "file",
+      "name": "image",
+      "label": "Image (Optional)",
+      "placeholder": ""
+    },
+    {
+      "type": "text",
+      "name": "session",
+      "label": "Session (Optional)",
+      "placeholder": "Session ID"
+    }
+  ],
+  "response": {
+    "success": true,
+    "response": "Ini adalah contoh balasan teks dari Gemini AI...",
+    "session": "id_sesi_yang_dihasilkan_atau_diteruskan"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/gemini \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -F \"prompt=Jelaskan gambar ini.\" \\\n  -F \"image=@/path/to/your/image.jpg\"",
+  "category": "Artificial Intelligence"
+}

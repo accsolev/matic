@@ -1,0 +1,60 @@
+{
+  "title": "Create QRIS",
+  "description": "Generates a new QRIS payment QR code. Valid for 5 minutes.",
+  "method": "POST",
+  "path": "/api/orderkuota-qris",
+  "parameters": [
+    {
+      "name": "storeName",
+      "label": "Your Store Name",
+      "type": "text",
+      "placeholder": "e.g., My User's Shop",
+      "required": true
+    },
+    {
+      "name": "merchantId",
+      "label": "Your Merchant ID",
+      "type": "text",
+      "placeholder": "e.g., ID2025..",
+      "required": true
+    },
+    {
+      "name": "baseQrString",
+      "label": "Your Base QR String",
+      "type": "text",
+      "placeholder": "e.g., 000201010212...",
+      "required": true
+    },
+    {
+      "name": "amount",
+      "label": "Payment Amount (IDR)",
+      "type": "number",
+      "placeholder": "e.g., 15000",
+      "required": true
+    }
+  ],
+  "response": {
+    "success": true,
+    "message": "Payment successful.",
+    "data": {
+      "reference": "REF1701234567890",
+      "amount": 15000,
+      "transactionId": "TRX1234567890",
+      "qr_image_data_url": "data:image/png;base64,iVBORw0KGgoAAA...",
+      "status": "PAID",
+      "paymentDetails": {
+        "paymentTime": "2025-06-14T12:00:00Z",
+        "processor": "NABU",
+        "additionalInfo": "..."
+      },
+      "receipt_data_url": "data:image/png;base64,iVBORw0KGgoAAA...",
+      "storeNameUsed": "User Store",
+      "merchantIdUsed": "USER_MERCHANT_ID",
+      "baseQrStringUsed": "USER_BASE_QR_STRING"
+    },
+    "error": null
+  },
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-qris \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -d '{\"storeName\": \"YOUR_STORE_NAME\", \"merchantId\": \"YOUR_MERCHANT_ID\", \"baseQrString\": \"YOUR_BASE_QR_STRING\", \"amount\": 15000}'",
+  "category": "Order Kuota",
+  "hidden": true
+}

@@ -1,0 +1,69 @@
+{
+  "name": "orderkuota-check-qris-ajaib-status",
+  "title": "Cek Status & Riwayat QRIS Ajaib",
+  "description": "Mengambil riwayat transaksi QRIS Ajaib. Endpoint ini bisa digunakan untuk memeriksa status satu transaksi spesifik atau untuk melihat seluruh riwayat dengan filter. (non verif qris)",
+  "method": "POST",
+  "path": "/api/orderkuota-check-qris-ajaib-status",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "username",
+      "label": "Username (dari login)",
+      "placeholder": "Username Anda"
+    },
+    {
+      "type": "text",
+      "name": "authToken",
+      "label": "Auth Token (dari login)",
+      "placeholder": "Token Anda"
+    },
+    {
+      "type": "text",
+      "name": "trxid",
+      "label": "Cari berdasarkan ID Transaksi (opsional)",
+      "placeholder": "Contoh: 3110350"
+    },
+    {
+      "type": "number",
+      "name": "page",
+      "label": "Halaman (opsional)",
+      "placeholder": "Default: 1"
+    },
+    {
+      "type": "text",
+      "name": "dari_tanggal",
+      "label": "Dari Tanggal (opsional)",
+      "placeholder": "YYYY-MM-DD"
+    },
+    {
+      "type": "text",
+      "name": "ke_tanggal",
+      "label": "Ke Tanggal (opsional)",
+      "placeholder": "YYYY-MM-DD"
+    },
+    {
+      "type": "number",
+      "name": "jumlah",
+      "label": "Jumlah Nominal (opsional)",
+      "placeholder": "Contoh: 1000"
+    }
+  ],
+  "response": {
+    "success": true,
+    "qris_ajaib_history": {
+      "success": true,
+      "results": [
+        {
+          "id": "3110350",
+          "amount": 1000,
+          "status": "SUCCESS",
+          "keterangan": "PEMBAYARAN QRIS",
+          "created_at": "2025-06-19 04:00:00"
+        }
+      ]
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/orderkuota-check-qris-ajaib-status \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"username\":\"your_username\",\"authToken\":\"YOUR_SESSION_TOKEN_FROM_LOGIN\",\"trxid\":\"3110350\"}'",
+  "category": "Order Kuota",
+  "hidden": true
+}

@@ -1,0 +1,51 @@
+{
+  "name": "check-rom",
+  "title": "Ragnarok M Eternal Love",
+  "description": "Memeriksa nama/nickname pemain Ragnarok M berdasarkan ID dan Server.",
+  "method": "POST",
+  "path": "/api/check-rom",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "user_id",
+      "label": "User ID",
+      "placeholder": "Masukkan User ID Ragnarok M"
+    },
+    {
+      "type": "select",
+      "name": "additional_id",
+      "label": "Pilih Server",
+      "options": [
+        {
+          "value": "Eternal Love",
+          "text": "Eternal Love"
+        },
+        {
+          "value": "Midnight Party",
+          "text": "Midnight Party"
+        },
+        {
+          "value": "Memory Of Faith",
+          "text": "Memory Of Faith"
+        },
+        {
+          "value": "Valhalla Glory",
+          "text": "Valhalla Glory"
+        },
+        {
+          "value": "Port City",
+          "text": "Port City"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "success": true,
+    "data": {
+      "username": "NAMA_PEMAIN_ROM"
+    },
+    "message": "success"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-rom \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"user_id\":\"12345678\", \"additional_id\":\"Eternal Love\"}'",
+  "category": "Gaming"
+}

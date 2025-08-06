@@ -1,0 +1,77 @@
+const axios = require('axios');
+
+class OrderKuotaToken {
+    static API_HOST = 'app.orderkuota.com';
+    static USER_AGENT = 'okhttp/4.12.0';
+
+    async getTokenProducts(authToken, authUsername) {
+        const url = `https://` + OrderKuotaToken.API_HOST + `/api/v2/get`;
+        const bodyPayload = new URLSearchParams({
+            'app_reg_id': 'fR1V5tOkS729uGKf5CwnEX:APA91bGZonDueIesJj2EleKqqtlpTqXGj20YHHftevWl4-6aE04yGfKZCyqfcvyqxLoLsC4RV9qhcO3ZCL7VeovaWSF_QS25ao0SPU-C3BCO0t_MPLfBl7Y',
+            'phone_android_version': '14',
+            'app_version_code': '250327',
+            'phone_uuid': 'fR1V5tOkS729uGKf5CwnEX',
+            'auth_username': authUsername,
+            'requests[vouchers][product]': 'token_pln',
+            'auth_token': authToken,
+            'app_version_name': '25.03.27',
+            'ui_mode': 'dark',
+            'requests[0]': 'balance',
+            'phone_model': 'SM-G935F'
+        }).toString();
+        const headers = {
+            'Host': OrderKuotaToken.API_HOST,
+            'User-Agent': OrderKuotaToken.USER_AGENT,
+            'Content-Type': 'application/x-www-form-urlencoded'
+        };
+        try {
+            const response = await axios.post(url, bodyPayload, { headers });
+            if (response.data) {
+                return { success: true, ...response.data };
+            }
+            return { success: false, message: 'No data found in response.' };
+        } catch (error) {
+            const errorMessage = error.response ? JSON.stringify(error.response.data) : error.message;
+            throw new Error(`Failed to get token products: ${errorMessage}`);
+        }
+    }
+
+    async orderToken(authToken, authUsername, voucherId, targetCustomerId) {
+        const url = `https://` + OrderKuotaToken.API_HOST + `/api/v2/order`;
+
+        const bodyPayload = new URLSearchParams({
+            'quantity': '1',
+            'app_reg_id': 'fR1V5tOkS729uGKf5CwnEX:APA91bGZonDueIesJj2EleKqqtlpTqXGj20YHHftevWl4-6aE04yGfKZCyqfcvyqxLoLsC4RV9qhcO3ZCL7VeovaWSF_QS25ao0SPU-C3BCO0t_MPLfBl7Y',
+            'phone_uuid': 'fR1V5tOkS729uGKf5CwnEX',
+            'id_plgn': targetCustomerId,
+            'phone_model': 'SM-G935F',
+            'kode_promo': '',
+            'phone_android_version': '14',
+            'pin': '',
+            'app_version_code': '250327',
+            'phone': '',
+            'auth_username': authUsername,
+            'voucher_id': voucherId,
+            'payment': 'balance',
+            'auth_token': authToken,
+            'app_version_name': '25.03.27',
+            'ui_mode': 'dark'
+        }).toString();
+
+        const headers = {
+            'Host': OrderKuotaToken.API_HOST,
+            'User-Agent': OrderKuotaToken.USER_AGENT,
+            'Content-Type': 'application/x-www-form-urlencoded'
+        };
+
+        try {
+            const response = await axios.post(url, bodyPayload, { headers });
+            return response.data;
+        } catch (error) {
+            const errorMessage = error.response ? JSON.stringify(error.response.data) : error.message;
+            throw new Error(`Failed to place token order: ${errorMessage}`);
+        }
+    }
+}
+
+module.exports = { OrderKuotaToken };

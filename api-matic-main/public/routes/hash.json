@@ -1,0 +1,35 @@
+{
+  "title": "Hash Generator",
+  "description": "Menghitung nilai hash (MD5, SHA1, SHA256, SHA512, dll.) untuk data yang diberikan. Mendukung berbagai algoritma hashing yang tersedia di Node.js.",
+  "method": "POST",
+  "path": "/api/hash",
+  "parameters": [
+    {
+      "type": "textarea",
+      "name": "data",
+      "label": "Data",
+      "placeholder": "Text to hash"
+    },
+    {
+      "type": "text",
+      "name": "algorithm",
+      "label": "Algorithm",
+      "placeholder": "sha256"
+    },
+    {
+      "type": "text",
+      "name": "encoding",
+      "label": "Encoding",
+      "placeholder": "hex"
+    }
+  ],
+  "response": {
+    "success": true,
+    "originalData": "Hello World",
+    "algorithm": "sha256",
+    "hash": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b2779679204017",
+    "encoding": "hex"
+  },
+  "curl": "curl -X POST \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\" \\\n  'https://bovalone.me/api/hash' \\\n  -d '{\"data\":\"Hello World\",\"algorithm\":\"sha256\",\"encoding\":\"hex\"}'",
+  "category": "Tools"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "get-pulsa-products",
+  "title": "Get Pulsa Product List",
+  "description": "Mengambil daftar semua produk pulsa yang tersedia untuk diorder.",
+  "method": "POST",
+  "path": "/api/get-pulsa-products",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    }
+  ],
+  "response": {
+    "success": true,
+    "balance": {
+      "balance": 100000,
+      "balance_str": "Rp 100.000"
+    },
+    "vouchers": {
+      "results": [
+        {
+          "id": 3007,
+          "nama_voucher": "TELKOMSEL Rp.5000",
+          "harga_jual": 5650,
+          "harga_jual_str": "Rp 5.650",
+          "status": "Tersedia"
+        }
+      ]
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/get-pulsa-products \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"USER_TOKEN\", \"auth_username\":\"USER_USERNAME\"}'",
+  "category": "Order Kuota",
+  "hidden": true
+}

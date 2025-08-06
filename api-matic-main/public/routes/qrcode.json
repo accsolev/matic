@@ -1,0 +1,21 @@
+{
+  "title": "QR Code Gen",
+  "description": "Menghasilkan QR Code (base64-encoded) dari teks atau URL yang diberikan.",
+  "method": "GET",
+  "path": "/api/qrcode",
+  "response": {
+    "success": true,
+    "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...",
+    "message": "QR Code berhasil dibuat."
+  },
+  "curl": "curl -X GET \"https://bovalone.me/api/qrcode?url=https%3A%2F%2Fmatic.eu.org\" -H \"Authorization: Bearer YOUR_API_KEY\"",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "url",
+      "label": "URL / Text",
+      "placeholder": "https://example.com"
+    }
+  ],
+  "category": "QRIS & QRCODE"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "order-tokenpln",
+  "title": "PasarKuota Token PLN",
+  "description": "Melakukan pembelian token listrik PLN melalui PasarKuota.",
+  "method": "POST",
+  "path": "/api/order-tokenpln",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-tokenpln-products",
+    "group_by_static": "Token PLN",
+    "sort_by": "price"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API PasarKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API PasarKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "ID Pelanggan / No. Meter",
+      "placeholder": "Contoh: 51234567890"
+    },
+    {
+      "type": "text",
+      "name": "registered_phone",
+      "label": "Nomor HP Terdaftar",
+      "placeholder": "No. HP yang terdaftar di akun PasarKuota Anda"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Nominal Token"
+    }
+  ],
+  "response": {
+    "success": true,
+    "results": {
+      "id": 1234567
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-tokenpln \\\n  -H \"Authorization: Bearer {API_KEY}\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"voucher_id\":\"...\", \"target_number\":\"51234567890\", \"registered_phone\":\"0812...\"}'",
+  "category": "Pasar Kuota"
+}

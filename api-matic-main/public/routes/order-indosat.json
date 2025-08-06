@@ -1,0 +1,52 @@
+{
+  "name": "order-indosat",
+  "title": "Paket Data Indosat",
+  "description": "Melakukan pemesanan paket data Indosat ke nomor tujuan.",
+  "method": "POST",
+  "path": "/api/order-indosat",
+  "has_product_dropdown": true,
+  "product_options": {
+    "get_products_endpoint": "/api/get-indosat-products",
+    "group_by": "provider.name",
+    "sort_by": "price"
+  },
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari API OrderKuota"
+    },
+    {
+      "type": "text",
+      "name": "target_number",
+      "label": "Nomor Indosat Tujuan",
+      "placeholder": "085712345678"
+    },
+    {
+      "type": "select",
+      "name": "voucher_id",
+      "label": "Pilih Paket Data Indosat"
+    }
+  ],
+  "response": {
+    "success": true,
+    "status": "Sukses",
+    "message": "Order sedang diproses.",
+    "transaction_details": {
+      "transaction_id": 33445566,
+      "target_number": "085712345678",
+      "product_name": "INDOSAT DATA 10GB",
+      "price": "Rp 50.000",
+      "date": "03/07/2025 02:50"
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/order-indosat \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"...\", \"auth_username\":\"...\", \"target_number\":\"085712345678\", \"voucher_id\":\"...\"}'",
+  "category": "Order Kuota"
+}

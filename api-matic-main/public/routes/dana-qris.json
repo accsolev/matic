@@ -1,0 +1,54 @@
+{
+  "title": "Dana QRIS Dinamis",
+  "description": "Generates a Dana QRIS Merchant payment QR code instantly, valid for 5 minutes.",
+  "method": "POST",
+  "path": "/api/dana-qris",
+  "parameters": [
+    {
+      "name": "storeName",
+      "label": "Name Store Dana Merchant",
+      "type": "text",
+      "placeholder": "e.g., My Dana Shop",
+      "required": true
+    },
+    {
+      "name": "merchantId",
+      "label": "Your Dana Merchant ID",
+      "type": "text",
+      "placeholder": "e.g., ID1025..",
+      "required": true
+    },
+    {
+      "name": "baseQrString",
+      "label": "Your Dana Base QR String",
+      "type": "text",
+      "placeholder": "e.g., 000201010212...",
+      "required": true
+    },
+    {
+      "name": "amount",
+      "label": "Payment Amount (IDR)",
+      "type": "number",
+      "placeholder": "e.g., 25000",
+      "required": true
+    }
+  ],
+  "response": {
+    "success": true,
+    "message": "Dana payment QR generated successfully.",
+    "data": {
+      "reference": "DANA-1701234567890",
+      "amount": 25000,
+      "transactionId": "DANA-TRX-1701234567890",
+      "qr_image_data_url": "data:image/png;base64,iVBORw0KGgoAAA...",
+      "status": "PENDING",
+      "storeNameUsed": "My Dana Shop",
+      "merchantIdUsed": "DANA-MERCHANT-ID",
+      "baseQrStringUsed": "DANA_QR_STATIC_STRING_HERE"
+    },
+    "error": null
+  },
+  "curl": "curl -X POST \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  'https://bovalone.me/api/dana-qris' \\\n  -d '{\"storeName\": \"Dana User Store\", \"merchantId\": \"DANA_MERCHANT_ID\", \"baseQrString\": \"DANA_BASE_QR_STRING\", \"amount\": 25000}'",
+  "category": "QRIS & QRCODE",
+  "hidden": false
+}

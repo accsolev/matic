@@ -1,0 +1,30 @@
+{
+  "name": "get-orderkuota-key",
+  "title": "Get MerchantId",
+  "description": "Mendapatkan 'merchantId' untuk mengakses API Kasir QRIS. Membutuhkan token login dari API OrderKuota utama.",
+  "method": "POST",
+  "path": "/api/orderkuota-qr-mutasi-key",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "auth_token",
+      "label": "Auth Token",
+      "placeholder": "Token dari endpoint /verify_otp"
+    },
+    {
+      "type": "text",
+      "name": "auth_username",
+      "label": "Auth Username",
+      "placeholder": "Username dari endpoint /verify_otp"
+    }
+  ],
+  "response": {
+    "success": true,
+    "merchantId": "OK2476800",
+    "key": "4655349e60e6b26645ce11477a12291e",
+    "redirectUrl": "https://kasir.orderkuota.com/qris/?id=OK2476730&key=4655349e60e6b26645ce11477a12291e"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/get-orderkuota-key \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"auth_token\":\"USER_TOKEN\", \"auth_username\":\"USER_USERNAME\"}'",
+  "category": "Order Kuota",
+  "hidden": false
+}

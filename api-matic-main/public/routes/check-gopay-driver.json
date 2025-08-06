@@ -1,0 +1,23 @@
+{
+  "name": "check-gopay-driver",
+  "title": "Check Name GoPay Driver",
+  "description": "Memeriksa dan mengambil nama pemilik akun GoPay Driver berdasarkan nomor telepon.",
+  "method": "POST",
+  "path": "/api/check-gopay-driver",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "phone_number",
+      "label": "Nomor Telepon GoPay Driver",
+      "placeholder": "Contoh: 081234567890"
+    }
+  ],
+  "response": {
+    "name": "NAMA PEMILIK GOPAY DRIVER",
+    "id": "gopay_driver",
+    "customerId": "081234567890"
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-gopay-driver \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"phone_number\":\"081234567890\"}'",
+  "category": "E-Wallet",
+  "hidden": true
+}

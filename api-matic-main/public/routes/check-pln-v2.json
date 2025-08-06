@@ -1,0 +1,35 @@
+{
+  "name": "check-pln-v2",
+  "title": "Cek Tagihan PLN (v2)",
+  "description": "Memeriksa detail tagihan listrik PLN Pascabayar melalui API.",
+  "method": "POST",
+  "path": "/api/check-pln-v2",
+  "parameters": [
+    {
+      "type": "text",
+      "name": "customer_id",
+      "label": "ID Pelanggan PLN",
+      "placeholder": "Contoh: 538730226774"
+    }
+  ],
+  "response": {
+    "success": true,
+    "rc": "00",
+    "rc_message": "SUCCESS",
+    "data": {
+      "subscriber_id": "538730226774",
+      "name": "NAMA PELANGGAN",
+      "bill_ref": "...",
+      "bill_details": [
+        {
+          "period": "JUN25",
+          "amount": "69311",
+          "misc_amount": "0"
+        }
+      ]
+    }
+  },
+  "curl": "curl -X POST https://bovalone.me/api/check-pln-v2 \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"customer_id\":\"538730226774\"}'",
+  "category": "Tagihan",
+  "hidden": true
+}

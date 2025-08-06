@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Fake Data",
+    "testUrl": "https://bovalone.me/api/randomuser",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Gemini",
+    "testUrl": "https://bovalone.me/api/gemini",
+    "type": "POST_JSON",
+    "requestBody": "{\"prompt\": \"Hello world\"}",
+    "hidden": false
+  },
+  {
+    "name": "DeepSeek",
+    "testUrl": "https://bovalone.me/api/deepseek",
+    "type": "POST_JSON",
+    "requestBody": "{\"prompt\": \"Test query\"}",
+    "hidden": false
+  },
+  {
+    "name": "LLaMA",
+    "testUrl": "/api/llama",
+    "type": "POST_JSON",
+    "requestBody": "{\"prompt\": \"Generate response\"}",
+    "hidden": false
+  },
+  {
+    "name": "Microsoft",
+    "testUrl": "/api/microsoft",
+    "type": "POST_JSON",
+    "requestBody": "{\"input\": \"sample text\"}",
+    "hidden": false
+  },
+  {
+    "name": "NVIDIA",
+    "testUrl": "/api/nvidia",
+    "type": "POST_JSON",
+    "requestBody": "{\"prompt\": \"simple request\"}",
+    "hidden": false
+  },
+  {
+    "name": "QRCode",
+    "testUrl": "/api/qrcode?url=https://bovalone.me",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "DocParser",
+    "testUrl": "/api/docparser",
+    "type": "POST_FORM_DATA",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Embed",
+    "testUrl": "/api/embed?url=https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": true
+  },
+  {
+    "name": "Whois",
+    "testUrl": "/api/whois?url=https://google.com",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Shorten",
+    "testUrl": "/api/shorten?url=https://example.com/a-very-long-url",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "IP Locator",
+    "testUrl": "/api/iplocator?ip=8.8.8.8",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "SSL",
+    "testUrl": "/api/ssl?host=google.com",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Metadata",
+    "testUrl": "/api/metadata",
+    "type": "POST_FORM_DATA",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "DNS",
+    "testUrl": "/api/dns?domain=google.com",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Translate",
+    "testUrl": "/api/translate",
+    "type": "POST_JSON",
+    "requestBody": "{\"text\": \"Hello\", \"sourceLang\": \"en\", \"targetLang\": \"id\"}",
+    "hidden": false
+  },
+  {
+    "name": "Currency",
+    "testUrl": "/api/currency?amount=1&from=USD&to=IDR",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "ASCII Art",
+    "testUrl": "/api/asciiart?text=test&font=Standard",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Hash",
+    "testUrl": "/api/hash",
+    "type": "POST_JSON",
+    "requestBody": "{\"data\": \"test_string_to_hash\", \"algorithm\": \"sha256\"}",
+    "hidden": false
+  },
+  {
+    "name": "Leet",
+    "testUrl": "/api/leet",
+    "type": "POST_JSON",
+    "requestBody": "{\"text\": \"Test Leet conversion\"}",
+    "hidden": false
+  },
+  {
+    "name": "OrderKuota - Login",
+    "testUrl": "https://bovalone.me/api/orderkuota-login",
+    "type": "POST_JSON",
+    "requestBody": "{\"action\":\"request_otp\",\"username\":\"bovalone\",\"password\":\"02193272981k\",\"otp\":\"Optional: Only fill during verification\"}",
+    "hidden": false
+  },
+  {
+    "name": "OrderKuota - Info",
+    "testUrl": "https://bovalone.me/api/orderkuota-info",
+    "type": "POST_JSON",
+    "requestBody": "{\"username\":\"bovalone\",\"authToken\":\"2487026:KoqFJSXGt4cO8xe7CNmEwuMAzTaWUPZv\"}",
+    "hidden": false
+  },
+  {
+    "name": "OrderKuota - History",
+    "testUrl": "https://bovalone.me/api/orderkuota-history",
+    "type": "POST_JSON",
+    "requestBody": "{\"username\":\"bovalone\",\"authToken\":\"2487026:KoqFJSXGt4cO8xe7CNmEwuMAzTaWUPZv\"}",
+    "hidden": false
+  },
+  {
+    "name": "Fake Company",
+    "testUrl": "https://bovalone.me/api/fakecompany",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Fake VCC",
+    "testUrl": "https://bovalone.me/api/fakevcc",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Fake Document",
+    "testUrl": "https://bovalone.me/api/fakegovdoc",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Fake Laws",
+    "testUrl": "https://bovalone.me/api/fakelaw",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Fake Data V2",
+    "testUrl": "https://bovalone.me/api/randomuserv2",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  },
+  {
+    "name": "Dana Bisnis - QRIS",
+    "testUrl": "https://bovalone.me/api/dana-qris",
+    "type": "POST_JSON",
+    "requestBody": "{\"storeName\": \"BOVALONE STORE\", \"merchantId\": \"ID1025403604206\", \"baseQrString\": \"00020101021126610014COM.GO-JEK.WWW01189360091436123602490210G6123602490303UMI51440014ID.CO.QRIS.WWW0215ID10254036042060303UMI5204594553033605802ID5914BOVALONE STORE6005BOGOR61051611062070703A016304B1E8\", \"amount\": 25000}",
+    "hidden": false
+  },
+  {
+    "name": "GoPay Merchant - QRIS",
+    "testUrl": "https://bovalone.me/api/gopay-qris",
+    "type": "POST_JSON",
+    "requestBody": "{\"storeName\": \"BOVALONE STORE\", \"merchantId\": \"ID1025403604206\", \"baseQrString\": \"00020101021126610014COM.GO-JEK.WWW01189360091436123602490210G6123602490303UMI51440014ID.CO.QRIS.WWW0215ID10254036042060303UMI5204594553033605802ID5914BOVALONE STORE6005BOGOR61051611062070703A016304B1E8\", \"amount\": 25000}",
+    "hidden": false
+  },
+  {
+    "name": "PayMobileku - QRIS",
+    "testUrl": "https://bovalone.me/api/paymobile-qris",
+    "type": "POST_JSON",
+    "requestBody": "{\"storeName\": \"BOVALONE STORE\", \"merchantId\": \"ID1025403604206\", \"baseQrString\": \"00020101021126610014COM.GO-JEK.WWW01189360091436123602490210G6123602490303UMI51440014ID.CO.QRIS.WWW0215ID10254036042060303UMI5204594553033605802ID5914BOVALONE STORE6005BOGOR61051611062070703A016304B1E8\", \"amount\": 25000}",
+    "hidden": false
+  },
+  {
+    "name": "QR Code to String",
+    "testUrl": "https://bovalone.me/api/qrcode-to-string",
+    "type": "POST_FORM_DATA",
+    "requestBody": "{qrImage=data:image/png;base64,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}",
+    "hidden": true
+  },
+  {
+    "name": "Subdomain Finder",
+    "testUrl": "https://bovalone.me/api/subdomainfinder?domain=matic.eu.org",
+    "type": "GET",
+    "requestBody": "",
+    "hidden": false
+  }
+]
