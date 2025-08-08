@@ -1,0 +1,254 @@
+.chat-border{
+	border-right:1px solid rgba(136,136,136,0.2);
+}
+.chat-p{
+	display:flex;
+	justify-content:space-between;
+	padding: 1.25rem;	
+	
+	h6{
+		font-size:14px;
+		a{
+			color:black;
+		}
+	}
+	span{
+		font-size:12px;
+		white-space: nowrap;
+	}
+	&.shaprate{
+		border-bottom:1px solid rgba(136,136,136,0.2);
+	}
+	&.style-1{
+		padding-bottom: 0;
+		.active{
+			position: relative;
+			&:after{
+				content:"";
+				position:absolute;
+				height:10px;
+				width:10px;
+				background:$success;
+				bottom: 6px;
+                left: 40px;
+				border-radius:50%;
+				border:2px solid $white;
+				@include respond ('phone'){
+					left: 35px;
+				} 
+				
+			}
+			
+		}
+	}
+	.icon-box{
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+	}
+	@include respond ('phone'){
+		img{
+			width: 40px;
+			height: 40px;
+		}
+	}
+	
+}
+.c-list{
+	padding: 1.25rem;	
+	.search-area{
+		background-color:transparent!important;
+		.form-control{
+			background:$body-bg;
+			border-color:$body-bg;
+			
+		}	
+		.input-group-text{
+			background:$body-bg;
+			border-color:$body-bg;
+		}
+	}
+}
+.people-list{
+	height:calc(100vh - 380px);
+	margin-bottom: 25px;
+}
+.chat-height{
+	min-height:1000px!important;
+}
+.chat-admin{
+	height: 0;
+	.sharp{
+		line-height: 1.5;
+	}
+	.icon-box{
+		height: 40px;
+		width: 40px;
+		line-height:40px;
+		svg{
+			width:15px;
+		}
+	}
+	@include respond ('phone'){
+		.icon-box{
+			height: 2rem;
+            width: 2rem;
+			border-radius:5px;
+			line-height: 1.9rem;
+			svg{
+				width: 14px;
+				line-height: 1.8rem;
+			}
+		}
+		.sharp{
+			height: 2rem;
+            min-width: 2rem;
+			min-height: 2rem;
+			padding: 0.2375rem;
+			border-radius: 5px;
+		}
+	}
+}
+.chat-box-area{
+	&.style-2{
+		padding:1.25rem;
+		height:calc(100vh - 380px);
+		margin-top: 20px;
+		@include respond ('phone'){
+			height:calc(100vh - 230px);
+		}
+	}
+}
+.type-massage .form-control{
+	border: 0;
+    resize: none;
+    overflow: hidden;
+    background: #F3F0EC;
+    line-height: 1.6;
+    padding: 8px;
+	&:hover{
+		background: #F3F0EC;
+	}
+}
+.message-send{
+	&.style-2{
+		margin:1.25rem;
+		
+	}
+	background: #F3F0EC;
+    padding: 7px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.625rem;
+}
+.chat-meadia{
+	padding:1.25rem;
+	@include respond ('tab-land'){
+		width: 50%;
+		float: left;
+	}
+	@include respond ('phone'){
+		width: 100%;
+	}
+}
+.image-list{
+	margin-top:10px;
+	img{
+		height: 60px;
+		width: 60px;
+		object-fit:cover;
+		border-radius: 6px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+}
+.file-list{
+	height:460px;
+	h5{
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	.filie-l-icon{
+		margin-top:10px;
+		padding: 10px;
+		cursor: pointer;
+		border-radius:6px;
+		max-width:164px;
+		@include respond ('tab-land'){
+			max-width:100%;
+		}
+		&:hover{
+			background:var(--rgba-primary-1);
+		}
+		img{
+			width:46px;
+			height:45px;
+		}
+	}
+	@include respond ('laptop'){
+		height: 300px;
+	}
+}
+@include respond ('phone'){
+	.chat-left-area{
+		width: 22rem;
+		position: absolute;
+		z-index: 2;
+		transition: all 0.2s;
+		left: -22rem;
+		&.active{
+			left:0;
+			background: white;
+		}
+	}
+}
+
+.chat-toggle{
+	display:none!important;
+	@include respond ('phone'){
+		display:inline-block!important;
+	}
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -50vw;
+		width: 100vw;
+		height: 100vh;
+		z-index: -1;
+	}
+	&.active{
+		&:before{
+			z-index: 1;
+		}
+	}
+	i{
+		transform: scale(1.2)!important;
+	}
+}
+
+.chat-box-area .message-sent p{
+	background: #f3f0ec;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0px 10px;
+    color:#898989;
+    text-align: right;
+    font-size: 13px;
+}
+.chat-box-area .message-received p{
+	background: #E8F2FF;
+    padding: 10px 15px;
+    border-radius: 0px 10px 10px 10px;
+    color: var(--primary);
+    font-size: 13px;
+}
+.message-received{
+	@include respond ('phone'){
+		img{
+			width: 40px;
+			height: 40px;
+		}
+	}
+}

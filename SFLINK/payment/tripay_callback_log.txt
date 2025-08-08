@@ -1,0 +1,49 @@
+null
+null
+null
+{
+    "reference": "T39858233782414GWLE",
+    "merchant_ref": "INV1746417029",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 10000,
+    "fee_merchant": 820,
+    "fee_customer": 0,
+    "total_fee": 820,
+    "amount_received": 9180,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823378301VQKWD",
+    "merchant_ref": "INV1746417145",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 10000,
+    "fee_merchant": 820,
+    "fee_customer": 0,
+    "total_fee": 820,
+    "amount_received": 9180,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823378305LQIYK",
+    "merchant_ref": "INV1746417147",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 10000,
+    "fee_merchant": 820,
+    "fee_customer": 0,
+    "total_fee": 820,
+    "amount_received": 9180,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+null

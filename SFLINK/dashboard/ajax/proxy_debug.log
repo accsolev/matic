@@ -1,0 +1,4279 @@
+
+
+=== GET PROXY LIST ===
+{"request_time":1751255252,"request_token":"27a47797aedc0deeccb9fed3274bf9e3","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "qwewqe", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qwewqe
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751255254,"request_token":"98b686a261318e9f6eb27c8b583f3e0b","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "qwewqe", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qwewqe
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751255727,"request_token":"0a8a488a9f69f278524615dec10ba424","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "qwewqe", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qwewqe
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qwewqe
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751255728,"request_token":"42c28a0f50e8ed5f4cba5ec0243b0082","sitename":"bah.lol","proxyname":"qwewqe"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751255759,"request_token":"d1be87e920f1c517b8cd153e1ad433ba","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "wqqeqt2", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqqeqt2
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqqeqt2
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751255760,"request_token":"7174fe8bcc54537bf60f84c8e9b2bfa7","sitename":"bah.lol","proxyname":"wqqeqt2"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751255800,"request_token":"b286a1bcf1c097853c7a57603f751fba","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "tqtrq", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => tqtrq
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => tqtrq
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751255801,"request_token":"0f33d208a16ab35f983d5cdb47397545","sitename":"bah.lol","proxyname":"tqtrq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751255950,"request_token":"f91278605a90f48c01c55b6838a26410","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "qqq", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qqq
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qqq
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751255951,"request_token":"d24ca5965c09e101de51e2ad8cc7cd8e","sitename":"bah.lol","proxyname":"qqq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751257204,"request_token":"fe1c21d819de467eba7f956ce9003e46","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751258798,"request_token":"b0bc6ef6e09a88f01e65b4aa1a5c09b4","sitename":"desamahjong.vip"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: desamahjong.vip
+
+
+=== GET PROXY LIST ===
+{"request_time":1751258801,"request_token":"c1fb241e802a7acb721b3da601e98a1a","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "XXXX", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://juragan28.info/", "todomain": "juragan28.info", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => XXXX
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://juragan28.info/
+            [todomain] => juragan28.info
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => XXXX
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://juragan28.info/
+    [todomain] => juragan28.info
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751258802,"request_token":"9a940f7ed5bfa549d3225c9df45a63ad","sitename":"desamahjong.vip","proxyname":"XXXX"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751258805,"request_token":"ebc8b915c34b381919f08712f350fc45","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "wqeqweqw", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://juragan28.info/", "todomain": "juragan28.info", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqeqweqw
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://juragan28.info/
+            [todomain] => juragan28.info
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqeqweqw
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://juragan28.info/
+    [todomain] => juragan28.info
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751258805,"request_token":"ebc8b915c34b381919f08712f350fc45","sitename":"desamahjong.vip","proxyname":"wqeqweqw"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751258817,"request_token":"4b06ce4f1bf062c3a5b3451cd3e72e06","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "wqeqweqw", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://juragan28.info/", "todomain": "juragan28.info", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqeqweqw
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://juragan28.info/
+            [todomain] => juragan28.info
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqeqweqw
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://juragan28.info/
+    [todomain] => juragan28.info
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751258818,"request_token":"4d7ea132d01e01f261d1b568f46542c4","sitename":"desamahjong.vip","proxyname":"wqeqweqw"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751259135,"request_token":"017786946be79a36a09d12dc9659cbbc","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "proxy53544", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://juragan28.info/", "todomain": "juragan28.info", "type": 1, "cache": 0, "subfilter": [{"sub1": "", "sub2": ""}, {"sub1": "", "sub2": ""}, {"sub1": "", "sub2": ""}], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy53544
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://juragan28.info/
+            [todomain] => juragan28.info
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                    [0] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy53544
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://juragan28.info/
+    [todomain] => juragan28.info
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+            [0] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+            [1] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+            [2] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751259135,"request_token":"017786946be79a36a09d12dc9659cbbc","sitename":"desamahjong.vip","proxyname":"proxy53544"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751259146,"request_token":"8845f17a635c831106bb43fc545e1eba","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "qwqwqw", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://olxkayaa.com/", "todomain": "olxkayaa.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qwqwqw
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://olxkayaa.com/
+            [todomain] => olxkayaa.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qwqwqw
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://olxkayaa.com/
+    [todomain] => olxkayaa.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751259146,"request_token":"8845f17a635c831106bb43fc545e1eba","sitename":"desamahjong.vip","proxyname":"qwqwqw"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751259192,"request_token":"dcc749995563eea680d650be09853d89","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "proxy77622", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://orbiapplogin.com/", "todomain": "orbiapplogin.com", "type": 1, "cache": 0, "subfilter": [{"sub1": "", "sub2": ""}, {"sub1": "", "sub2": ""}, {"sub1": "", "sub2": ""}], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy77622
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://orbiapplogin.com/
+            [todomain] => orbiapplogin.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                    [0] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy77622
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://orbiapplogin.com/
+    [todomain] => orbiapplogin.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+            [0] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+            [1] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+            [2] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751259193,"request_token":"ef8baf2b3829f4626aba256098300e62","sitename":"desamahjong.vip","proxyname":"proxy77622"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751259197,"request_token":"1955f1306341e21f40be8896545b878b","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "qweqweqw", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://olxkayaa.com/", "todomain": "olxkayaa.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qweqweqw
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://olxkayaa.com/
+            [todomain] => olxkayaa.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qweqweqw
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://olxkayaa.com/
+    [todomain] => olxkayaa.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751259197,"request_token":"1955f1306341e21f40be8896545b878b","sitename":"desamahjong.vip","proxyname":"qweqweqw"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751259279,"request_token":"1c8ad7ab098c077520c515f6db759011","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "proxy68778", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://onb123.com", "todomain": "onb123.com", "type": 1, "cache": 0, "subfilter": [{"sub1": "", "sub2": ""}, {"sub1": "", "sub2": ""}, {"sub1": "", "sub2": ""}], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy68778
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://onb123.com
+            [todomain] => onb123.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                    [0] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [sub1] => 
+                            [sub2] => 
+                        )
+
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy68778
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://onb123.com
+    [todomain] => onb123.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+            [0] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+            [1] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+            [2] => Array
+                (
+                    [sub1] => 
+                    [sub2] => 
+                )
+
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751259280,"request_token":"7a1c071af10e835b40c7c762394e3d78","sitename":"desamahjong.vip","proxyname":"proxy68778"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+
+
+=== GET PROXY LIST ===
+{"request_time":1751259864,"request_token":"64877ff1f7b55495755fd728e95e6b0a","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751260146,"request_token":"9e29c14ef2f89b841c6b89b261319a58","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751260239,"request_token":"bd9d5ff34a0d42aca05f36101af01733","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "qweqw", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://olxkayaa.com/", "todomain": "olxkayaa.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qweqw
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://olxkayaa.com/
+            [todomain] => olxkayaa.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qweqw
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://olxkayaa.com/
+    [todomain] => olxkayaa.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751260239,"request_token":"bd9d5ff34a0d42aca05f36101af01733","sitename":"bah.lol","proxyname":"qweqw"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751261374,"request_token":"26f407dc3cbbcf9200bd59206a5dbc7a","sitename":"desamahjong.vip"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: desamahjong.vip
+
+
+=== GET PROXY LIST ===
+{"request_time":1751261431,"request_token":"b9cd9ca1f55f1c4b7a26f90189125faa","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "proxy76358", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://orbiapplogin.com/", "todomain": "orbiapplogin.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy76358
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://orbiapplogin.com/
+            [todomain] => orbiapplogin.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy76358
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://orbiapplogin.com/
+    [todomain] => orbiapplogin.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751261432,"request_token":"f138fc5adde89f33f8364cf6de23ce6b","sitename":"desamahjong.vip","proxyname":"proxy76358"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751261483,"request_token":"7dfbae2ef899f0a4e47b5ae6bf6a57ad","sitename":"desamahjong.vip"}
+GetProxyList resp: [{"proxyname": "proxy97864", "sitename": "desamahjong.vip", "proxydir": "/", "proxysite": "http://onb123.com/", "todomain": "onb123.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy97864
+            [sitename] => desamahjong.vip
+            [proxydir] => /
+            [proxysite] => http://onb123.com/
+            [todomain] => onb123.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy97864
+    [sitename] => desamahjong.vip
+    [proxydir] => /
+    [proxysite] => http://onb123.com/
+    [todomain] => onb123.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751261484,"request_token":"0d6201d5926090845003a1cf660e9c29","sitename":"desamahjong.vip","proxyname":"proxy97864"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751262288,"request_token":"a5ac287ebb52de517afeae13c80cd8eb","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751269158,"request_token":"dcc7bff9ae0ea3ceb2ab6f5108ce87bb","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "weww", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://olxkayaa.com/", "todomain": "olxkayaa.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => weww
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://olxkayaa.com/
+            [todomain] => olxkayaa.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => weww
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://olxkayaa.com/
+    [todomain] => olxkayaa.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751269159,"request_token":"65ba01666b6f61524c2872a4f7c753b8","sitename":"bah.lol","proxyname":"weww"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751269200,"request_token":"78fec5648c434ec0c9cc853587281951","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "proxy15621", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://juragan28.info/", "todomain": "juragan28.info", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy15621
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://juragan28.info/
+            [todomain] => juragan28.info
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy15621
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://juragan28.info/
+    [todomain] => juragan28.info
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751269201,"request_token":"54d4c2138e39d713ac03c248bb7e3bb3","sitename":"bah.lol","proxyname":"proxy15621"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751269239,"request_token":"0ecbc14417b6c2a7a9c7e7b41a78da09","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "proxy12946", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://g78-push.top/", "todomain": "g78-push.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy12946
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://g78-push.top/
+            [todomain] => g78-push.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy12946
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://g78-push.top/
+    [todomain] => g78-push.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751269240,"request_token":"ffa9cd1de161754498c18bb0b1ffab0f","sitename":"bah.lol","proxyname":"proxy12946"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751269283,"request_token":"d5253115e8352a9d49a86687c4377b4b","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "proxy83477", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://orbiapplogin.com/", "todomain": "orbiapplogin.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy83477
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://orbiapplogin.com/
+            [todomain] => orbiapplogin.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy83477
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://orbiapplogin.com/
+    [todomain] => orbiapplogin.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751269284,"request_token":"a802a9fcfd09c2ba2366097b6d1dc82f","sitename":"bah.lol","proxyname":"proxy83477"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751270563,"request_token":"f209e4bf4f60daf903cc720c23523f4b","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751285758,"request_token":"538f30db58dbe7840b302ed6ad16fa52","sitename":"botgacor188.com"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: botgacor188.com
+
+
+=== GET PROXY LIST ===
+{"request_time":1751295161,"request_token":"dad333ecd4fde5ab16a0a567b196c0fe","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "wqeewq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqeewq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqeewq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751295161,"request_token":"dad333ecd4fde5ab16a0a567b196c0fe","sitename":"allsubmitter.org","proxyname":"wqeewq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751296311,"request_token":"1729a67f04c38cd78a8986a98ce61f16","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "qweqw", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qweqw
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qweqw
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751296312,"request_token":"35639a58d644bb9bb8fe84072740f965","sitename":"allsubmitter.org","proxyname":"qweqw"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751297166,"request_token":"114585f27523f3094b3f95f2ca7ce7cb","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751297235,"request_token":"bfe79b493bdc78a66a305dd4543e5b59","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "olxkaya", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://olxkayaa.com/", "todomain": "olxkayaa.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => olxkaya
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://olxkayaa.com/
+            [todomain] => olxkayaa.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => olxkaya
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://olxkayaa.com/
+    [todomain] => olxkayaa.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751297235,"request_token":"bfe79b493bdc78a66a305dd4543e5b59","sitename":"allsubmitter.org","proxyname":"olxkaya"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751297246,"request_token":"6a58ebb330fd19bcbaab8bcc4a22e5d7","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751298194,"request_token":"888978038366d33f09370e621f0c47f4","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "proxy58010", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://onb123.com/", "todomain": "onb123.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy58010
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://onb123.com/
+            [todomain] => onb123.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy58010
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://onb123.com/
+    [todomain] => onb123.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751298194,"request_token":"888978038366d33f09370e621f0c47f4","sitename":"bah.lol","proxyname":"proxy58010"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751340574,"request_token":"d3d505a1a5de96885acc503627b98ab7","sitename":"hokibet123s.com"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: hokibet123s.com
+
+
+=== GET PROXY LIST ===
+{"request_time":1751350696,"request_token":"103b3cdcbce61db76e13ed16b973ccfd","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "qweqwqe", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://olxgunungg.com/", "todomain": "olxgunungg.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qweqwqe
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://olxgunungg.com/
+            [todomain] => olxgunungg.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qweqwqe
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://olxgunungg.com/
+    [todomain] => olxgunungg.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751350697,"request_token":"5097e79d5abce47b5c10233a348df076","sitename":"allsubmitter.org","proxyname":"qweqwqe"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751350730,"request_token":"1b51fa2f1b61e7c6d4753db14c0cd27f","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751351919,"request_token":"86f2d5bd5adab9f2cd64068349acf3f1","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751353219,"request_token":"de739cfe6180832ab4a8db2947a8c769","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "dana123", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://dana123super.vip/", "todomain": "dana123super.vip", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => dana123
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://dana123super.vip/
+            [todomain] => dana123super.vip
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => dana123
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://dana123super.vip/
+    [todomain] => dana123super.vip
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751353220,"request_token":"2649b54953a369e41ac7e11df6666851","sitename":"bah.lol","proxyname":"dana123"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751354133,"request_token":"2bcb0b63b67f56dabae8faf96eff6fb0","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435333,"request_token":"8daaa3795f39b36251918bc4c5c7c8ee","sitename":"xn--brv.space"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.space
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435344,"request_token":"9bfd4abea4b2a67149a6c53e23b24f03","sitename":"xn--brv.space"}
+GetProxyList resp: [{"proxyname": "proxy74476", "sitename": "xn--brv.space", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy74476
+            [sitename] => xn--brv.space
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy74476
+    [sitename] => xn--brv.space
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435344,"request_token":"9bfd4abea4b2a67149a6c53e23b24f03","sitename":"xn--brv.space","proxyname":"proxy74476"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435567,"request_token":"59d8935798c878d341629324df8ffb6f","sitename":"xn--brv.space"}
+GetProxyList resp: [{"proxyname": "asd", "sitename": "xn--brv.space", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => asd
+            [sitename] => xn--brv.space
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => asd
+    [sitename] => xn--brv.space
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435568,"request_token":"0f03fc4df2e16b2cb05a8a9832f6ab10","sitename":"xn--brv.space","proxyname":"asd"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435576,"request_token":"fa9ed6afa0b22265f6485d6623bbe873","sitename":"xn--brv.space"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.space
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435584,"request_token":"7a136030506b9a493c9cbc8db33a6188","sitename":"xn--brv.space"}
+GetProxyList resp: [{"proxyname": "asd", "sitename": "xn--brv.space", "proxydir": "/", "proxysite": "https://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => asd
+            [sitename] => xn--brv.space
+            [proxydir] => /
+            [proxysite] => https://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => asd
+    [sitename] => xn--brv.space
+    [proxydir] => /
+    [proxysite] => https://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435584,"request_token":"7a136030506b9a493c9cbc8db33a6188","sitename":"xn--brv.space","proxyname":"asd"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435620,"request_token":"12d47298b88938832122f8a2e6d81561","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "wqeqweewq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqeqweewq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqeqweewq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435621,"request_token":"69cc1cc6a4d7c4a78f2b50a6d42688a0","sitename":"allsubmitter.org","proxyname":"wqeqweewq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435668,"request_token":"5b8a1f019348536f17fb521f43c2dde6","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435670,"request_token":"ec20daf850098c406c799508c9a9350f","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "wqrwq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqrwq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqrwq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435671,"request_token":"426fc3a00349da2a11086580bcd84e3d","sitename":"allsubmitter.org","proxyname":"wqrwq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435678,"request_token":"0d3f123fe14b72fbb53ab6fce0e78763","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "wqrwq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqrwq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqrwq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435678,"request_token":"0d3f123fe14b72fbb53ab6fce0e78763","sitename":"allsubmitter.org","proxyname":"wqrwq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751435950,"request_token":"5e2abe059168fc022f2d13c07d606f9e","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "wqrwq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqrwq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqrwq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751435950,"request_token":"5e2abe059168fc022f2d13c07d606f9e","sitename":"allsubmitter.org","proxyname":"wqrwq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751436974,"request_token":"0d743ddc7019dd30fc0c293e5604b093","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751437781,"request_token":"097730033c46eed2fb546be19c717fac","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "twqtqwq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => twqtqwq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => twqtqwq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751437781,"request_token":"097730033c46eed2fb546be19c717fac","sitename":"allsubmitter.org","proxyname":"twqtqwq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751437811,"request_token":"0d4c40d189b3f0b277603a0bc926acbe","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751438343,"request_token":"6378218c83f2e770ac4618f4e9a858d8","sitename":"xn--brv.space"}
+GetProxyList resp: [{"proxyname": "asd", "sitename": "xn--brv.space", "proxydir": "/", "proxysite": "https://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => asd
+            [sitename] => xn--brv.space
+            [proxydir] => /
+            [proxysite] => https://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => asd
+    [sitename] => xn--brv.space
+    [proxydir] => /
+    [proxysite] => https://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751438343,"request_token":"6378218c83f2e770ac4618f4e9a858d8","sitename":"xn--brv.space","proxyname":"asd"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751438504,"request_token":"90268892eb3511ed1af365f4285088d0","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751438732,"request_token":"6c54a64e1bfc3f64a5b5a7212775bdb9","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751438895,"request_token":"e367feadebcce047d94d933c7e29d6fd","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751438912,"request_token":"8b3cb05f0b07f2b57bba92af5b9ff05d","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751438997,"request_token":"850ba6670eb03dd4a077ca2471e09d73","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751439148,"request_token":"c9fd312a03af032e95e1d643528ca28c","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy37148", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy37148
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy37148
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751439148,"request_token":"c9fd312a03af032e95e1d643528ca28c","sitename":"allsubmitter.org","proxyname":"proxy37148"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751439278,"request_token":"81cc2d75457405a6d2b0c26f1e11fec2","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751441067,"request_token":"2dd9c58d5880902d38d16a021b71326a","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1751448303,"request_token":"1399716b46b688c4a19136ea2a0d394f","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy92571", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "http://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy92571
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => http://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy92571
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => http://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751448304,"request_token":"c5b421ef73fdf358842394eda9a80f81","sitename":"xn--brv.website","proxyname":"proxy92571"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751448315,"request_token":"97cec7fbdaf6221a0e8aa67e4704292f","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1751453954,"request_token":"d5f8d8fe3953c273a84bf9ac0b339a15","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "wqeqas", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => wqeqas
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => wqeqas
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751453955,"request_token":"494cd1293a87f0cc45df4fe94f0fcb90","sitename":"allsubmitter.org","proxyname":"wqeqas"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751453997,"request_token":"a474c6cc3717431eb107a67396219898","sitename":"xn--brv.space"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.space
+
+
+=== GET PROXY LIST ===
+{"request_time":1751455143,"request_token":"12b30ba831994d3e1f55865580df6a42","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "qweq", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => qweq
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => qweq
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751455144,"request_token":"14e50d456fb2b5f3368983d82d276829","sitename":"allsubmitter.org","proxyname":"qweq"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751455161,"request_token":"932ee655b1f02fbd022906640d51b07c","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751456690,"request_token":"0a41417e54b3454bbb4a00b5ddfe463f","sitename":"allsubmitter.org"}
+GetProxyList resp: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+GetProxyList cURL: 
+GetProxyList decoded: 
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751456897,"request_token":"5685a4ffba4e56bbcb8d31b034f9e731","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751833075,"request_token":"0080780bc775f2c8a9dd74b279581563","sitename":"kampungjp.xyz"}
+GetProxyList resp: {"status": false, "msg": "20 consecutive verification failures, prohibited for 1 hour"}
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [status] => 
+    [msg] => 20 consecutive verification failures, prohibited for 1 hour
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751833109,"request_token":"e953d91c68d6d6de7f30a9ad9680b5ea","sitename":"xn--brv.space"}
+GetProxyList resp: {"status": false, "msg": "20 consecutive verification failures, prohibited for 1 hour"}
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [status] => 
+    [msg] => 20 consecutive verification failures, prohibited for 1 hour
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751854048,"request_token":"2ab55423d3384fe247f00fbe483754b5","sitename":"kampungbet.xyz"}
+GetProxyList resp: {"status": false, "msg": "20 consecutive verification failures, prohibited for 1 hour"}
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [status] => 
+    [msg] => 20 consecutive verification failures, prohibited for 1 hour
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751857245,"request_token":"3c104d32da1576d6cf449216be342a30","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751858688,"request_token":"47bb0cf9afe1163656f5d9a9d87797b2","sitename":"kampungjp.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: kampungjp.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751859890,"request_token":"5a962a28c1c2d218678bcc4fc98ff500","sitename":"xn--brv.space"}
+GetProxyList resp: [{"proxyname": "proxy97512", "sitename": "xn--brv.space", "proxydir": "/", "proxysite": "http://manisjp.it.com/", "todomain": "manisjp.it.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy97512
+            [sitename] => xn--brv.space
+            [proxydir] => /
+            [proxysite] => http://manisjp.it.com/
+            [todomain] => manisjp.it.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy97512
+    [sitename] => xn--brv.space
+    [proxydir] => /
+    [proxysite] => http://manisjp.it.com/
+    [todomain] => manisjp.it.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751859890,"request_token":"5a962a28c1c2d218678bcc4fc98ff500","sitename":"xn--brv.space","proxyname":"proxy97512"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751859917,"request_token":"6437022c340acb19b3f8c7aac7ced1ec","sitename":"xn--brv.space"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.space
+
+
+=== GET PROXY LIST ===
+{"request_time":1751859920,"request_token":"fd797403ea33cbb230a3305816cc7264","sitename":"uarconcursuri.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: uarconcursuri.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751945779,"request_token":"8150e9952e046ec4287ebc0fc03e9e4f","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751950053,"request_token":"1ed187b3be81ea45c67a02342bec9064","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751950758,"request_token":"6be7ce75e817084aa75dbbce823af5e5","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy46796", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy46796
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy46796
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751950759,"request_token":"33925c421388d29b746338562f87d1ad","sitename":"allsubmitter.org","proxyname":"proxy46796"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751950771,"request_token":"24402413a9fae30aa062ce72c6402c7d","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951021,"request_token":"1e39a8b2819b9b625588239c10cd076e","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy57284", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "http://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy57284
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => http://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy57284
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => http://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751951021,"request_token":"1e39a8b2819b9b625588239c10cd076e","sitename":"allsubmitter.org","proxyname":"proxy57284"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951040,"request_token":"af974dd6614e7f03b014646966caf1c4","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951124,"request_token":"9321f7347e7b1377c80caa59a96d57d9","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy92860", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "https://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy92860
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => https://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy92860
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => https://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751951125,"request_token":"6d05df1d59301ec574c5433c48cff0f6","sitename":"allsubmitter.org","proxyname":"proxy92860"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951184,"request_token":"907826c4a88361c9aafeb0923aef79d3","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951187,"request_token":"680db8524665d33e86c5d06c0d355c5f","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy39587", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "https://marontoto.it.com/", "todomain": "marontoto.it.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy39587
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => https://marontoto.it.com/
+            [todomain] => marontoto.it.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy39587
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => https://marontoto.it.com/
+    [todomain] => marontoto.it.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751951187,"request_token":"680db8524665d33e86c5d06c0d355c5f","sitename":"allsubmitter.org","proxyname":"proxy39587"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951190,"request_token":"99fd31d5db9dd929eff809483af8ee62","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy49182", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "https://marontoto.it.com/", "todomain": "marontoto.it.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy49182
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => https://marontoto.it.com/
+            [todomain] => marontoto.it.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy49182
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => https://marontoto.it.com/
+    [todomain] => marontoto.it.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751951191,"request_token":"89756324ba71093b3dac1a57756aa50e","sitename":"allsubmitter.org","proxyname":"proxy49182"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951426,"request_token":"40a98a553fea46a6e416eef49a4631e7","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy59253", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "https://marontoto.it.com/", "todomain": "marontoto.it.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy59253
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => https://marontoto.it.com/
+            [todomain] => marontoto.it.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy59253
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => https://marontoto.it.com/
+    [todomain] => marontoto.it.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751951427,"request_token":"8eb3077bf667fb69b2a5f2d34ac1abdd","sitename":"allsubmitter.org","proxyname":"proxy59253"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951506,"request_token":"79e0add75eba7ad5a31fd7a6c4d76582","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751951658,"request_token":"6ff6deba84feef63d38658f050bf4e21","sitename":"allsubmitter.org"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: allsubmitter.org
+
+
+=== GET PROXY LIST ===
+{"request_time":1751974106,"request_token":"b12112f308af9a1a2a20b9885fbd7899","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751974300,"request_token":"555d79c6a986425e2ed0201ee282845b","sitename":"allsubmitter.org"}
+GetProxyList resp: [{"proxyname": "proxy55342", "sitename": "allsubmitter.org", "proxydir": "/", "proxysite": "https://sflink.id/", "todomain": "sflink.id", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy55342
+            [sitename] => allsubmitter.org
+            [proxydir] => /
+            [proxysite] => https://sflink.id/
+            [todomain] => sflink.id
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy55342
+    [sitename] => allsubmitter.org
+    [proxydir] => /
+    [proxysite] => https://sflink.id/
+    [todomain] => sflink.id
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751974301,"request_token":"0ec1f517915c48c6bb0affb6c340d067","sitename":"allsubmitter.org","proxyname":"proxy55342"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751981819,"request_token":"e5afe04b46c4c358ce109b599e429a83","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy12871", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "https://marontoto.it.com/", "todomain": "marontoto.it.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy12871
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => https://marontoto.it.com/
+            [todomain] => marontoto.it.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy12871
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => https://marontoto.it.com/
+    [todomain] => marontoto.it.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751981820,"request_token":"119e23305097aff22a0410729067bc01","sitename":"ghurbo.xyz","proxyname":"proxy12871"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751987149,"request_token":"06e7411609843fcc707595f9564800e3","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751988052,"request_token":"e419efa4645d9b47b9e9f650d7b4cfcd","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751988899,"request_token":"e097acb02aaa98079a2d8031026421aa","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751989773,"request_token":"179cb6d22983401ee15ddee75e3196b1","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy37657", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "https://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy37657
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => https://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy37657
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => https://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751989774,"request_token":"3e9d1e7b3b02e2616b7e8832e494c93c","sitename":"ghurbo.xyz","proxyname":"proxy37657"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751989786,"request_token":"cc4938e950407547f8e8a0eda6f97869","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751989911,"request_token":"cef5d12ba83f98006b4be9df16463eec","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy88195", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "https://hebat.olxtoto.io/", "todomain": "hebat.olxtoto.io", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy88195
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => https://hebat.olxtoto.io/
+            [todomain] => hebat.olxtoto.io
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy88195
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => https://hebat.olxtoto.io/
+    [todomain] => hebat.olxtoto.io
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751989911,"request_token":"cef5d12ba83f98006b4be9df16463eec","sitename":"ghurbo.xyz","proxyname":"proxy88195"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751989927,"request_token":"dcdc78374f94510dedb13b71226fb5a4","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1751992325,"request_token":"46e2d2a7094e9a76e364abcdfd7f045f","sitename":"bah.lol"}
+GetProxyList resp: [{"proxyname": "marontoto.it.com", "sitename": "bah.lol", "proxydir": "/", "proxysite": "http://marontoto.it.com/", "todomain": "marontoto.it.com", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => marontoto.it.com
+            [sitename] => bah.lol
+            [proxydir] => /
+            [proxysite] => http://marontoto.it.com/
+            [todomain] => marontoto.it.com
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => marontoto.it.com
+    [sitename] => bah.lol
+    [proxydir] => /
+    [proxysite] => http://marontoto.it.com/
+    [todomain] => marontoto.it.com
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751992326,"request_token":"4cd832aeec4c34a5bd146e0599225338","sitename":"bah.lol","proxyname":"marontoto.it.com"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751992461,"request_token":"7558e4fae33faf37350c9b61a6e616f7","sitename":"bah.lol"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: bah.lol
+
+
+=== GET PROXY LIST ===
+{"request_time":1751992925,"request_token":"bd4a4f32d437985cb7b507d3e9e47fd2","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy94585", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "http://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy94585
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => http://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy94585
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => http://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1751992926,"request_token":"d4b25c17fe8a44e457963906a3c72847","sitename":"ghurbo.xyz","proxyname":"proxy94585"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1751992943,"request_token":"2ce358c7a68b46c1eca9bd887654c79f","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1752135555,"request_token":"02ff322046ef76133da065786bbf29b6","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752135582,"request_token":"f5ee9d30767ead4e5b05dafd05309919","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy58227", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "https://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy58227
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => https://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy58227
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => https://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752135583,"request_token":"54d390e9f768bbca2f15fdc0fb5cea3b","sitename":"xn--brv.website","proxyname":"proxy58227"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752135660,"request_token":"6e0d7ac71aa4ebecdf3e3617ef234b6f","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752135742,"request_token":"5a791c02900574c4c779706a75a9b8d9","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy74444", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "http://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy74444
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => http://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy74444
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => http://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752135742,"request_token":"5a791c02900574c4c779706a75a9b8d9","sitename":"xn--brv.website","proxyname":"proxy74444"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752135757,"request_token":"874e1ff7bdc179bd4bbbee1f45231cb9","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752142333,"request_token":"8be9eaa3794a79e4207396b558b25d29","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy65926", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "https://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy65926
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => https://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy65926
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => https://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752142333,"request_token":"8be9eaa3794a79e4207396b558b25d29","sitename":"ghurbo.xyz","proxyname":"proxy65926"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752142542,"request_token":"24e171671b23a7b05dd80f80c65730a9","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1752142652,"request_token":"ea61647510c5127d7a4619f9d8f4fa24","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy72025", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "https://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy72025
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => https://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy72025
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => https://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752142652,"request_token":"ea61647510c5127d7a4619f9d8f4fa24","sitename":"xn--brv.website","proxyname":"proxy72025"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752143327,"request_token":"749b588a4d2429d3034590b5fa23abe0","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752145510,"request_token":"4689b501f4e7dd8b5c8c12cba70ee780","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy56044", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "https://menang303slot.website/", "todomain": "menang303slot.website", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy56044
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => https://menang303slot.website/
+            [todomain] => menang303slot.website
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy56044
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => https://menang303slot.website/
+    [todomain] => menang303slot.website
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752145511,"request_token":"8ae1f725692a2a802a304fdb3afa3031","sitename":"xn--brv.website","proxyname":"proxy56044"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752145537,"request_token":"dbde503df73ba34813499b644275aecf","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752149482,"request_token":"f44dbfba12c1886c114605ef73550a96","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1752150367,"request_token":"97ed7d5ad6af7b12739a8adf99f94d04","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy68770", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "https://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy68770
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => https://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy68770
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => https://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752150368,"request_token":"1599a1381dd6654ac294730562b8b0f4","sitename":"ghurbo.xyz","proxyname":"proxy68770"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752151074,"request_token":"80723b66ceb125683763146ea107e1cd","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1752154154,"request_token":"6566ff7fe896efc74848fe4cca4a0918","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy26454", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "https://az88rotator.yachts/", "todomain": "az88rotator.yachts", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy26454
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => https://az88rotator.yachts/
+            [todomain] => az88rotator.yachts
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy26454
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => https://az88rotator.yachts/
+    [todomain] => az88rotator.yachts
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752154154,"request_token":"6566ff7fe896efc74848fe4cca4a0918","sitename":"xn--brv.website","proxyname":"proxy26454"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752154174,"request_token":"2e253d655522f4e340d69ab8a9220874","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752154282,"request_token":"bdae5627df1aa7a3b348638d5e33b9c2","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy89513", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "https://pgs5000.co/", "todomain": "pgs5000.co", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy89513
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => https://pgs5000.co/
+            [todomain] => pgs5000.co
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy89513
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => https://pgs5000.co/
+    [todomain] => pgs5000.co
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752154282,"request_token":"bdae5627df1aa7a3b348638d5e33b9c2","sitename":"xn--brv.website","proxyname":"proxy89513"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752154415,"request_token":"7893b180b8065b102f756387ad65af84","sitename":"ghurbo.xyz"}
+GetProxyList resp: [{"proxyname": "proxy73290", "sitename": "ghurbo.xyz", "proxydir": "/", "proxysite": "https://dsa-main.top/", "todomain": "dsa-main.top", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy73290
+            [sitename] => ghurbo.xyz
+            [proxydir] => /
+            [proxysite] => https://dsa-main.top/
+            [todomain] => dsa-main.top
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy73290
+    [sitename] => ghurbo.xyz
+    [proxydir] => /
+    [proxysite] => https://dsa-main.top/
+    [todomain] => dsa-main.top
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752154415,"request_token":"7893b180b8065b102f756387ad65af84","sitename":"ghurbo.xyz","proxyname":"proxy73290"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752154426,"request_token":"f1c3da091a98d4b2328b819b017d8b38","sitename":"ghurbo.xyz"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: ghurbo.xyz
+
+
+=== GET PROXY LIST ===
+{"request_time":1752154905,"request_token":"ffa0452a09453075073b9dac14f9ea7f","sitename":"xn--brv.website"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.website
+
+
+=== GET PROXY LIST ===
+{"request_time":1752158556,"request_token":"25e727c129b5b17e7c0a7bfff861a51e","sitename":"jayamega123.com"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: jayamega123.com
+
+
+=== GET PROXY LIST ===
+{"request_time":1752158563,"request_token":"2c9a3300a802bbd12e001170bab55025","sitename":"mega123f.com"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: mega123f.com
+
+
+=== GET PROXY LIST ===
+{"request_time":1752217808,"request_token":"6d21523d791da743575a1b416d28890c","sitename":"xn--brv.space"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.space
+
+
+=== GET PROXY LIST ===
+{"request_time":1752317132,"request_token":"f3cc692517901fb1e3f242febb2bc7ea","sitename":"xn--brv.website"}
+GetProxyList resp: [{"proxyname": "proxy10280", "sitename": "xn--brv.website", "proxydir": "/", "proxysite": "https://pgs5000.co/", "todomain": "pgs5000.co", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy10280
+            [sitename] => xn--brv.website
+            [proxydir] => /
+            [proxysite] => https://pgs5000.co/
+            [todomain] => pgs5000.co
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy10280
+    [sitename] => xn--brv.website
+    [proxydir] => /
+    [proxysite] => https://pgs5000.co/
+    [todomain] => pgs5000.co
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752317133,"request_token":"adf839102108ea4b438c4d0fb95cf281","sitename":"xn--brv.website","proxyname":"proxy10280"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752485804,"request_token":"3bbd17846321ed6ec8ca6d31a7c24b9a","sitename":"xn--brv.space"}
+GetProxyList resp: [{"proxyname": "proxy34600", "sitename": "xn--brv.space", "proxydir": "/", "proxysite": "https://az88rotator.yachts/", "todomain": "az88rotator.yachts", "type": 1, "cache": 0, "subfilter": [], "advanced": 0, "cachetime": 1}]
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+    [0] => Array
+        (
+            [proxyname] => proxy34600
+            [sitename] => xn--brv.space
+            [proxydir] => /
+            [proxysite] => https://az88rotator.yachts/
+            [todomain] => az88rotator.yachts
+            [type] => 1
+            [cache] => 0
+            [subfilter] => Array
+                (
+                )
+
+            [advanced] => 0
+            [cachetime] => 1
+        )
+
+)
+
+Proxy found for deletion: Array
+(
+    [proxyname] => proxy34600
+    [sitename] => xn--brv.space
+    [proxydir] => /
+    [proxysite] => https://az88rotator.yachts/
+    [todomain] => az88rotator.yachts
+    [type] => 1
+    [cache] => 0
+    [subfilter] => Array
+        (
+        )
+
+    [advanced] => 0
+    [cachetime] => 1
+)
+
+=== REMOVE PROXY ===
+RemoveProxy req: {"request_time":1752485805,"request_token":"1c2c4179afca1e1dc1deb050cbd627e7","sitename":"xn--brv.space","proxyname":"proxy34600"}
+RemoveProxy resp: {"status": true, "msg": "Successfully deleted"}
+RemoveProxy cURL: 
+RemoveProxy decoded: Array
+(
+    [status] => 1
+    [msg] => Successfully deleted
+)
+
+
+
+=== GET PROXY LIST ===
+{"request_time":1752485872,"request_token":"6c12869de27ba0231a9f2ba9ff5333ff","sitename":"xn--brv.space"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: xn--brv.space
+
+
+=== GET PROXY LIST ===
+{"request_time":1753718896,"request_token":"faaa9f2a99bf1821bd7894317d833e18","sitename":"qris.lat"}
+GetProxyList resp: []
+GetProxyList cURL: 
+GetProxyList decoded: Array
+(
+)
+
+No proxy found to delete for domain: qris.lat

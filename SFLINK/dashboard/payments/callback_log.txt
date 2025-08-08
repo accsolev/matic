@@ -1,0 +1,1895 @@
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823380545NCSXE",
+    "merchant_ref": "INV1746421109",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379289WPYOB",
+    "merchant_ref": "INV1746418836",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 300000,
+    "fee_merchant": 2850,
+    "fee_customer": 0,
+    "total_fee": 2850,
+    "amount_received": 297150,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823379320CXSVG",
+    "merchant_ref": "INV1746418894",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 300000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 294500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823381613GPAJG",
+    "merchant_ref": "INV1746423072",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+{
+    "reference": "T3985823383004BVTRP",
+    "merchant_ref": "INV1746425582",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 5000,
+    "fee_merchant": 785,
+    "fee_customer": 0,
+    "total_fee": 785,
+    "amount_received": 4215,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1746425634,
+    "note": null
+}
+[2025-05-05 13:46:20] {
+    "reference": "T3985823383789BOJS4",
+    "merchant_ref": "INV1746426790",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 13:52:21] {
+    "reference": "T3985823384016HDVZV",
+    "merchant_ref": "INV1746427191",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 13:53:43] {
+    "reference": "T3985823384079FRHUH",
+    "merchant_ref": "INV1746427297",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 14:31:34] {
+    "reference": "T3985823385267B3PZ5",
+    "merchant_ref": "INV1746429561",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 15:06:17] {
+    "reference": "T3985823386286ZZHNH",
+    "merchant_ref": "INV1746431615",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 15:08:04] {
+    "reference": "T3985823384813CPFUA",
+    "merchant_ref": "INV1746428650",
+    "payment_method": "BRI Virtual Account",
+    "payment_method_code": "BRIVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 15:30:25] {
+    "reference": "T3985823386909CHCI4",
+    "merchant_ref": "INV1746433039",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:22:27] {
+    "reference": "T3985823388518KUQF5",
+    "merchant_ref": "INV1746436150",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:26:08] {
+    "reference": "T39858233886566GW5R",
+    "merchant_ref": "INV1746436399",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:28:15] {
+    "reference": "T3985823388537QQCVA",
+    "merchant_ref": "INV1746436196",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 650000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 644500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:28:19] {
+    "reference": "T3985823388555D16G0",
+    "merchant_ref": "INV1746436223",
+    "payment_method": "BNI Virtual Account",
+    "payment_method_code": "BNIVA",
+    "total_amount": 350000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 345750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:28:20] {
+    "reference": "T3985823388742FJZ8B",
+    "merchant_ref": "INV1746436551",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:30:29] {
+    "reference": "T3985823388827ZDLBB",
+    "merchant_ref": "INV1746436667",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:34:06] {
+    "reference": "T3985823388912HRW77",
+    "merchant_ref": "INV1746436857",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:36:04] {
+    "reference": "T3985823388798SHEJK",
+    "merchant_ref": "INV1746436629",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 350000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 344500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:36:04] {
+    "reference": "T39858233888081CZHE",
+    "merchant_ref": "INV1746436641",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 650000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 644500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:38:16] {
+    "reference": "T3985823388902WAMR3",
+    "merchant_ref": "INV1746436824",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 650000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 644500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 16:40:04] {
+    "reference": "T3985823388918PSKYQ",
+    "merchant_ref": "INV1746436866",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 650000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 644500,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:04:13] {
+    "reference": "T3985823389887KNIF7",
+    "merchant_ref": "INV1746438661",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:04:13] {
+    "reference": "T39858233882172757S",
+    "merchant_ref": "INV1746435673",
+    "payment_method": "Permata Virtual Account",
+    "payment_method_code": "PERMATAVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:06:10] {
+    "reference": "T39858233883112WZE5",
+    "merchant_ref": "INV1746435831",
+    "payment_method": "Muamalat Virtual Account",
+    "payment_method_code": "MUAMALATVA",
+    "total_amount": 350000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 345750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:08:36] {
+    "reference": "T3985823388338FSVBO",
+    "merchant_ref": "INV1746435871",
+    "payment_method": "BSI Virtual Account",
+    "payment_method_code": "BSIVA",
+    "total_amount": 350000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 345750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:14:19] {
+    "reference": "T39858233885637APXU",
+    "merchant_ref": "INV1746436235",
+    "payment_method": "BRI Virtual Account",
+    "payment_method_code": "BRIVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:14:19] {
+    "reference": "T39858233885861KD6S",
+    "merchant_ref": "INV1746436282",
+    "payment_method": "Mandiri Virtual Account",
+    "payment_method_code": "MANDIRIVA",
+    "total_amount": 350000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 345750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:14:20] {
+    "reference": "T3985823388592ZHOTG",
+    "merchant_ref": "INV1746436297",
+    "payment_method": "Permata Virtual Account",
+    "payment_method_code": "PERMATAVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:16:09] {
+    "reference": "T39858233886186J7OX",
+    "merchant_ref": "INV1746436343",
+    "payment_method": "Muamalat Virtual Account",
+    "payment_method_code": "MUAMALATVA",
+    "total_amount": 350000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 345750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:16:10] {
+    "reference": "T39858233886224XB2G",
+    "merchant_ref": "INV1746436353",
+    "payment_method": "BSI Virtual Account",
+    "payment_method_code": "BSIVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 17:24:17] {
+    "reference": "T3985823388923D67A2",
+    "merchant_ref": "INV1746436884",
+    "payment_method": "Permata Virtual Account",
+    "payment_method_code": "PERMATAVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 19:26:29] {
+    "reference": "T3985823396092BK792",
+    "merchant_ref": "INV1746447216",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 19:27:58] {
+    "reference": "T3985823396560GOMFA",
+    "merchant_ref": "INV1746447765",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 650000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 644500,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1746448078,
+    "note": null
+}
+[2025-05-05 19:30:21] {
+    "reference": "T39858233962771CPPZ",
+    "merchant_ref": "INV1746447440",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 19:30:22] {
+    "reference": "T3985823396293XIZMQ",
+    "merchant_ref": "INV1746447455",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-05 19:32:30] {
+    "reference": "T3985823396381AVU1A",
+    "merchant_ref": "INV1746447565",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-06 15:49:17] {
+    "reference": "T3985823421696P3NNT",
+    "merchant_ref": "INV1746521097",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 5000,
+    "fee_merchant": 785,
+    "fee_customer": 0,
+    "total_fee": 785,
+    "amount_received": 4215,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1746521357,
+    "note": null
+}
+[2025-05-08 21:10:04] {
+    "reference": "T3985823481079UXOQQ",
+    "merchant_ref": "INV1746709567",
+    "payment_method": "BRI Virtual Account",
+    "payment_method_code": "BRIVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-09 14:56:09] {
+    "reference": "T39858234973113XJ1R",
+    "merchant_ref": "INV1746776622",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-25 14:06:15] {
+    "reference": "T3985824211477D63WQ",
+    "merchant_ref": "INV1748155975",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-29 13:32:17] {
+    "reference": "T3985824284361RTYTH",
+    "merchant_ref": "INV1748499511",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-29 13:36:24] {
+    "reference": "T3985824284586NIUVH",
+    "merchant_ref": "INV1748500442",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1748500584,
+    "note": null
+}
+[2025-05-31 09:37:31] {
+    "reference": "T39858243266790DNAS",
+    "merchant_ref": "INV1748658986",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1748659049,
+    "note": null
+}
+[2025-05-31 21:26:05] {
+    "reference": "T3985824337454SD08N",
+    "merchant_ref": "INV1748700745",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-31 21:58:19] {
+    "reference": "T3985824337937MG3Q9",
+    "merchant_ref": "INV1748702739",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-31 22:00:19] {
+    "reference": "T3985824337975E2HQD",
+    "merchant_ref": "INV1748702859",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-05-31 22:24:07] {
+    "reference": "T39858243382779UYYB",
+    "merchant_ref": "INV1748704277",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-06-01 19:23:14] {
+    "reference": "T3985824372179WNPP5",
+    "merchant_ref": "INV1748779920",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 1200000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 1194500,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1748780594,
+    "note": null
+}
+[2025-06-01 19:25:14] {
+    "reference": "T3985824372179WNPP5",
+    "merchant_ref": "INV1748779920",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 1200000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 1194500,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1748780594,
+    "note": null
+}
+[2025-06-01 19:27:15] {
+    "reference": "T3985824372179WNPP5",
+    "merchant_ref": "INV1748779920",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 1200000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 1194500,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1748780594,
+    "note": null
+}
+[2025-06-05 15:49:49] {
+    "reference": "T3985824489499JYBCF",
+    "merchant_ref": "INV1749112898",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749113389,
+    "note": null
+}
+[2025-06-05 15:51:50] {
+    "reference": "T3985824489499JYBCF",
+    "merchant_ref": "INV1749112898",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749113389,
+    "note": null
+}
+[2025-06-05 15:53:50] {
+    "reference": "T3985824489499JYBCF",
+    "merchant_ref": "INV1749112898",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749113389,
+    "note": null
+}
+[2025-06-05 15:55:29] null
+[2025-06-05 15:55:34] null
+[2025-06-05 15:55:40] null
+[2025-06-05 16:36:28] {
+    "reference": "T39858244910139YJZA",
+    "merchant_ref": "INV1749115932",
+    "payment_method": "BCA Virtual Account",
+    "payment_method_code": "BCAVA",
+    "total_amount": 650000,
+    "fee_merchant": 5500,
+    "fee_customer": 0,
+    "total_fee": 5500,
+    "amount_received": 644500,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749116188,
+    "note": null
+}
+[2025-06-05 18:45:04] null
+[2025-06-07 23:23:54] {
+    "reference": "T39858245574849KFSR",
+    "merchant_ref": "INV1749313151",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749313434,
+    "note": null
+}
+[2025-06-09 14:28:09] {
+    "reference": "T3985824594531ZKWZ1",
+    "merchant_ref": "INV1749453343",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-06-09 14:28:10] {
+    "reference": "T3985824594544SIFZC",
+    "merchant_ref": "INV1749453363",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-06-09 14:36:50] {
+    "reference": "T3985824594886FAKBU",
+    "merchant_ref": "INV1749454345",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749454610,
+    "note": null
+}
+[2025-06-09 14:38:50] {
+    "reference": "T3985824594886FAKBU",
+    "merchant_ref": "INV1749454345",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749454610,
+    "note": null
+}
+[2025-06-09 14:40:50] {
+    "reference": "T3985824594886FAKBU",
+    "merchant_ref": "INV1749454345",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1749454610,
+    "note": null
+}
+[2025-06-21 19:24:06] {
+    "reference": "T3985824896230QL6MP",
+    "merchant_ref": "INV1750507873",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-06-21 19:30:06] {
+    "reference": "T3985824896236BSNGL",
+    "merchant_ref": "INV1750507888",
+    "payment_method": "BNI Virtual Account",
+    "payment_method_code": "BNIVA",
+    "total_amount": 1200000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 1195750,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-06-21 19:40:06] {
+    "reference": "T3985824896639N3BYC",
+    "merchant_ref": "INV1750508812",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-06-30 19:03:07] {
+    "reference": "T3985825067109M8KSN",
+    "merchant_ref": "INV1751284941",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1751284987,
+    "note": null
+}
+[2025-07-08 23:11:05] {
+    "reference": "T3985825319809FBBDL",
+    "merchant_ref": "INV1751991004",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 350000,
+    "fee_merchant": 3200,
+    "fee_customer": 0,
+    "total_fee": 3200,
+    "amount_received": 346800,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1751991065,
+    "note": null
+}
+[2025-07-10 11:24:16] {
+    "reference": "T3985825356672MMSZO",
+    "merchant_ref": "INV1752120637",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-07-17 16:07:08] {
+    "reference": "T3985825562999WU6OG",
+    "merchant_ref": "INV1752742788",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1752743228,
+    "note": null
+}
+[2025-07-17 16:11:45] {
+    "reference": "T3985825563168Y8WP2",
+    "merchant_ref": "INV1752743330",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1752743505,
+    "note": null
+}
+[2025-07-21 16:29:23] {
+    "reference": "T3985825664171G0OM5",
+    "merchant_ref": "INV1753090082",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1753090163,
+    "note": null
+}
+[2025-07-21 16:31:23] {
+    "reference": "T3985825664171G0OM5",
+    "merchant_ref": "INV1753090082",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1753090163,
+    "note": null
+}
+[2025-07-21 16:33:23] {
+    "reference": "T3985825664171G0OM5",
+    "merchant_ref": "INV1753090082",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 1200000,
+    "fee_merchant": 9150,
+    "fee_customer": 0,
+    "total_fee": 9150,
+    "amount_received": 1190850,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1753090163,
+    "note": null
+}
+[2025-07-21 16:38:38] null
+[2025-07-28 14:01:25] {
+    "reference": "T39858257937731IYWQ",
+    "merchant_ref": "INV1753685756",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1753686084,
+    "note": null
+}
+[2025-07-28 14:08:16] {
+    "reference": "T3985825793771TU4TD",
+    "merchant_ref": "INV1753685746",
+    "payment_method": "QRIS by ShopeePay",
+    "payment_method_code": "QRIS",
+    "total_amount": 650000,
+    "fee_merchant": 5300,
+    "fee_customer": 0,
+    "total_fee": 5300,
+    "amount_received": 644700,
+    "is_closed_payment": 1,
+    "status": "EXPIRED",
+    "paid_at": null,
+    "note": "Transaction expired"
+}
+[2025-08-02 19:52:33] {
+    "reference": "T3985825917734OGSZA",
+    "merchant_ref": "INV1754138904",
+    "payment_method": "BNI Virtual Account",
+    "payment_method_code": "BNIVA",
+    "total_amount": 650000,
+    "fee_merchant": 4250,
+    "fee_customer": 0,
+    "total_fee": 4250,
+    "amount_received": 645750,
+    "is_closed_payment": 1,
+    "status": "PAID",
+    "paid_at": 1754139152,
+    "note": null
+}

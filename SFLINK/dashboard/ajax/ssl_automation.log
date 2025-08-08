@@ -1,0 +1,107 @@
+[2025-06-30 09:59:15] ======== MEMULAI PROSES SSL ========
+[2025-06-30 09:59:15] Domain: allsubmitter.org
+[2025-06-30 09:59:15] Email SSL: ssl@allsubmitter.org
+[2025-06-30 09:59:15] [1] Mencari Site ID untuk domain: allsubmitter.org
+[2025-06-30 09:59:16] CURL VERBOSE: *   Trying 45.61.135.61:34526...
+* TCP_NODELAY set
+* Connected to 45.61.135.61 (45.61.135.61) port 34526 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=State; L=City; O=aapanel.com; OU=aapanel.com; CN=*.aapanel.com
+*  start date: Jun  6 11:17:01 2025 GMT
+*  expire date: Jun  4 11:17:01 2035 GMT
+*  issuer: C=US; ST=State; L=City; O=aapanel.com; OU=aapanel.com; CN=*.aapanel.com
+*  SSL certificate verify result: self signed certificate (18), continuing anyway.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x5642cefb5c90)
+> POST /data?action=getData HTTP/2
+Host: 45.61.135.61:34526
+accept: */*
+content-length: 92
+content-type: application/x-www-form-urlencoded
+
+* We are completely uploaded and fine
+* old SSL session ID is stale, removing
+* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+< HTTP/2 200 
+< server: nginx
+< date: Mon, 30 Jun 2025 09:59:16 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 1859
+< vary: Accept-Encoding
+< x-frame-options: SAMEORIGIN
+< set-cookie: da6fd9eeaf5f37384fba3b52fcee37d8=9082bf09-ed77-453c-958a-bdabefc9ed1b.WMPrMobkomxqhFPGK8uuyJpTsXQ; Expires=Wed, 30 Jul 2025 09:59:16 GMT; Secure; HttpOnly; Path=/; httponly; secure; SameSite=Lax; SameSite=Lax
+< alt-svc: h3=":34526"; ma=86400,h3-29=":34526"; ma=86400
+< x-quic: h3
+< 
+* Connection #0 to host 45.61.135.61 left intact
+
+[2025-06-30 09:59:16] Site ID ditemukan: 29
+[2025-06-30 09:59:16] [2] Mengambil hash SSL untuk domain: allsubmitter.org
+[2025-06-30 09:59:17] CURL VERBOSE: *   Trying 45.61.135.61:34526...
+* TCP_NODELAY set
+* Connected to 45.61.135.61 (45.61.135.61) port 34526 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=State; L=City; O=aapanel.com; OU=aapanel.com; CN=*.aapanel.com
+*  start date: Jun  6 11:17:01 2025 GMT
+*  expire date: Jun  4 11:17:01 2035 GMT
+*  issuer: C=US; ST=State; L=City; O=aapanel.com; OU=aapanel.com; CN=*.aapanel.com
+*  SSL certificate verify result: self signed certificate (18), continuing anyway.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x5642cf0cabd0)
+> POST /ssl_domain?action=check_domain_automatic HTTP/2
+Host: 45.61.135.61:34526
+accept: */*
+content-length: 94
+content-type: application/x-www-form-urlencoded
+
+* We are completely uploaded and fine
+* old SSL session ID is stale, removing
+* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+< HTTP/2 404 
+< server: nginx
+< date: Mon, 30 Jun 2025 09:59:17 GMT
+< content-type: text/html
+< content-length: 138
+< x-frame-options: SAMEORIGIN
+< 
+* Connection #0 to host 45.61.135.61 left intact
+
+[2025-06-30 09:59:17] JSON DECODE ERROR: Syntax error
+[2025-06-30 09:59:17] ERROR: Gagal mendapatkan hash SSL!
+Pesan Error: Invalid JSON response: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+Response: Array
+(
+    [status] => 
+    [msg] => Invalid JSON response: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+)
+

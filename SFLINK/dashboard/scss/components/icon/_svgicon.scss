@@ -1,0 +1,70 @@
+.svg-icons-ov {
+    @include transitionMedium;
+	align-items: center;
+    padding: 15px 15px 75px;
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+	display: flex;
+	
+	.svg-icons-prev{
+		margin-right:15px;
+		svg{
+			width:40px;
+			height:40px;
+			g [fill] {
+				fill: var(--primary);
+			}
+		}
+	}
+	.svg-icon-popup {
+		position: absolute;
+		bottom: 15px;
+		width: 100%;
+		display: flex;
+		left: 10px;
+		
+		.btn{
+			padding: 8px;
+			background: #eeeeee;
+			margin: 0 5px;
+			color: $dark;
+			font-size: 14px !important;
+			display: inline-block;
+			width: 40%;
+			min-width: 40%;
+			height: 40px;
+			
+			&:hover{
+				background-color: $dark;
+				color: #fff;
+			}
+		}
+	}
+	&:hover{
+		border-color: var(--primary);
+	}
+}
+.svg-area{
+	.row{
+		margin:0;
+	}
+	.col-md-2{
+		padding:0;
+	}
+	
+	.card-header{
+		color: #000;
+		font-size: 18px;
+		font-weight: 600;
+		padding: 0;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		&:first-child{
+			margin-top:0;
+		}
+	}
+}

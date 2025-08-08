@@ -1,0 +1,25 @@
+RewriteEngine On
+
+# -----------------------------
+# 1. Cek jika domain adalah sflink.ink atau sflink.my
+RewriteCond %{HTTP_HOST} ^(sflink\.ink|sflink\.my)$ [NC]
+
+# 2. Jika yang diakses bukan go.php
+RewriteCond %{REQUEST_URI} !^/go\.php$ [NC]
+
+# 3. Dan bukan URL shortlink seperti /abc123
+RewriteCond %{REQUEST_URI} !^/[a-zA-Z0-9]+/?$ [NC]
+
+# 4. Maka tolak aksesnya (403)
+RewriteRule ^.* - [F,L]
+
+# -----------------------------
+# 5A. Handle /namastring (subdo acak): arahkan ke go.php?subdo=namastring jika file/folder tidak ada
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z0-9_\-]+)$ go.php?subdo=$1 [QSA,L]
+
+# 5B. Fallback: Jika tidak ada file/folder dan bukan subdo, arahkan ke go.php (untuk shortlink original)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)$ go.php [QSA,L]

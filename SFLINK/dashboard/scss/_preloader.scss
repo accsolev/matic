@@ -1,0 +1,124 @@
+/* /* Editable */
+
+#preloader{
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+	// .lds-ripple {
+	//   display: inline-block;
+	//   position: relative;
+	//   width: 80px;
+	//   height: 80px;
+	// }
+	// .lds-ripple div {
+	//   position: absolute;
+	//   border: 4px solid var(--primary);
+	//   opacity: 1;
+	//   border-radius: 50%;
+	//   animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	// }
+	// .lds-ripple div:nth-child(2) {
+	//   animation-delay: -0.5s;
+	// }
+	// @keyframes lds-ripple {
+	//   0% {
+	// 	top: 36px;
+	// 	left: 36px;
+	// 	width: 0;
+	// 	height: 0;
+	// 	opacity: 1;
+	//   }
+	//   100% {
+	// 	top: 0px;
+	// 	left: 0px;
+	// 	width: 72px;
+	// 	height: 72px;
+	// 	opacity: 0;
+	//   }
+	// }
+}
+
+
+[data-theme-version="dark"] {
+	#preloader{
+		background-color: $d-bg;
+	}
+}
+.loader-box {
+	height: 300px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.icon {
+	font-size: 5rem;
+	transform: scale(1);
+	background-color:#F6F6F6;
+	border-radius: 150px;
+	height: 150px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: loaderSize 5.5s infinite ease-in-out, loaderColor 7.5s infinite ease-in-out;
+	color: var(--primary);
+	box-shadow: 0 0 15px #fff;
+}
+[data-theme-version="dark"] {
+	.icon{
+		background-color:$dark-card;
+	}
+}
+@keyframes loaderCircle {
+
+}
+@keyframes loaderSize {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+    16% {
+        transform: scale(0) rotate(0);
+    }
+    50% {
+        transform: scale(1) rotate(0);
+    }
+    80% {
+        transform: scale(1) rotate(-360deg);
+    }
+    100% {
+        transform: scale(1) rotate(-360deg);
+    }
+}
+@keyframes loaderColor {
+    5% {
+        color: var(--primary);
+    }
+    10% {
+        color: var(--secondary);
+    }
+    39% {
+        color: var(--secondary);
+    }
+    40% {
+        color: #99E2D0;
+    }
+    70% {
+        color: #99E2D0;
+    }
+    80% {
+        color: var(--primary);
+    }
+    100% {
+        color: var(--primary);
+    }
+}

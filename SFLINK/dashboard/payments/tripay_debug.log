@@ -1,0 +1,360 @@
+2025-05-05 14:04:11 | HTTPCODE: 200
+PAYLOAD: {
+    "method": "BRIVA",
+    "merchant_ref": "INV1746428650",
+    "amount": 650000,
+    "customer_name": "anto123",
+    "customer_email": "anto123@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade vip",
+            "price": 650000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746428950,
+    "signature": "6132a70ee840569b015e0c0419311c0a63e9230946b97569d91b52c43af591e9"
+}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823384813CPFUA","merchant_ref":"INV1746428650","payment_selection_type":"static","payment_method":"BRIVA","payment_name":"BRI Virtual Account","customer_name":"anto123","customer_email":"anto123@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":645750,"pay_code":"150090044642865080","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823384813CPFUA","status":"UNPAID","expired_time":1746432370,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking Bank BRI Anda","Pilih menu <b>Pembayaran<\/b> lalu klik menu <b>BRIVA<\/b>","Pilih rekening sumber dan masukkan Kode Bayar (<b>150090044642865080<\/b>) lalu klik <b>Kirim<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Klik <b>Lanjutkan<\/b>","Masukkan kata sandi ibanking lalu klik <b>Request<\/b> untuk mengirim m-PIN ke nomor HP Anda","Periksa HP Anda dan masukkan m-PIN yang diterima lalu klik <b>Kirim<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"Aplikasi BRImo","steps":["Login ke aplikasi BRImo Anda","Pilih menu <b>BRIVA<\/b>","Pilih sumber dana dan masukkan Nomor Pembayaran (<b>150090044642865080<\/b>) lalu klik <b>Lanjut<\/b>","Klik <b>Lanjut<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Klik <b>Lanjutkan<\/b>","Klik <b>Konfirmasi<\/b>","Klik <b>Lanjut<\/b>","Masukkan kata sandi ibanking Anda","Klik <b>Lanjut<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"ATM BRI","steps":["Lakukan pembayaran melalui ATM Bank BRI","Pilih menu <b>Transaksi Lain > Pembayaran > Lainnya > Pilih BRIVA<\/b>","Masukkan Nomor VA (<b>150090044642865080<\/b>)","Pilih <b>Ya<\/b> untuk memproses pembayaran"]}]}}
+
+2025-05-05 14:19:22 | HTTPCODE: 200
+PAYLOAD: {
+    "method": "QRIS",
+    "merchant_ref": "INV1746429561",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746429861,
+    "signature": "48aed6efea28ea1673ba6905af56d3302011198fb768f16c99baa221b8126698"
+}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823385267B3PZ5","merchant_ref":"INV1746429561","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":3200,"fee_customer":0,"total_fee":3200,"amount_received":346800,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823385267B3PZ5","status":"UNPAID","expired_time":1746430282,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226740025ID.CO.BANKNEOCOMMERCE.WWW011893600490800002920102120005801328150303UBE51550025ID.CO.BANKNEOCOMMERCE.WWW0215ID20253726324190303UBE52046533530336054063500005802ID5911Trijaya Pay6005NGAWI6105632636233012230019192908101339054090703A01630490C8","qr_url":"https:\/\/tripay.co.id\/qr\/T3985823385267B3PZ5"}}
+
+2025-05-05 14:53:36 | HTTP_CODE: 200
+REQUEST: {"method":"QRIS","merchant_ref":"INV1746431615","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746431915,"signature":"b0eea1465ef2e0a6f9b69dbb30650ef4e7f9527c5735a9ca75a0e0ed2f1da907"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823386286ZZHNH","merchant_ref":"INV1746431615","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":5300,"fee_customer":0,"total_fee":5300,"amount_received":644700,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823386286ZZHNH","status":"UNPAID","expired_time":1746432335,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226740025ID.CO.BANKNEOCOMMERCE.WWW011893600490800002920102120005801328150303UBE51550025ID.CO.BANKNEOCOMMERCE.WWW0215ID20253726324190303UBE52046533530336054066500005802ID5911Trijaya Pay6005NGAWI6105632636233012230019192994230133923850703A0163044C83","qr_url":"https:\/\/tripay.co.id\/qr\/T3985823386286ZZHNH"}}
+
+2025-05-05 15:17:19 | HTTP_CODE: 200
+REQUEST: {"method":"QRIS","merchant_ref":"INV1746433039","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746433339,"signature":"b0ea3f9cb9796ba606c0e578c10da4814d7fb0e76a3b52bff0a41f5aad6b7c59"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823386909CHCI4","merchant_ref":"INV1746433039","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":5300,"fee_customer":0,"total_fee":5300,"amount_received":644700,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823386909CHCI4","status":"UNPAID","expired_time":1746433759,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226610016ID.CO.SHOPEE.WWW01189360091800217631900208217631900303UMI51440014ID.CO.QRIS.WWW0215ID20243431667550303UMI5204539953033605409650000.005802ID5917Trijaya Indonesia6010KAB. NGAWI61056326362220518pay_TaFcnDfFTN172463046FFC","qr_url":"https:\/\/tripay.co.id\/qr\/T3985823386909CHCI4"}}
+
+2025-05-05 15:58:50 | HTTP_CODE: 400
+REQUEST: {"method":"DANA","merchant_ref":"INV1746435530","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746435830,"signature":"2ae91b2bd1a23b39c4919e3d518840a3588d767018ed4b267773e447de003e8f"}
+RESPONSE: {"success":false,"message":"Undefined parameter customer phone"}
+
+2025-05-05 16:01:15 | HTTP_CODE: 200
+REQUEST: {"method":"PERMATAVA","merchant_ref":"INV1746435673","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746435973,"signature":"a5d2d1afbeca36fe00a030307c9f45051ffffc26e70aa64ea59c385125544fec"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233882172757S","merchant_ref":"INV1746435673","payment_selection_type":"static","payment_method":"PERMATAVA","payment_name":"Permata Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":645750,"pay_code":"7136385000045210","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233882172757S","status":"UNPAID","expired_time":1746439393,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking Bank Permata Anda","Pilih menu <b>Pembayaran<\/b> lalu klik menu <b>Pembayaran Tagihan<\/b>","Pilih menu <b>Virtual Account<\/b>","Pilih <b>Rekening Asal<\/b> lalu centang <b>Masukkan Daftar Tagihan Baru<\/b>","Masukkan Nomor VA (<b>7136385000045210<\/b>) lalu klik <b>Lanjutkan<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai lalu klik <b>Lanjutkan<\/b>","Masukkan <b>SMS Token<\/b> Permata, lalu klik <b>Lanjutkan<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"ATM Permata","steps":["Masukkan <b>PIN<\/b>","Pilih menu <b>Transaksi Lainnya<\/b>","Pilih menu <b>Pembayaran<\/b>","Pilih menu <b>Pembayaran Lainnya<\/b>","Pilih menu <b>Virtual Account<\/b>","Masukkan Nomor VA (<b>7136385000045210<\/b>) lalu tekan <b>Benar<\/b>","Pilih rekening yang menjadi sumber dana yang akan didebet","Tekan <b>Ya<\/b> untuk konfirmasi transaksi"]}]}}
+
+2025-05-05 16:03:37 | HTTP_CODE: 400
+REQUEST: {"method":"OCBCNISPVA","merchant_ref":"INV1746435817","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436117,"signature":"f20063c69839cdf70233a1fde7effd45d4dd2f68d7f98330f0f722759d7df087"}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:03:52 | HTTP_CODE: 200
+REQUEST: {"method":"MUAMALATVA","merchant_ref":"INV1746435831","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436131,"signature":"7f86de469840fa9b818bef0eec5340873df56cd76ba49f511995f9ca23632eb0"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233883112WZE5","merchant_ref":"INV1746435831","payment_selection_type":"static","payment_method":"MUAMALATVA","payment_name":"Muamalat Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":345750,"pay_code":"8809033880164541","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233883112WZE5","status":"UNPAID","expired_time":1746439551,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke IB Muamalat","Pilih menu <b>Payment<\/b>","pilih rekening Anda dan pilih <b>Virtual Account<\/b> pada bill type","masukkan Nomor Va (<b>8809033880164541<\/b>)","Klik <b>Next<\/b>","Periksa kembali jumlah pembayaran","Apabila sudah sesuai, Masukkan mPasscode lalu klik <b>SUBMIT<\/b> jika setuju dengan informasi pembayaran","Transaksi Anda selesai. Silahkan cetak bukti transaksi"]},{"title":"M-Banking","steps":["Login ke Mobile Banking Muamalat","Pilih menu <b>Pembayaran<\/b>","masukkan Nomor Va (<b>8809033880164541<\/b>), klik <b>Proses<\/b>","Periksa kembali jumlah pembayaran","Apabila sudah sesuai, masukkan Kode Verifikasi lalu klik <b>Proses<\/b> jika sudah setuju dengan informasi pembayaran","Transaksu Anda selesai, Simpan struk sebagai bukti transaksi"]},{"title":"ATM Muamalat","steps":["Masukkan kartu ATM, lalu input PIN Anda","Pilih menu <b>Transaksi Lain<\/b>","Pilih menu <b>Pembayaran<\/b> kemudian pilih menu <b>Virtual Account<\/b>","Masukkan Nomor VA (<b>8809033880164541<\/b>)","Tekan <b>Bayar<\/b> jika setuju dengan informasi pembayaran","Periksa kembali jumlah Tagihan","Apabila sudah sesuai, tekan <b>Benar<\/b>, lalu tekan <b>Bayar<\/b>","Simpan struk ATM sebagai bukti pembayaran"]}]}}
+
+2025-05-05 16:04:25 | HTTP_CODE: 400
+REQUEST: {"method":"CIMBNIAGAVA","merchant_ref":"INV1746435865","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436165,"signature":"a6d09acfededecef350f0cbb6667a506af8b691318a34a8f930320d5a9688106"}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:04:33 | HTTP_CODE: 200
+REQUEST: {"method":"BSIVA","merchant_ref":"INV1746435871","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436171,"signature":"18213026dd1bb6836cca6fcedb25b5caa1ee5bfca9fc7c0e37caac5d0af65a6c"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388338FSVBO","merchant_ref":"INV1746435871","payment_selection_type":"static","payment_method":"BSIVA","payment_name":"BSI Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":345750,"pay_code":"388000164542","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388338FSVBO","status":"UNPAID","expired_time":1746439592,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"BYOND by BSI","steps":["Buka aplikasi BYON by BSI","Pilih menu <b>Bayar & Beli<\/b>","Pilih menu <b>Virtual Account<\/b>","Masukkan kode institusi 1062 + Nomor Virtual Account Anda. Contoh: <b>1062388000164542<\/b>","Klik tombol <b>Lanjutkan<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Klik tombol <b>Konfirmasi<\/b>","Masukan PIN Anda","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"Internet Banking","steps":["Masuk ke Internet Banking BSI Anda","Pilih menu <b>Pembayaran<\/b>","Pilih nomor rekening Anda","Pilih <b>Jenis Pembayaran > Institusi<\/b>","Pada opsi Nama Institusi, pilih <b>1062 LINKQU<\/b>","Masukkan kode bayar (<b>388000164542<\/b>)","Klik tombol <b>Verifikasi<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Masukkan TAN & PIN Anda","Tekan tombol <b>Submit<\/b>","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"BSI Mobile","steps":["Masuk ke aplikasi BSI Mobile Anda","Pilih menu <b>Bayar<\/b>","Pilih menu <b>Institusi<\/b>","Pada opsi Nama Institusi, pilih <b>1062 LINKQU<\/b>","Masukkan kode bayar (<b>388000164542<\/b>)","Klik <b>Selanjutnya<\/b>","Masukkan PIN Anda","Klik <b>Selanjutnya<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Klik <b>Selanjutnya<\/b>","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"ATM BSI","steps":["Datang ke ATM BSI","Masukkan kartu dan PIN kartu Anda","Pilih menu <b>Pembayaran<\/b>","Pilih <b>Institusi<\/b>","Masukkan kode institusi 1062 + Nomor Virtual Account Anda. Contoh: <b>1062388000164542<\/b>","Tekan tombol <b>Benar<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Tekan tombol <b>BENAR\/YA<\/b>","Transaksi selesai, simpan bukti pembayaran Anda"]}]}}
+
+2025-05-05 16:05:04 | HTTP_CODE: 400
+REQUEST: {"method":"OCBCNISPVA","merchant_ref":"INV1746435903","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436203,"signature":"be4aa2ec3371ad5e9648104e938d3babaaa3ac63a877a4c82bcdc1111ad79461"}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:05:12 | HTTP_CODE: 400
+REQUEST: {"method":"CIMBNIAGAVA","merchant_ref":"INV1746435912","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436212,"signature":"8b2abe98ab24aec7301989f0ea66fdf1ba8e54b488bbca7b8e2da404d207a186"}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:05:36 | HTTP_CODE: 400
+REQUEST: {"method":"CIMBNIAGAVA","merchant_ref":"INV1746435936","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436236,"signature":"372118dd6945a2bd81856ab0f60741bb2f41d0b52c3c386cadfa09e8ffddecab"}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:06:51 | HTTP_CODE: 400
+REQUEST: {
+    "method": "CIMBNIAGAVA",
+    "merchant_ref": "INV1746436011",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436311,
+    "signature": "09572aa71fef69eb308a0e84693a9d9c94082253a2e63cb4430987333b7410ad"
+}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:07:03 | HTTP_CODE: 400
+REQUEST: {
+    "method": "OCBCNISPVA",
+    "merchant_ref": "INV1746436023",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436323,
+    "signature": "2b87586bda6fd40d176ec8bf1656ae8a3331b6e1ea2b81a4aa64514e453c710d"
+}
+RESPONSE: {"success":false,"message":"Payment method is not exists!"}
+
+2025-05-05 16:07:11 | HTTP_CODE: 400
+REQUEST: {
+    "method": "DANA",
+    "merchant_ref": "INV1746436031",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436331,
+    "signature": "3018a7641df4b616ff2f046f0e2f0b86a15832f6b238cc633a003c82ab37fc47"
+}
+RESPONSE: {"success":false,"message":"Undefined parameter customer phone"}
+
+2025-05-05 16:07:14 | HTTP_CODE: 400
+REQUEST: {
+    "method": "DANA",
+    "merchant_ref": "INV1746436034",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436334,
+    "signature": "115bfd4c846272d7bcc7f3629717389aab6268502ca70853ecf8dc9f33954fac"
+}
+RESPONSE: {"success":false,"message":"Undefined parameter customer phone"}
+
+2025-05-05 16:08:08 | HTTP_CODE: 500
+REQUEST: {"method":"BCAVA","merchant_ref":"INV1746436087","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436387,"signature":"b9056bf4ad57b8650ec7a54b6aa227f7a14afe0deeb2ffc784caf8adbfbefd65"}
+RESPONSE: {"success":false,"message":"Internal service error"}
+
+2025-05-05 16:08:47 | HTTP_CODE: 500
+REQUEST: {"method":"BCAVA","merchant_ref":"INV1746436127","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436427,"signature":"19bd9ed9a1e8cda48d9248039832de1053f2d7892807c98c176db921390734be"}
+RESPONSE: {"success":false,"message":"Internal service error"}
+
+2025-05-05 16:09:11 | HTTP_CODE: 200
+REQUEST: {"method":"QRIS","merchant_ref":"INV1746436150","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436450,"signature":"72813eba68aabc1e49aa45b10abce4e5404b601b16c6f094e680f589ea7e6d31"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388518KUQF5","merchant_ref":"INV1746436150","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":3200,"fee_customer":0,"total_fee":3200,"amount_received":346800,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388518KUQF5","status":"UNPAID","expired_time":1746436870,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226740025ID.CO.BANKNEOCOMMERCE.WWW011893600490800002920102120005801328150303UBE51550025ID.CO.BANKNEOCOMMERCE.WWW0215ID20253726324190303UBE52046533530336054063500005802ID5911Trijaya Pay6005NGAWI6105632636233012230019193184475816960010703A0163044BDB","qr_url":"https:\/\/tripay.co.id\/qr\/T3985823388518KUQF5"}}
+
+2025-05-05 16:09:56 | HTTP_CODE: 200
+REQUEST: {"method":"BCAVA","merchant_ref":"INV1746436196","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436496,"signature":"c54cba917e3173226e46db76a475efa2f7b911f5241b61c7a5c9abc3f9799cdf"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388537QQCVA","merchant_ref":"INV1746436196","payment_selection_type":"static","payment_method":"BCAVA","payment_name":"BCA Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":5500,"fee_customer":0,"total_fee":5500,"amount_received":644500,"pay_code":"7900117900069662","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388537QQCVA","status":"UNPAID","expired_time":1746437216,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking klikbca Anda","Pilih menu <b>Transfer Dana<\/b> lalu pilih <b>Transfer ke BCA Virtual Account<\/b>","Pilih <b>Dari Rekening<\/b>","Masukkan Nomor VA (<b>7900117900069662<\/b>) lalu klik <b>Lanjutkan<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai lalu masukkan respon <b>Key BCA Appli 1<\/b>","Klik <b>Kirim<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"Mobile Banking","steps":["Login pada aplikasi BCA mobile","Pilih <b>m-BCA<\/b> masukkan kode akses m-BCA","Pilih <b>m-Transfer<\/b>","Pilih <b>BCA Virtual Account<\/b>","Masukkan Nomor VA (<b>7900117900069662<\/b>) lalu klik <b>OK<\/b>","Konfirmasi no virtual account dan rekening pendebetan","Periksa kembalian rincian pembayaran anda, lalu klik <b>Ya<\/b>","Masukkan pin m-BCA","Pembayaran Selesai"]},{"title":"ATM BCA","steps":["Masukkan kartu ATM BCA & PIN","Pilih menu <b>Transaksi Lainnya > Transfer > Ke Rekening BCA Virtual Account<\/b>","Masukkan Nomor VA (<b>7900117900069662<\/b>)","Di halaman konfirmasi, pastikan detail pembayaran sudah sesuai seperti Nomor VA, Nama, Produk dan Total Tagihan","Jika sudah benar, klik <b>Ya<\/b>","Simpan struk transaksi sebagai bukti pembayaran"]}]}}
+
+2025-05-05 16:10:23 | HTTP_CODE: 200
+REQUEST: {"method":"BNIVA","merchant_ref":"INV1746436223","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436523,"signature":"31b50749aa19ec3e21255a855bc71f75af030bbe57cb7ce48c1d4dc98cd36154"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388555D16G0","merchant_ref":"INV1746436223","payment_selection_type":"static","payment_method":"BNIVA","payment_name":"BNI Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":345750,"pay_code":"9883033323388555","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388555D16G0","status":"UNPAID","expired_time":1746437243,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Wondr By BNI","steps":["Buka Aplikasi Wondr By BNI","Pilih menu <b>Virtual Account<\/b>","Pilih <b>Tujuan Baru<\/b>","Masukkan Nomor <b>Virtual Account<\/b>","Klik tombol <b>Lanjut<\/b>","Akan ditampikan detail transaksi, Pilih rekening sumber dana","Klik tombol <b>Lanjut<\/b>","Pastikan semua informasi sudah sesuai kemudian klik <b>Transaksi Sekarang<\/b>","Masukan PIN Anda","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"Internet Banking","steps":["Login ke internet banking Bank BNI Anda","Pilih menu <b>Transaksi<\/b> lalu klik menu <b>Virtual Account Billing<\/b>","Masukkan Nomor VA (<b>9883033323388555<\/b>) lalu pilih <b>Rekening Debit<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Masukkan respon key BNI appli 2","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"ATM BNI","steps":["Masukkan kartu Anda","Pilih Bahasa","Masukkan PIN ATM Anda","Kemudian, pilih <b>Menu Lainnya<\/b>","Pilih <b>Transfer<\/b> dan pilih jenis rekening yang akan digunakan (Contoh: Dari rekening Tabungan)","Pilih <b>Virtual Account Billing<\/b>. Masukkan Nomor VA (<b>9883033323388555<\/b>)","Tagihan yang harus dibayarkan akan muncul pada layar konfirmasi","Konfirmasi, apabila telah selesai, lanjutkan transaksi","Transaksi Anda telah selesai"]},{"title":"Mobile Banking BNI","steps":["Akses BNI Mobile Banking dari handphone kemudian masukkan <b>User ID dan Password<\/b>","Pilih menu <bTransfer<\/b>","Pilih menu <b>Virtual Account Billing<\/b> kemudian pilih rekening debet","Masukkan Nomor <b>Virtual Account<\/b>","Tagihan yang harus dibayarkan akan muncul pada layar konfirmasi","Konfirmasi transaksi dan masukkan Password Transaksi","Pembayaran Anda Telah Berhasil"]}]}}
+
+2025-05-05 16:10:36 | HTTP_CODE: 200
+REQUEST: {"method":"BRIVA","merchant_ref":"INV1746436235","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436535,"signature":"fbe1d6dd09a7e4026d32d030cd61d18764a4fa5c776310dbe02aba8d41c8943e"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233885637APXU","merchant_ref":"INV1746436235","payment_selection_type":"static","payment_method":"BRIVA","payment_name":"BRI Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":645750,"pay_code":"150090044643623601","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233885637APXU","status":"UNPAID","expired_time":1746439955,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking Bank BRI Anda","Pilih menu <b>Pembayaran<\/b> lalu klik menu <b>BRIVA<\/b>","Pilih rekening sumber dan masukkan Kode Bayar (<b>150090044643623601<\/b>) lalu klik <b>Kirim<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Klik <b>Lanjutkan<\/b>","Masukkan kata sandi ibanking lalu klik <b>Request<\/b> untuk mengirim m-PIN ke nomor HP Anda","Periksa HP Anda dan masukkan m-PIN yang diterima lalu klik <b>Kirim<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"Aplikasi BRImo","steps":["Login ke aplikasi BRImo Anda","Pilih menu <b>BRIVA<\/b>","Pilih sumber dana dan masukkan Nomor Pembayaran (<b>150090044643623601<\/b>) lalu klik <b>Lanjut<\/b>","Klik <b>Lanjut<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Klik <b>Lanjutkan<\/b>","Klik <b>Konfirmasi<\/b>","Klik <b>Lanjut<\/b>","Masukkan kata sandi ibanking Anda","Klik <b>Lanjut<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"ATM BRI","steps":["Lakukan pembayaran melalui ATM Bank BRI","Pilih menu <b>Transaksi Lain > Pembayaran > Lainnya > Pilih BRIVA<\/b>","Masukkan Nomor VA (<b>150090044643623601<\/b>)","Pilih <b>Ya<\/b> untuk memproses pembayaran"]}]}}
+
+2025-05-05 16:11:09 | HTTP_CODE: 500
+REQUEST: {"method":"MANDIRIVA","merchant_ref":"INV1746436269","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436569,"signature":"a4e6a296f196a0820376023c3d3a81770548aba64d1ad5cc0388c8455dfae719"}
+RESPONSE: {"success":false,"message":"Internal service error"}
+
+2025-05-05 16:11:23 | HTTP_CODE: 200
+REQUEST: {"method":"MANDIRIVA","merchant_ref":"INV1746436282","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436582,"signature":"05bbba3e6c6011f2146d5f04dd172d83a40628947973b977a8a798d7754e6a5f"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233885861KD6S","merchant_ref":"INV1746436282","payment_selection_type":"static","payment_method":"MANDIRIVA","payment_name":"Mandiri Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":345750,"pay_code":"8903910117983049","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233885861KD6S","status":"UNPAID","expired_time":1746440002,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking Livin Kuning","steps":["Login ke internet banking Anda","Pilih menu <b>Bayar<\/b> lalu klik menu <b>E-Commerce<\/b>","Masukkan Kode <b>Plink Pay (89039)<\/b>","Masukkan Nomor VA (<b>8903910117983049<\/b>)","Masukkan Nominal (<b>350000<\/b>)","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Klik tombol <b>Konfirmasi<\/b>","Periksa aplikasi Mandiri Online di ponsel Anda untuk menyelesaikan persetujuan transaksi","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"ATM Mandiri","steps":["Masukkan kartu ATM & isi PIN ATM Anda","Pilih menu <b>Bayar\/Beli<\/b> lalu pilih menu <b>Lainnya<\/b>","Pilih lagi menu <b>Lainnya<\/b>","Pilih menu <b>Multi Payment<\/b>","Masukkan kode <b>Plink Pay (89039)<\/b> lalu tekan <b>Benar<\/b>","Masukkan Nomor VA (<b>8903910117983049<\/b>)","Detail transaksi akan ditampilkan, pastikan data sudah sesuai","Tekan <b>1<\/b> lalu tekan <b>YA<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"Mobile Banking","steps":["Masuk ke New Livin by Mandiri","Pilih menu <b>Bayar\/Beli<\/b> ","Cari (89039) atau cari (Plink Pay) sebagai Penyedia Jasa","Masukkan Nomor Virtual Account, (contoh: 146XXXXXXX)","Masukkan jumlah transfer sesuai dengan tagihan kamu. Jumlah yang berbeda tidak dapat diproses","Layar menampilkan Kode Bayar dan Data Pembayaran , pastikan data sudah sesuai","Jika datanya benar, Klik <b>Lanjutkan<\/b>","Masukkan PIN New Livin, klik <b>OK<\/b>","Pembayaran selesai, simpan bukti transaksi Anda"]}]}}
+
+2025-05-05 16:11:39 | HTTP_CODE: 200
+REQUEST: {"method":"PERMATAVA","merchant_ref":"INV1746436297","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436597,"signature":"f33fb2cd643f539896acd328537ca316442371ddb60ba28915decb99d6a5c552"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388592ZHOTG","merchant_ref":"INV1746436297","payment_selection_type":"static","payment_method":"PERMATAVA","payment_name":"Permata Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":645750,"pay_code":"7136385000045211","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388592ZHOTG","status":"UNPAID","expired_time":1746440017,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking Bank Permata Anda","Pilih menu <b>Pembayaran<\/b> lalu klik menu <b>Pembayaran Tagihan<\/b>","Pilih menu <b>Virtual Account<\/b>","Pilih <b>Rekening Asal<\/b> lalu centang <b>Masukkan Daftar Tagihan Baru<\/b>","Masukkan Nomor VA (<b>7136385000045211<\/b>) lalu klik <b>Lanjutkan<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai lalu klik <b>Lanjutkan<\/b>","Masukkan <b>SMS Token<\/b> Permata, lalu klik <b>Lanjutkan<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"ATM Permata","steps":["Masukkan <b>PIN<\/b>","Pilih menu <b>Transaksi Lainnya<\/b>","Pilih menu <b>Pembayaran<\/b>","Pilih menu <b>Pembayaran Lainnya<\/b>","Pilih menu <b>Virtual Account<\/b>","Masukkan Nomor VA (<b>7136385000045211<\/b>) lalu tekan <b>Benar<\/b>","Pilih rekening yang menjadi sumber dana yang akan didebet","Tekan <b>Ya<\/b> untuk konfirmasi transaksi"]}]}}
+
+2025-05-05 16:12:24 | HTTP_CODE: 200
+REQUEST: {"method":"MUAMALATVA","merchant_ref":"INV1746436343","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436643,"signature":"934fc52655c89d28fffdc3f6e15a43319cf4c4b3faf9622c9b6d04a2eff054e3"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233886186J7OX","merchant_ref":"INV1746436343","payment_selection_type":"static","payment_method":"MUAMALATVA","payment_name":"Muamalat Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":345750,"pay_code":"8809033880164546","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233886186J7OX","status":"UNPAID","expired_time":1746440063,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke IB Muamalat","Pilih menu <b>Payment<\/b>","pilih rekening Anda dan pilih <b>Virtual Account<\/b> pada bill type","masukkan Nomor Va (<b>8809033880164546<\/b>)","Klik <b>Next<\/b>","Periksa kembali jumlah pembayaran","Apabila sudah sesuai, Masukkan mPasscode lalu klik <b>SUBMIT<\/b> jika setuju dengan informasi pembayaran","Transaksi Anda selesai. Silahkan cetak bukti transaksi"]},{"title":"M-Banking","steps":["Login ke Mobile Banking Muamalat","Pilih menu <b>Pembayaran<\/b>","masukkan Nomor Va (<b>8809033880164546<\/b>), klik <b>Proses<\/b>","Periksa kembali jumlah pembayaran","Apabila sudah sesuai, masukkan Kode Verifikasi lalu klik <b>Proses<\/b> jika sudah setuju dengan informasi pembayaran","Transaksu Anda selesai, Simpan struk sebagai bukti transaksi"]},{"title":"ATM Muamalat","steps":["Masukkan kartu ATM, lalu input PIN Anda","Pilih menu <b>Transaksi Lain<\/b>","Pilih menu <b>Pembayaran<\/b> kemudian pilih menu <b>Virtual Account<\/b>","Masukkan Nomor VA (<b>8809033880164546<\/b>)","Tekan <b>Bayar<\/b> jika setuju dengan informasi pembayaran","Periksa kembali jumlah Tagihan","Apabila sudah sesuai, tekan <b>Benar<\/b>, lalu tekan <b>Bayar<\/b>","Simpan struk ATM sebagai bukti pembayaran"]}]}}
+
+2025-05-05 16:12:34 | HTTP_CODE: 200
+REQUEST: {"method":"BSIVA","merchant_ref":"INV1746436353","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436653,"signature":"b6f1cac8a52050f0d144e36d836d7d6245388359c082d10015959b42b590f023"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233886224XB2G","merchant_ref":"INV1746436353","payment_selection_type":"static","payment_method":"BSIVA","payment_name":"BSI Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":4250,"fee_customer":0,"total_fee":4250,"amount_received":645750,"pay_code":"388000164547","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233886224XB2G","status":"UNPAID","expired_time":1746440073,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"BYOND by BSI","steps":["Buka aplikasi BYON by BSI","Pilih menu <b>Bayar & Beli<\/b>","Pilih menu <b>Virtual Account<\/b>","Masukkan kode institusi 1062 + Nomor Virtual Account Anda. Contoh: <b>1062388000164547<\/b>","Klik tombol <b>Lanjutkan<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Klik tombol <b>Konfirmasi<\/b>","Masukan PIN Anda","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"Internet Banking","steps":["Masuk ke Internet Banking BSI Anda","Pilih menu <b>Pembayaran<\/b>","Pilih nomor rekening Anda","Pilih <b>Jenis Pembayaran > Institusi<\/b>","Pada opsi Nama Institusi, pilih <b>1062 LINKQU<\/b>","Masukkan kode bayar (<b>388000164547<\/b>)","Klik tombol <b>Verifikasi<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Masukkan TAN & PIN Anda","Tekan tombol <b>Submit<\/b>","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"BSI Mobile","steps":["Masuk ke aplikasi BSI Mobile Anda","Pilih menu <b>Bayar<\/b>","Pilih menu <b>Institusi<\/b>","Pada opsi Nama Institusi, pilih <b>1062 LINKQU<\/b>","Masukkan kode bayar (<b>388000164547<\/b>)","Klik <b>Selanjutnya<\/b>","Masukkan PIN Anda","Klik <b>Selanjutnya<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Klik <b>Selanjutnya<\/b>","Transaksi selesai, simpan bukti pembayaran Anda"]},{"title":"ATM BSI","steps":["Datang ke ATM BSI","Masukkan kartu dan PIN kartu Anda","Pilih menu <b>Pembayaran<\/b>","Pilih <b>Institusi<\/b>","Masukkan kode institusi 1062 + Nomor Virtual Account Anda. Contoh: <b>1062388000164547<\/b>","Tekan tombol <b>Benar<\/b>","Akan ditampikan detail transaksi, pastikan sudah sesuai","Tekan tombol <b>BENAR\/YA<\/b>","Transaksi selesai, simpan bukti pembayaran Anda"]}]}}
+
+2025-05-05 16:13:19 | HTTP_CODE: 200
+REQUEST: {"method":"QRIS","merchant_ref":"INV1746436399","amount":350000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436699,"signature":"a61556fa26da9c92eb1eb1d4c32c94064226b1d866009b987704b6fd869535cf"}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233886566GW5R","merchant_ref":"INV1746436399","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":3200,"fee_customer":0,"total_fee":3200,"amount_received":346800,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233886566GW5R","status":"UNPAID","expired_time":1746437119,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226740025ID.CO.BANKNEOCOMMERCE.WWW011893600490800002920102120005801328150303UBE51550025ID.CO.BANKNEOCOMMERCE.WWW0215ID20253726324190303UBE52046533530336054063500005802ID5911Trijaya Pay6005NGAWI6105632636233012230019193194881526865930703A016304F57F","qr_url":"https:\/\/tripay.co.id\/qr\/T39858233886566GW5R"}}
+
+2025-05-05 16:14:37 | HTTP_CODE: 500
+REQUEST: {"method":"BCAVA","merchant_ref":"INV1746436477","amount":650000,"customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1}],"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","expired_time":1746436777,"signature":"c13daf2ac72fd452d09523372f76444b3d7cbcfb570e88afe7aa0e0fc35114cf"}
+RESPONSE: {"success":false,"message":"Internal service error"}
+
+2025-05-05 16:15:52 | HTTP_CODE: 200
+PAYLOAD: {
+    "method": "QRIS",
+    "merchant_ref": "INV1746436551",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436851,
+    "signature": "daa80f8a9e609b93817e508559f70fe5ce63070b1ecf6307baa6db74bc2320df"
+}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388742FJZ8B","merchant_ref":"INV1746436551","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":3200,"fee_customer":0,"total_fee":3200,"amount_received":346800,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388742FJZ8B","status":"UNPAID","expired_time":1746437271,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226610016ID.CO.SHOPEE.WWW01189360091800217631900208217631900303UMI51440014ID.CO.QRIS.WWW0215ID20243431667550303UMI5204539953033605409350000.005802ID5917Trijaya Indonesia6010KAB. NGAWI61056326362220518pay_3rUm54k6Nz970663043AF8","qr_url":"https:\/\/tripay.co.id\/qr\/T3985823388742FJZ8B"}}
+
+2025-05-05 16:16:19 | HTTP_CODE: 500
+PAYLOAD: {
+    "method": "BCAVA",
+    "merchant_ref": "INV1746436578",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436878,
+    "signature": "c3585bb7a3f70bc5cfc26bf2783da43ac4be018995a0a58929cc628b4ea4f2d0"
+}
+RESPONSE: {"success":false,"message":"Internal service error"}
+
+2025-05-05 16:17:03 | HTTP_CODE: 500
+PAYLOAD: {
+    "method": "BCAVA",
+    "merchant_ref": "INV1746436623",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436923,
+    "signature": "a4a3b6e386115ada5494ecbe17f3b0afa7203c10127def095174a9f147913ad6"
+}
+RESPONSE: {"success":false,"message":"Internal service error"}
+
+2025-05-05 16:17:10 | HTTP_CODE: 200
+PAYLOAD: {
+    "method": "BCAVA",
+    "merchant_ref": "INV1746436629",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436929,
+    "signature": "36fa094865e60175ab6f1c9ee5c7371d0a06811a862f90d0efb5cbdd0adc776f"
+}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388798SHEJK","merchant_ref":"INV1746436629","payment_selection_type":"static","payment_method":"BCAVA","payment_name":"BCA Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":5500,"fee_customer":0,"total_fee":5500,"amount_received":344500,"pay_code":"7900117900021414","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388798SHEJK","status":"UNPAID","expired_time":1746437649,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking klikbca Anda","Pilih menu <b>Transfer Dana<\/b> lalu pilih <b>Transfer ke BCA Virtual Account<\/b>","Pilih <b>Dari Rekening<\/b>","Masukkan Nomor VA (<b>7900117900021414<\/b>) lalu klik <b>Lanjutkan<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai lalu masukkan respon <b>Key BCA Appli 1<\/b>","Klik <b>Kirim<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"Mobile Banking","steps":["Login pada aplikasi BCA mobile","Pilih <b>m-BCA<\/b> masukkan kode akses m-BCA","Pilih <b>m-Transfer<\/b>","Pilih <b>BCA Virtual Account<\/b>","Masukkan Nomor VA (<b>7900117900021414<\/b>) lalu klik <b>OK<\/b>","Konfirmasi no virtual account dan rekening pendebetan","Periksa kembalian rincian pembayaran anda, lalu klik <b>Ya<\/b>","Masukkan pin m-BCA","Pembayaran Selesai"]},{"title":"ATM BCA","steps":["Masukkan kartu ATM BCA & PIN","Pilih menu <b>Transaksi Lainnya > Transfer > Ke Rekening BCA Virtual Account<\/b>","Masukkan Nomor VA (<b>7900117900021414<\/b>)","Di halaman konfirmasi, pastikan detail pembayaran sudah sesuai seperti Nomor VA, Nama, Produk dan Total Tagihan","Jika sudah benar, klik <b>Ya<\/b>","Simpan struk transaksi sebagai bukti pembayaran"]}]}}
+
+2025-05-05 16:17:22 | HTTP_CODE: 200
+PAYLOAD: {
+    "method": "BCAVA",
+    "merchant_ref": "INV1746436641",
+    "amount": 650000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade vip",
+            "price": 650000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436941,
+    "signature": "a336a2a9615ca3d23a84b5c134c0bb7042f077379a2676d178cfc5d161f46543"
+}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T39858233888081CZHE","merchant_ref":"INV1746436641","payment_selection_type":"static","payment_method":"BCAVA","payment_name":"BCA Virtual Account","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":650000,"fee_merchant":5500,"fee_customer":0,"total_fee":5500,"amount_received":644500,"pay_code":"7900117900090665","pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T39858233888081CZHE","status":"UNPAID","expired_time":1746437662,"order_items":[{"sku":"SKU001","name":"Upgrade vip","price":650000,"quantity":1,"subtotal":650000,"product_url":null,"image_url":null}],"instructions":[{"title":"Internet Banking","steps":["Login ke internet banking klikbca Anda","Pilih menu <b>Transfer Dana<\/b> lalu pilih <b>Transfer ke BCA Virtual Account<\/b>","Pilih <b>Dari Rekening<\/b>","Masukkan Nomor VA (<b>7900117900090665<\/b>) lalu klik <b>Lanjutkan<\/b>","Detail transaksi akan ditampilkan, pastikan data sudah sesuai lalu masukkan respon <b>Key BCA Appli 1<\/b>","Klik <b>Kirim<\/b>","Transaksi sukses, simpan bukti transaksi Anda"]},{"title":"Mobile Banking","steps":["Login pada aplikasi BCA mobile","Pilih <b>m-BCA<\/b> masukkan kode akses m-BCA","Pilih <b>m-Transfer<\/b>","Pilih <b>BCA Virtual Account<\/b>","Masukkan Nomor VA (<b>7900117900090665<\/b>) lalu klik <b>OK<\/b>","Konfirmasi no virtual account dan rekening pendebetan","Periksa kembalian rincian pembayaran anda, lalu klik <b>Ya<\/b>","Masukkan pin m-BCA","Pembayaran Selesai"]},{"title":"ATM BCA","steps":["Masukkan kartu ATM BCA & PIN","Pilih menu <b>Transaksi Lainnya > Transfer > Ke Rekening BCA Virtual Account<\/b>","Masukkan Nomor VA (<b>7900117900090665<\/b>)","Di halaman konfirmasi, pastikan detail pembayaran sudah sesuai seperti Nomor VA, Nama, Produk dan Total Tagihan","Jika sudah benar, klik <b>Ya<\/b>","Simpan struk transaksi sebagai bukti pembayaran"]}]}}
+
+2025-05-05 16:17:47 | HTTP_CODE: 200
+PAYLOAD: {
+    "method": "QRIS",
+    "merchant_ref": "INV1746436667",
+    "amount": 350000,
+    "customer_name": "kakekhoki88",
+    "customer_email": "kakekhoki88@sflink.id",
+    "order_items": [
+        {
+            "sku": "SKU001",
+            "name": "Upgrade medium",
+            "price": 350000,
+            "quantity": 1
+        }
+    ],
+    "callback_url": "https:\/\/sflink.id\/dashboard\/payments\/callback.php",
+    "return_url": "https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran",
+    "expired_time": 1746436967,
+    "signature": "7f6fb66862d4deab8fa850a2e14e19a81a0ba70ef936c91d214e1d2739d2a531"
+}
+RESPONSE: {"success":true,"message":"Successfully generate transaction","data":{"reference":"T3985823388827ZDLBB","merchant_ref":"INV1746436667","payment_selection_type":"static","payment_method":"QRIS","payment_name":"QRIS by ShopeePay","customer_name":"kakekhoki88","customer_email":"kakekhoki88@sflink.id","customer_phone":null,"callback_url":"https:\/\/sflink.id\/dashboard\/payments\/callback.php","return_url":"https:\/\/sflink.id\/dashboard\/?menu=riwayat-pembayaran","amount":350000,"fee_merchant":3200,"fee_customer":0,"total_fee":3200,"amount_received":346800,"pay_code":null,"pay_url":null,"checkout_url":"https:\/\/tripay.co.id\/checkout\/T3985823388827ZDLBB","status":"UNPAID","expired_time":1746437387,"order_items":[{"sku":"SKU001","name":"Upgrade medium","price":350000,"quantity":1,"subtotal":350000,"product_url":null,"image_url":null}],"instructions":[{"title":"Pembayaran via QRIS (ShopeePay)","steps":["Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Pindai\/Scan QR Code yang tersedia","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]},{"title":"Pembayaran via QRIS (Mobile)","steps":["Download QR Code pada invoice","Masuk ke aplikasi dompet digital Anda yang telah mendukung QRIS","Upload QR Code yang telah di download tadi","Akan muncul detail transaksi. Pastikan data transaksi sudah sesuai","Selesaikan proses pembayaran Anda","Transaksi selesai. Simpan bukti pembayaran Anda"]}],"qr_string":"00020101021226610016ID.CO.SHOPEE.WWW01189360091800217631900208217631900303UMI51440014ID.CO.QRIS.WWW0215ID20243431667550303UMI5204539953033605409350000.005802ID5917Trijaya Indonesia6010KAB. NGAWI61056326362220518pay_iF1RGYBO3a2251630413FE","qr_url":"https:\/\/tripay.co.id\/qr\/T3985823388827ZDLBB"}}
+

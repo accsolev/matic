@@ -1,0 +1,1316 @@
+{
+  "common": {
+    "sidebar": true,
+    "theme_customizer": true,
+    "slick": true,
+    "header_slider": true,
+    "scrollbar": true
+  },
+  "according": {
+    "$ref": "common",
+    "animate": true,
+    "height_equal": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true
+  },
+  "account-restricted": {
+    "sidebar": false
+  },
+  "ace-code-editor": {
+    "$ref": "common",
+    "tooltip": true,
+    "ace_editor": true,
+    "animate": true
+  },
+  "add-blog": {
+    "$ref": "common",
+    "select2": true,
+    "page_select2": true,
+    "dropzone": true,
+    "editors": true,
+    "editors4": true
+  },
+
+  "add-products": {
+    "$ref": "common",
+    "dropzone": true,
+    "validation_modal": true,
+    "tooltip": true,
+    "select2_options": true,
+    "flatpickr": true,
+    "custom_flatpickr": true,
+    "sweetalert2": true,
+    "editors": true,
+    "editors2": true,
+    "animate": true,
+    "bs_select": true,
+    "page_select4": true
+  },
+  "add-user": {
+    "$ref": "common"
+  },
+  "alert": {
+    "$ref": "common",
+    "height_equal": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "alert": true
+  },
+  "animate": {
+    "$ref": "common",
+    "animate": "true",
+    "page_animate": true
+  },
+  "AOS": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "isotope": true,
+    "aos": true,
+    "page_aos": true,
+    "animate": true
+  },
+  "avatars": {
+    "$ref": "common",
+    "animate": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "base-input": {
+    "$ref": "common",
+    "bootstrap_multiselect": true,
+    "bootstrap_maxlength": true,
+    "common_inputs": true,
+    "height_equal": true
+  },
+  "basic-card": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "block-ui": {
+    "$ref": "common",
+    "blockui": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "blog-details": {
+    "$ref": "common"
+  },
+  "blog": {
+    "$ref": "common"
+  },
+  "bookmark": {
+    "$ref": "common",
+    "form_validation_custom": true,
+    "bs_select": true,
+    "bookmark_page": true
+  },
+  "bootstrap-basic-table": {
+    "$ref": "common"
+  },
+  "box-layout": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true
+  },
+  "breadcrumb": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "buttons": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "tooltip": true,
+    "ripple_btn": true,
+    "popper": true
+  },
+  "calendar": {
+    "$ref": "common",
+    "flatpickr": true,
+    "custom_flatpickr": true,
+    "calendar": true,
+    "select2_options": true
+  },
+  "candidates": {
+    "$ref": "common",
+    "tooltip": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true
+  },
+  "cart": {
+    "$ref": "common",
+    "tooltip": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "trash": true,
+    "touchspin_2": true
+  },
+  "category": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "validation_modal": true,
+    "editors": true,
+    "sweetalert2": true,
+    "trash_popup": true,
+    "custom_category": true
+  },
+  "chart-apex": {
+    "$ref": "common",
+    "apex": true,
+    "page_apex": true,
+    "apexmoment": true
+  },
+
+  "chart-flot": {
+    "$ref": "common",
+    "flotchart": true,
+    "page_flotchart": true,
+    "animate": true
+  },
+  "chart-google": {
+    "$ref": "common",
+    "googlechart": true,
+    "page_googlechart": true
+  },
+
+  "chart-knob": {
+    "$ref": "common",
+    "knobchart": true,
+    "page_knobchart": true,
+    "animate": true
+  },
+
+  "chart-morris": {
+    "$ref": "common",
+    "morrischart": true,
+    "page_morrischart": true,
+    "animate": true
+  },
+  "chart-peity": {
+    "$ref": "common",
+    "peitychart": true,
+    "page_peitychart": true,
+    "animate": true
+  },
+  "chart-sparkline": {
+    "$ref": "common",
+    "sparkline": true,
+    "page_sparkline": true
+  },
+  "chart-widget": {
+    "$ref": "common",
+    "prism": "true",
+    "counter": true,
+    "apex": true,
+    "apexmoment": true,
+    "clipboard": true,
+    "customcard": true,
+    "chart_widget": true,
+    "animate": true
+  },
+  "chartist": {
+    "$ref": "common",
+    "chartist": true,
+    "animate": true,
+    "page_chartist": true
+  },
+  "chartjs": {
+    "$ref": "common",
+    "chartjs": true,
+    "page_chartjs": true,
+    "animate": true
+  },
+  "checkout": {
+    "$ref": "common",
+    "custom_sellers": true,
+    "number_wizard": true,
+    "bs_select": true,
+    "form_validation_custom": true
+  },
+  "ckeditor": {
+    "$ref": "common",
+    "ckeditor": true
+  },
+  "clipboard": {
+    "$ref": "common",
+    "clipboard": true,
+    "page_clipboard": true,
+    "sweetalert2": true,
+    "height_equal": true
+  },
+  "comingsoon-bg-img": {
+    "countdown": true
+  },
+  "comingsoon-bg-video": {
+    "countdown": true
+  },
+  "comingsoon": {
+    "countdown": true
+  },
+  "companies": {
+    "$ref": "common",
+    "height_equal": true
+  },
+  "contacts": {
+    "$ref": "common",
+    "form_validation_custom": true,
+    "bs_select": true,
+    "sweetalert2": true,
+    "contact_page": true
+  },
+  "course-details": {
+    "$ref": "common"
+  },
+  "course-list-view": {
+    "$ref": "common"
+  },
+  "createnew": {
+    "$ref": "common",
+    "bs_select": true,
+    "form_validation_custom": true
+  },
+  "creative-card": {
+    "$ref": "common",
+    "animate": true,
+    "height_equal": true
+  },
+  "customer-order": {
+    "$ref": "common",
+    "tooltip": true,
+    "bs_select": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "datatable_extension": true,
+    "validation_modal": true,
+    "flatpickr": true,
+    "moment_picker": true,
+    "custom_flatpickr": true
+  },
+  "dashboard-02": {
+    "$ref": "common",
+    "apex": true,
+    "dashboard_2": true,
+    "animate": true,
+    "counter": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "tooltip": true
+  },
+
+  "dashboard-03": {
+    "$ref": "common",
+    "apexmoment": true,
+    "animate": true,
+    "counter": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "apex": true,
+    "flatpickr": true,
+    "dashboard_3": true
+  },
+  "dashboard-04": {
+    "$ref": "common",
+    "apex": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "dashboard_4": true,
+    "animate": true,
+    "counter": true
+  },
+  "dashboard-05": {
+    "$ref": "common",
+    "apex": true,
+    "page_vector_map1": true,
+    "counter": true,
+    "dashboard_5": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true
+  },
+  "dashboard-06": {
+    "$ref": "common",
+    "apex": true,
+    "timer_down": true,
+    "animate": true,
+    "counter": true,
+    "height_equal": true,
+    "owlcarousel": true,
+    "dashboard_6": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "swiper": true
+  },
+  "dashboard-07": {
+    "$ref": "common",
+    "apex": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "dashboard_7": true,
+    "animate": true,
+    "counter": true,
+    "height_equal": true,
+    "flatpickr": true
+  },
+  "dashboard-08": {
+    "$ref": "common",
+    "animate": true,
+    "height_equal": true,
+    "dashboard_8": true,
+    "touchspin_2": true,
+    "swiper": true
+  },
+  "dashboard-09": {
+    "$ref": "common",
+    "apex": true,
+    "apexmoment": true,
+    "dashboard_9": true,
+    "select_dt": true,
+    "counter": true,
+    "datatable": true,
+    "page_datatable": true,
+    "animate": true
+  },
+  "dashboard-10": {
+    "$ref": "common",
+    "apex": true,
+    "apexmoment": true,
+    "dashboard_10": true,
+    "page_vector_map1": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "animate": true,
+    "counter": true
+  },
+  "dashboard-11": {
+    "$ref": "common",
+    "apex": true,
+    "dashboard_11": true,
+    "animate": true,
+    "sidebar": true,
+    "select_dt": true,
+    "trash": true,
+    "datatable": true,
+    "page_datatable": true,
+    "swiper": true,
+    "counter": true
+  },
+  "dashboard-12": {
+    "$ref": "common",
+    "apex": true,
+    "animate": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "swiper": true,
+    "counter": true,
+    "tooltip": true,
+    "dashboard_12": true,
+    "height_equal": true
+  },
+  "dashboard-13": {
+    "$ref": "common",
+    "apex": true,
+    "animate": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "swiper": true,
+    "counter": true,
+    "dashboard_13": true,
+    "height_equal": true
+  },
+  "datatable-advance": {
+    "$ref": "common",
+    "datatable": true,
+    "tooltip": true,
+    "datatable_advance": true,
+    "init_datatable": true,
+    "page_datatable2": true
+  },
+  "datatable-API": {
+    "$ref": "common",
+    "datatable": true,
+    "init_datatable": true,
+    "page_datatable2": true
+  },
+  "datatable-basic-init": {
+    "$ref": "common",
+    "datatable": true,
+    "init_datatable": true,
+    "page_datatable2": true
+  },
+  "datatable-data-source": {
+    "$ref": "common",
+    "datatable": true,
+    "init_datatable": true,
+    "page_datatable2": true
+  },
+  "datatable-ext-autofill": {
+    "$ref": "common",
+    "datatable": true,
+    "init_datatable": true,
+    "datatable_extension": true
+  },
+  "datepicker": {
+    "$ref": "common",
+    "flatpickr": true,
+    "custom_flatpickr": true
+  },
+  "divider": {
+    "$ref": "common",
+    "animate": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "draggable-card": {
+    "$ref": "common",
+    "draggable": true,
+    "sortable": true,
+    "height_equal": true
+  },
+  "dropdown": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "dropzone": {
+    "$ref": "common",
+    "dropzone": true,
+    "filepond": true,
+    "height_equal": true
+  },
+  "faq": {
+    "$ref": "common"
+  },
+  "feather_icon": {
+    "$ref": "common",
+    "notify": true,
+    "icon_notify": true,
+    "animate": true,
+    "page_feather_icon": true
+  },
+  "file-manager": {
+    "$ref": "common",
+    "typeahead": true,
+    "typeahead_search": true,
+    "manager_ui": true,
+    "file_manager": true
+  },
+  "flag-icon": {
+    "$ref": "common",
+    "page_flag_icon": true,
+    "notify": true,
+    "icon_notify": true
+  },
+  "flash-icon": {
+    "$ref": "common",
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "font-awesome": {
+    "$ref": "common",
+    "page_icon": true,
+    "notify": true,
+    "icon_notify": true,
+    "animate": true
+  },
+  "footer-dark": {
+    "$ref": "common",
+    "footer_dark": true
+  },
+  "footer-fixed": {
+    "$ref": "common",
+    "footer_fix": true
+  },
+  "footer-light": {
+    "$ref": "common"
+  },
+  "form-validation": {
+    "$ref": "common",
+    "form_validation_custom": true,
+    "animated_form": true,
+    "pwd_validation": true,
+    "height_equal": true,
+    "animate": true
+  },
+  "form-wizard-two": {
+    "$ref": "common"
+  },
+  "form-wizard": {
+    "$ref": "common",
+    "form_wizard": true,
+    "image_upload": true,
+    "bs_select": true,
+    "form_validation_custom": true,
+    "height_equal": true
+  },
+  "gallery-masonry": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "isotope": true,
+    "page_masonry": true
+  },
+  "gallery-with-description": {
+    "$ref": "common",
+    "photo_swipe": true
+  },
+  "gallery-with-placeholder": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "isotope": true,
+    "page_masonry": true,
+    "skeleton_effect": true
+  },
+  "gallery": {
+    "$ref": "common",
+    "photo_swipe": true
+  },
+  "general-widget": {
+    "$ref": "common",
+    "height_equal": true,
+    "date_picker": true,
+    "apex": true,
+    "general_widget": true,
+    "counter": true,
+    "animate": true
+  },
+  "grid": {
+    "$ref": "common",
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "animate": true,
+    "height_equal": true
+  },
+  "group-chat": {
+    "$ref": "common",
+    "common_chat": true,
+    "emoji_bar": true
+  },
+  "helper-classes": {
+    "$ref": "common",
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "hide-on-scroll": {
+    "$ref": "common",
+    "hide_on_scroll": true
+  },
+  "hover-effects": {
+    "$ref": "common",
+    "photo_swipe": true
+  },
+  "ico-icon": {
+    "$ref": "common",
+    "icon_notify": true,
+    "page_icon": true,
+    "notify": true,
+    "animate": true
+  },
+  "image-cropper": {
+    "$ref": "common",
+    "image_cropper": true,
+    "tooltip": true,
+    "height_equal": true
+  },
+  "index": {
+    "$ref": "common",
+    "apex": true,
+    "notify": true,
+    "counter": true,
+    "animate": true,
+    "typeahead": true,
+    "typeahead_search": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "clock": true,
+    "dashboard_default": true
+  },
+  "input-group": {
+    "$ref": "common",
+    "height_equal": true
+  },
+  "input-mask": {
+    "$ref": "common",
+    "input_mask": true
+  },
+  "internationalization": {
+    "$ref": "common",
+    "internationalization": true
+  },
+  "invoice-template": {
+    "$ref": "common",
+    "counter": true,
+    "print": true
+  },
+  "job-apply": {
+    "$ref": "common",
+    "select2": true,
+    "date_picker": true,
+    "bs_select": true
+  },
+  "job-cards-view": {
+    "$ref": "common"
+  },
+  "job-details": {
+    "$ref": "common"
+  },
+  "job-list-view": {
+    "$ref": "common"
+  },
+  "jsgrid-table": {
+    "$ref": "common",
+    "jsgrid": true
+  },
+  "kanban": {
+    "$ref": "common",
+    "tooltip": true,
+    "typeahead": true,
+    "typeahead_search": true,
+    "jkanban": true
+  },
+  "knowledgebase": {
+    "$ref": "common"
+  },
+  "landing-page": {
+    "landing_sticky": true,
+    "wow": true,
+    "animate": true,
+    "tooltip": true,
+    "jarallax_libs": true,
+    "landing_icon": true,
+    "slick": true,
+    "landing_slider": true,
+    "landing_font": true
+  },
+  "layout-dark": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true
+  },
+  "layout-light": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "tooltip": true,
+    "animate": true
+  },
+  "layout-rtl": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true
+  },
+  "list": {
+    "$ref": "common",
+    "counter": true,
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "login_one": {
+    "sidebar": false
+  },
+  "login_three": {
+    "sidebar": false
+  },
+  "login_two": {
+    "sidebar": false
+  },
+  "login_with_sweetalert": {
+    "sidebar": false
+  },
+  "login_with_tooltip": {
+    "sidebar": false
+  },
+  "login": {
+    "sidebar": false
+  },
+  "mail-box": {
+    "$ref": "common",
+    "email_pagination": true,
+    "tooltip": true,
+    "print": true,
+    "trash": true,
+    "editors": true,
+    "editors1": true,
+    "manager_ui": true
+  },
+  "manage-api": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "validation_modal": true,
+    "sweetalert2": true,
+    "trash_popup": true,
+    "copy_box": true
+  },
+  "manage-review": {
+    "$ref": "common",
+    "bs_select": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "datatable_extension": true,
+    "init_datatable": true,
+    "validation_modal": true,
+    "sweetalert2": true,
+    "trash_popup": true
+  },
+  "map-js": {
+    "$ref": "common",
+    "map_js": true
+  },
+  "masonry-gallery-with-disc": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "isotope": true,
+    "page_masonry": true
+  },
+  "megaoptions": {
+    "$ref": "common",
+    "height_equal": true
+  },
+  "modal-animated": {
+    "$ref": "common",
+    "animate": true,
+    "modal_animated": true
+  },
+  "modal": {
+    "$ref": "common",
+    "tooltip": true,
+    "popover_custom": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "validation_modal": true,
+    "height_equal": true
+  },
+  "navigate-links": {
+    "$ref": "common",
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "offcanvas": {
+    "$ref": "common",
+    "clipboard": true,
+    "prism": true,
+    "customcard": true
+  },
+  "order-details": {
+    "$ref": "common"
+  },
+  "order-history": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "flatpickr": true,
+    "custom_flatpickr": true,
+    "trash": true,
+    "tooltip": true
+  },
+  "owl-carousel": {
+    "$ref": "common",
+    "swiper": true,
+    "custom_swiper": true,
+    "height_equal": true
+  },
+  "pagination": {
+    "$ref": "common",
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "placeholders": {
+    "$ref": "common",
+    "clipboard": true,
+    "prism": true,
+    "customcard": true
+  },
+  "popover": {
+    "$ref": "common",
+    "popover_custom": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true
+  },
+  "pricing": {
+    "$ref": "common"
+  },
+  "private-chat": {
+    "$ref": "common",
+    "common_chat": true,
+    "emoji_bar": true,
+    "active_chat": true
+  },
+  "product-details": {
+    "$ref": "common",
+    "zoom_magnifier": true,
+    "owlcarousel": true,
+    "ecommerce": true,
+    "touchspin_2": true,
+    "form_validation_custom": true
+  },
+  "product-grid": {
+    "$ref": "common",
+    "range_slider": true,
+    "page_range_slider": true,
+    "touchspin_2": true,
+    "select2": true,
+    "page_select2": true,
+    "product_tab": true,
+    "owlcarousel": true,
+    "color_selector": true
+  },
+  "product-report": {
+    "$ref": "common",
+    "bs_select": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "datatable_extension": true,
+    "validation_modal": true,
+    "flatpickr": true,
+    "moment_picker": true,
+    "custom_flatpickr": true
+  },
+  "products-list": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "range_slider": true,
+    "sweetalert2": true,
+    "page_range_slider": true,
+    "trash_popup": true,
+    "color_selector": true
+  },
+  "progress-bar": {
+    "$ref": "common",
+    "progress": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "animate": true,
+    "height_equal": true
+  },
+  "project-details": {
+    "$ref": "common",
+    "tooltip": true,
+    "apex": true,
+    "select_dt": true,
+    "datatable": true,
+    "touchspin_2": true,
+    "page_datatable": true,
+    "header_slider": true,
+    "scope_project": true
+  },
+  "project-list": {
+    "$ref": "common",
+    "apex": true,
+    "typeahead": true,
+    "typeahead_search": true,
+    "apexmoment": true,
+    "tooltip": true,
+    "project_stat": true
+  },
+  "quilleditor": {
+    "$ref": "common",
+    "editors": true,
+    "editors3": true,
+    "Bubble_editor": true
+  },
+  "radio-checkbox-control": {
+    "$ref": "common",
+    "indeterminate": true,
+    "height_equal": true
+  },
+  "range-slider": {
+    "$ref": "common",
+    "range_slider": true,
+    "page_range_slider": true,
+    "animate": true
+  },
+  "rating": {
+    "$ref": "common",
+    "rating": true,
+    "height_equal": true
+  },
+  "ratios": {
+    "$ref": "common",
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true
+  },
+  "register_simple": {
+    "sidebar": false
+  },
+  "register_with_bg_image": {
+    "sidebar": false
+  },
+  "register_with_image_two": {
+    "sidebar": false
+  },
+  "register_wizard": {
+    "theme_customizer": true,
+    "tooltip": true,
+    "form_wizard_four": true,
+    "sidebar": false
+  },
+  "ribbons": {
+    "$ref": "common",
+    "animate": true,
+    "height_equal": true
+  },
+  "roles-permission": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "sweetalert2": true,
+    "trash_popup": true,
+    "common_check_all": true
+  },
+  "sales-report": {
+    "$ref": "common",
+    "bs_select": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "datatable_extension": true,
+    "validation_modal": true,
+    "flatpickr": true,
+    "moment_picker": true,
+    "custom_flatpickr": true
+  },
+  "sales-return": {
+    "$ref": "common",
+    "bs_select": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "datatable_extension": true,
+    "validation_modal": true,
+    "flatpickr": true,
+    "moment_picker": true,
+    "custom_flatpickr": true
+  },
+  "sample-page": {
+    "$ref": "common"
+  },
+  "scroll-reval": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "scrollreveal": true,
+    "pages_scrollreveal": true,
+    "animate": true
+  },
+  "scrollable": {
+    "$ref": "common",
+    "scrollable": true
+  },
+  "scrollspy": {
+    "$ref": "common",
+    "scrollspy": true,
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true
+  },
+  "search-result": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "animate": true,
+    "tooltip": true,
+    "swiper": true,
+    "custom_search": true,
+    "like_option": true
+  },
+  "select2": {
+    "$ref": "common",
+    "page_select3": true,
+    "select2_options": true,
+    "custom_select2": true,
+    "height_equal": true
+  },
+  "seller-details": {
+    "$ref": "common",
+    "animate": true,
+    "apex": true,
+    "seller_detail": true,
+    "editors": true,
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "tooltip": true,
+    "sweetalert2": true,
+    "trash_popup": true,
+    "counter": true
+  },
+  "seller-list": {
+    "$ref": "common",
+    "flatpickr": true,
+    "custom_sellers": true,
+    "number_wizard": true
+  },
+  "settings": {
+    "$ref": "common",
+    "bs_select": true,
+    "editors": true,
+    "bootstrap_multiselect": true,
+    "custom_setting": true
+  },
+  "sign-up-one": {
+    "sidebar": false
+  },
+  "sign-up-two": {
+    "sidebar": false
+  },
+  "sign-up-wizard": {
+    "sidebar": false,
+    "theme_customizer": true,
+    "tooltip": true,
+    "form_wizard_four": true
+  },
+  "sign-up": {
+    "sidebar": false
+  },
+  "sitemap": {
+    "$ref": "common",
+    "animate": true,
+    "clipboard": true,
+    "prism": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "social-app": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "counter": true,
+    "tooltip": true,
+    "avatar_change": true
+  },
+  "subscribed-user": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "datatable_extension": true,
+    "tooltip": true
+  },
+  "support-ticket": {
+    "$ref": "common",
+    "counter": true,
+    "datatable": true,
+    "init_datatable": true,
+    "support_ticket_custom": true
+  },
+  "sweet-alert2": {
+    "$ref": "common",
+    "sweetalert2": true,
+    "page_sweetalert2": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "animate1": true,
+    "height_equal": true
+  },
+  "switch": {
+    "$ref": "common",
+    "height_equal": true
+  },
+  "tab-bootstrap": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "table-components": {
+    "$ref": "common"
+  },
+  "tag-pills": {
+    "$ref": "common",
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "task": {
+    "$ref": "common",
+    "form_validation_custom": true,
+    "bs_select": true,
+    "date_picker": true,
+    "select_dt": true,
+    "datatable": true,
+    "tooltip": true,
+    "page_datatable": true,
+    "bookmark_page": true
+  },
+  "themify-icon": {
+    "$ref": "common",
+    "animate": true,
+    "page_icon": true,
+    "notify": true,
+    "icon_notify": true
+  },
+  "tilt": {
+    "$ref": "common",
+    "tilt": true,
+    "page_tilt": true,
+    "height_equal": true,
+    "animate": true
+  },
+  "timeline-v-1": {
+    "$ref": "common",
+    "timeline": true,
+    "height_equal": true
+  },
+  "to-do": {
+    "$ref": "common",
+    "custom_todo": true
+  },
+  "toasts": {
+    "$ref": "common",
+    "toasts": true,
+    "page_notify": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "tooltip": {
+    "$ref": "common",
+    "tooltip": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true
+  },
+  "touchspin": {
+    "$ref": "common",
+    "touchspin_2": true
+  },
+  "tour": {
+    "$ref": "common",
+    "tour": true,
+    "tooltip": true,
+    "counter1": true,
+    "avatar_change": true
+  },
+  "tree": {
+    "$ref": "common",
+    "sortable": true,
+    "sortable1": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "two-factor": {
+    "$ref": "common",
+    "tooltip": true,
+    "verification_code": true
+  },
+  "typeahead": {
+    "$ref": "common",
+    "typeahead": true
+  },
+  "typography": {
+    "$ref": "common",
+    "animate": true,
+    "prism": true,
+    "clipboard": true,
+    "customcard": true,
+    "height_equal": true
+  },
+  "user-cards": {
+    "$ref": "common"
+  },
+  "user-list": {
+    "$ref": "common",
+    "select_dt": true,
+    "datatable": true,
+    "page_datatable": true,
+    "sweetalert2": true,
+    "trash_popup": true,
+    "common_check_all": true
+  },
+  "user-profile": {
+    "$ref": "common",
+    "counter1": true,
+    "tooltip": true,
+    "avatar_change": true
+  },
+  "vector-map": {
+    "$ref": "common",
+    "vector_map": true,
+    "page_vector_map": true
+  },
+  "weather-icon": {
+    "$ref": "common",
+    "whether_icon": true,
+    "page_whether_icon": true,
+    "notify": true,
+    "icon_notify": true,
+    "animate": true
+  },
+  "wishlist": {
+    "$ref": "common",
+    "trash": true
+  },
+  "wow": {
+    "$ref": "common",
+    "photo_swipe": true,
+    "isotope": true,
+    "page_wow": true,
+    "wow": true,
+    "animate": true
+  }
+}

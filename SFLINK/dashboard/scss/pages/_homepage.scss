@@ -1,0 +1,595 @@
+
+
+//heart Blast Effect
+
+.heart-blast {
+    background-position: -105rem 0!important;
+    transition: background 1s steps(28);
+}
+
+.heart {
+    width   	: 3.75rem;
+    height  	: 3.75rem;
+    display 	: inline-block;
+    background  : url('../images/like.png');
+    cursor      : pointer;
+    margin      : -1.5625rem -0.9375rem;
+}
+.plus-box{
+    background-color: var(--primary);
+    padding: 1.5rem;
+    border-radius: $radius;
+    position: relative;
+    margin: 0.875rem 1.5rem;
+	margin-bottom: 30px;
+	overflow: hidden;
+    .media {
+        position: absolute;
+        top: 25px;
+        right: 15px;
+		svg{
+			path{
+				fill:#568AFF;
+			}
+		}
+    }
+    .info {
+		padding: 18px 0;
+		padding-bottom: 0;
+        h6{
+            color: $white;
+			font-size:1rem;
+        }
+		span{
+			font-size:12px;
+			color:$white;
+		}
+		svg{
+			position: absolute;
+			top: 9px;
+			left: 17px;
+		}
+    }
+
+}
+.custome-tooltip{
+    .apexcharts-tooltip.apexcharts-theme-light{
+          
+            font-size: 1.125rem;
+            background-color: var(--primary);
+            border-radius: $radius-sm;
+            border: none;
+            overflow: unset;
+            &::before{
+                content: '';
+                display: none;
+                background-color: var(--primary);
+                width: 1.5rem;
+                height: 1.5rem;
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: rotate(45deg) translateX(-50%);
+                z-index: -1;
+            }
+        }
+    .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+        display: none;
+    }
+    .apexcharts-tooltip-series-group.apexcharts-active {
+        justify-content: center;
+        font-size: 1.125rem;
+        color: $white;
+		font-family: 'poppins', sans-serif;
+		height: 30px;
+		padding: 8px 12px;
+    }
+    .apexcharts-tooltip-text {
+        font-size:  0.875rem !important;
+		font-family: 'poppins', sans-serif;
+    }
+    .apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
+        opacity: 1;
+        display: none;
+		font-family: 'poppins', sans-serif;
+    }
+
+}
+
+// -----sidebar--
+
+/* new-scss-start */
+
+.dz-scroll{
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+.card-menu{
+    h2{
+        font-size: 30px;
+        font-weight: 600;
+		@include respond ('tab-port'){
+			font-size:24px;
+		}	
+		@include respond ('phone'){
+			font-size: 20px;
+		}
+    }
+}
+// custome classes
+.icon-box{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: $radius;
+    &.icon-box-lg{
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+		@include respond ('phone'){
+			height:55px;
+			width:55px;
+			line-height:55px;
+		}
+    }
+}
+.h-title{
+	font-size:1.25rem;
+	font-weight:600;
+	margin-bottom:0;
+	@include respond ('phone'){
+		margin-bottom: 12px;
+	}
+}
+.title{
+	font-size:20px;
+	@include respond ('tab-land'){
+		font-size:1rem;
+	}
+}
+
+.revnue-tab,
+.revnue-tab-1{
+	&.nav-tabs{
+		border:0;
+		border-bottom:1px solid $border;
+		position:relative;
+		.nav-link{
+			border: 0;
+			border-radius: 0;
+			background-color: transparent;
+			color:$body-color;
+			padding: 10px 16px;
+			&.active{
+				color: var(--primary);
+				position:relative;
+				z-index:2;
+				
+				&:after{
+					content:"";
+					position:absolute;
+					background-color:var(--primary);
+					height: 2px;
+					width: 100%;
+					bottom: -1px;
+					left:0;
+					
+				}
+			}
+			@include respond ('phone'){
+				padding: 10px 11px;
+			}
+		}
+		@include respond ('phone'){
+			margin-bottom:1rem;
+		}
+	}
+	
+}
+
+.bootstrap-select{
+	&.h-select{
+		height: 40px;
+		width: 110px!important;
+		.btn{
+			border-color:var(--primary)!important;
+			color:var(--primary)!important;
+			padding:4px 19px!important;
+			border-radius:$radius;
+			height: 40px;
+		}
+	}
+}
+
+.icon-bx{
+	width: 55px;
+	height: 55px;
+	border-radius: 0.75rem;
+	display: inline-block;
+	text-align: center;
+	line-height: 55px;
+	position:relative;
+	
+	&.icon-outline-bx{
+		border:1px solid var(--primary);
+		background-color:transparent;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+	&.icon-bx-md{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+}
+/* avatar-scss */
+.avatar{
+	width:50px;
+	height:50px;
+	border-radius:$radius;
+	object-fit:cover;
+	position:relative;
+	
+	&.avatar-lg{
+		width:110px;
+		height:110px;
+	}
+	&.avatar-md{
+		width:68px;
+		height:68px;
+	}
+	&.avatar-xs{
+		width:44px;
+		height:44px;
+	}
+	&.avatar-xxs{
+		width:39px;
+		height:39px;
+	}
+}
+/* fav-img */
+
+.fav-media{
+	background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	width:100%;
+	height:350px;
+	border-radius:$radius;
+	overflow:hidden;
+	@include respond ('phone'){
+		margin-bottom:1rem;
+	}
+
+	 &:after{
+		background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, #000000 100%);
+		content:"";
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+	} 
+	.dz-badge-list,
+	.dz-info-list{
+		position:absolute;
+		top:25px;
+		left:30px;
+		z-index:1;
+		.fav-tag{
+			font-size:14px;
+			font-weight:600;
+			margin-left:5px;
+		}
+		li{
+			svg{
+				margin-top:-5px;
+			}
+		}
+		
+	}
+	.dz-info-list{
+		bottom:0;
+		right:30px;
+		top:unset;
+	}
+	@include respond ('phone'){
+		height: 258px;
+	}
+	
+}
+.swiper-box{
+	margin-top:30px;
+	.swiper-media{
+		width:100%;
+		height:130px;
+		object-fit:cover;
+		img{
+			width:100%;
+			height:100%;
+			border-radius:$radius;
+		}
+	}
+	.swiper-info{
+		ul{
+			li{
+				align-items: center;
+				display: flex;
+				font-weight:600;
+				svg{
+					margin-right:5px;
+				}
+				small{
+					font-weight:400;
+					margin-left: 8px;
+				}
+			}
+		}
+		h6{
+			a{
+				color:black;
+			}
+		}
+	}
+}
+.customer-map-list{
+	padding:10px 20px;
+	position:relative;
+	&:after{
+		content:"";
+		position:absolute;
+		top:0;
+		left:5px;
+		background:var(--primary);
+		width:4px;
+		height: 0;
+	}
+	&:hover{
+		background:var(--rgba-primary-1);
+		&:after{
+			height:100%;
+		}
+		.icon-bx{
+			background-color:var(--rgba-primary-1)!important;
+			svg{
+				path{
+					fill:var(--primary);
+				}
+			}
+		}
+	}
+	
+}
+.recent-customer{
+	height: 233px;
+	.custome-list{
+		padding: 10px 20px;
+		&:hover{
+			background:var(--rgba-primary-1);
+		}
+		li{
+			p{
+				font-size:12px;
+			}
+			a{
+				color:black;
+			}
+		}
+	}
+	.newc-btn{
+		padding: 0 20px;
+	}
+}
+table.dataTable thead .sorting_asc:after {
+	display:none;
+}
+.active-projects{
+	thead{
+		tr{
+			th{
+				& last-child{
+					.sorting:after{
+						display:none;
+					}
+				}
+			}
+		}	
+	}
+}
+.review{
+	width: 42rem;
+	@include respond ('phone-land'){
+		width:100%;
+	}
+}
+.map-wrapper{
+	position:relative;
+}
+.all-locations{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+	.location1{
+		position: absolute;
+		top: 40%;
+		right: 14rem;
+	}
+	.location4{
+		position: absolute;
+		top: 12rem;
+		left: 18%;
+	}
+	.onlive{
+		position: absolute;
+		top: 2rem;
+		left: 7rem;
+		z-index: 1;
+		&:after{
+			position: absolute;
+			content: "";
+			height: 20px;
+			width: 20px;
+			left: 5px;
+			top: 5px;
+			border-radius: 500px;
+			animation: 1.5s ease 0s normal none infinite running playbutton3;
+			z-index: -1;
+		}
+		&:before{
+			position: absolute;
+			content: "";
+			height: 20px;
+			width: 20px;
+			top: 5px;
+			left: 5px;
+			border-radius: 500px;
+			animation: 1.5s ease 0s normal none infinite running playbutton2;
+			z-index: -1;
+		}
+	}
+	.onlive2{
+		position: absolute;
+		bottom: 6rem;
+		left: 70%;
+		z-index: 1;
+		&:after{
+			position: absolute;
+			content: "";
+			height: 20px;
+			width: 20px;
+			left: 5px;
+			top: 5px;
+			border-radius: 500px;
+			animation: 1.5s ease 0s normal none infinite running playbutton4;
+			z-index: -1;
+		}
+		&:before{
+			position: absolute;
+			content: "";
+			height: 20px;
+			width: 20px;
+			top: 5px;
+			left: 5px;
+			border-radius: 500px;
+			animation: 1.5s ease 0s normal none infinite running playbutton5;
+			z-index: -1;
+		}
+	}
+}
+@keyframes playbutton2 {
+	0% {
+		box-shadow:0 0 0 0 var(--secondary);
+		opacity: 1; 
+	}
+	100% {
+		box-shadow:0 0 0 25px var(--secondary);
+		opacity: 0; 
+	} 
+}
+@keyframes playbutton3 {
+	0% {
+		box-shadow:0 0 0 0 var(--secondary);
+		opacity: 1; 
+	}
+	100% {
+		box-shadow:0 0 0 15px var(--secondary);
+		opacity: 0; 
+	} 
+}
+
+
+
+@keyframes playbutton4 {
+	0% {
+		box-shadow:0 0 0 0 var(--primary);
+		opacity: 1; 
+	}
+	100% {
+		box-shadow:0 0 0 25px var(--primary);
+		opacity: 0; 
+	} 
+}
+@keyframes playbutton5 {
+	0% {
+		box-shadow:0 0 0 0 var(--primary);
+		opacity: 1; 
+	}
+	100% {
+		box-shadow:0 0 0 15px var(--primary);
+		opacity: 0; 
+	} 
+}
+
+
+
+@include custommq($max: 1300px , $min:1199px) {
+	.card-menu h2, .card-menu .h2{
+		font-size: 20px;
+	}
+	.icon-box.icon-box-lg{
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+	}
+	.custome-width{
+		width:100%;
+	}
+	.h-title{
+		font-size: 1.05rem;
+	}
+}
+
+@include respond ('tab-port'){
+	.container{
+		max-width: 100%;
+
+	}
+}
+.active-projects{
+	.dataTables_info{
+		margin-left: 17px;
+	}
+}
+.header-profile2{
+	@include respond ('phone'){
+		.products{
+			img{
+				height:38px;
+				width:38px;
+			}
+		}
+	}
+}
+.profile-bx{
+	.icon-bx{
+		transition: all .4s ease-in-out;
+		&:hover{
+			background:var(--primary);
+			svg{
+				path{
+					fill:$white;
+				}
+			}
+		}
+	}
+}
+.form-control{
+	&.input-number{
+		height:40px;
+	}
+}
+.food-items-info{
+	margin-left: 8px;
+}
+.custome-width{
+	.text-dark{
+		color:#222222 !important;
+		font-weight:500;
+	}
+}
